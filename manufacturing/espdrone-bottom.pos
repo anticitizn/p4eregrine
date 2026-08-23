@@ -1,0 +1,14 @@
+### Footprint positions - created on 2024-03-26T19:17:31+0100 ###
+### Printed by KiCad version 8.0.1-8.0.1-1~ubuntu22.04.1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                                PosX       PosY       Rot  Side
+C1        100n      C_0603_1608Metric                   66.1460   -51.5480  -135.0000  bottom
+C2        100n      C_0603_1608Metric                   66.5405  -118.4014  -45.0000  bottom
+C19       100n      C_0603_1608Metric                  133.4373  -118.2014   45.0000  bottom
+C20       100n      C_0603_1608Metric                  133.4686   -51.3576  135.0000  bottom
+D2        WS2812B   LED_WS2812B-2020_PLCC4_2.0x2.0mm   134.9641   -49.7419  135.0000  bottom
+D3        WS2812B   LED_WS2812B-2020_PLCC4_2.0x2.0mm   135.0000  -119.7500   45.0000  bottom
+D4        WS2812B   LED_WS2812B-2020_PLCC4_2.0x2.0mm    64.9919  -119.9641  -45.0000  bottom
+D5        WS2812B   LED_WS2812B-2020_PLCC4_2.0x2.0mm    64.5603   -49.9729  -135.0000  bottom
+## End

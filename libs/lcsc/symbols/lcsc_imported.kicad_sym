@@ -1,0 +1,477 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_lcsc_manager")
+  (generator_version "1.0")
+  (symbol "PMW3901MB-TXQT_C43496881"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at 0 1.27 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Value" "PMW3901MB-TXQT_C43496881"
+      (at 0 -2.54 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Footprint" "lcsc_footprints:C43496881_COB-28_L6_0-W6_0-P0_65-TL-EP"
+      (at 0 -10.16 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at -2.286 0.127 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Description" "PMW3901MB-TXQT_C43496881"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "LCSC" "C43496881"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "PixArt (原相科技)"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (symbol "PMW3901MB-TXQT_C43496881_1_1"
+      (rectangle
+        (start -11.430022860045721 20.32004064008128)
+        (end 11.430022860045721 -20.32004064008128)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (circle
+        (center -10.16002032004064 16.51003302006604)
+        (radius 0.381000762001524)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (pin unspecified line
+        (at -13.97 15.24 0)
+        (length 2.54)
+        (name "GND"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -13.97 12.7 0)
+        (length 2.54)
+        (name "VDD"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -13.97 10.16 0)
+        (length 2.54)
+        (name "VDDIO"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "3"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -13.97 7.62 0)
+        (length 2.54)
+        (name "VREG"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "4"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -13.97 5.08 0)
+        (length 2.54)
+        (name "NC"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "5"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -13.97 2.54 0)
+        (length 2.54)
+        (name "NC"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "6"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -13.97 -0.0 0)
+        (length 2.54)
+        (name "NRESET"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "7"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -13.97 -2.54 0)
+        (length 2.54)
+        (name "NC"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "8"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -13.97 -5.08 0)
+        (length 2.54)
+        (name "NC"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "9"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -13.97 -7.62 0)
+        (length 2.54)
+        (name "NC"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "10"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -13.97 -10.16 0)
+        (length 2.54)
+        (name "NC"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "11"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -13.97 -12.7 0)
+        (length 2.54)
+        (name "NC"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "12"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -13.97 -15.24 0)
+        (length 2.54)
+        (name "NC"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "13"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -13.97 -17.78 0)
+        (length 2.54)
+        (name "NC"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "14"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 13.97 -17.78 180)
+        (length 2.54)
+        (name "MOTION"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "15"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 13.97 -15.24 180)
+        (length 2.54)
+        (name "MOSI"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "16"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 13.97 -12.7 180)
+        (length 2.54)
+        (name "SCLK"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "17"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 13.97 -10.16 180)
+        (length 2.54)
+        (name "MISO"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "18"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 13.97 -7.62 180)
+        (length 2.54)
+        (name "NCS"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "19"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 13.97 -5.08 180)
+        (length 2.54)
+        (name "NC"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "20"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 13.97 -2.54 180)
+        (length 2.54)
+        (name "GND"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "21"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 13.97 -0.0 180)
+        (length 2.54)
+        (name "NC"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "22"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 13.97 2.54 180)
+        (length 2.54)
+        (name "NC"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "23"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 13.97 5.08 180)
+        (length 2.54)
+        (name "NC"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "24"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 13.97 7.62 180)
+        (length 2.54)
+        (name "NC"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "25"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 13.97 10.16 180)
+        (length 2.54)
+        (name "NC"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "26"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 13.97 12.7 180)
+        (length 2.54)
+        (name "NC"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "27"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 13.97 15.24 180)
+        (length 2.54)
+        (name "NC"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "28"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 13.97 17.78 180)
+        (length 2.54)
+        (name "GND"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "29"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+    )
+  )
+)

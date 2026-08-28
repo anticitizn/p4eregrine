@@ -129,6 +129,11 @@
 					(page "8")
 				)
 			)
+			(project "bldc_motors"
+				(path "/10ce8615-637c-4377-adfe-824b89f1eb60"
+					(page "1")
+				)
+			)
 		)
 	)
 	(sheet_instances
@@ -136,4 +141,5 @@
 			(page "7")
 		)
 	)
+	(embedded_fonts no)
 )

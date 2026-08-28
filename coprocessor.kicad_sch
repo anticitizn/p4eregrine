@@ -3338,16 +3338,15 @@
 		)
 		(uuid "015ede0e-e3ad-4a26-b280-52efecc36838")
 	)
-	(text "          SPI boot   JTAG download    SDIO download\nGPIO 26       X            X                0\nGPIO 27       X            1                0\nGPIO 28       1            0                0\n27 & 28 have internal pullups"
+	(text "0 ohm resistors are placeholders for inductors"
 		(exclude_from_sim no)
-		(at 266.192 177.038 0)
+		(at 98.806 262.89 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.0668 1.0668)
 			)
-			(justify left)
 		)
-		(uuid "3b5cc179-f04a-4661-ae08-8dff5e523221")
+		(uuid "19897317-6119-4c11-a3f1-f3f133e06fc7")
 	)
 	(text "RF 2.4 GHz + 5 GHz"
 		(exclude_from_sim no)
@@ -6096,6 +6095,370 @@
 			(type default)
 		)
 		(uuid "ffcae2d3-8089-4798-90c0-b9f00e9f4f24")
+	)
+	(table
+		(column_count 4)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 13.97 20.32 20.32 20.32)
+		(row_heights 2.54 2.54 2.54 2.54 2.54)
+		(uuid "27746c0f-ef0e-4321-a9ca-6d1a6a3f8b0c")
+		(cells
+			(table_cell "Boot mode"
+				(exclude_from_sim no)
+				(at 220.98 200.66 0)
+				(size 13.97 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "887773de-847e-4682-beb0-394f548f7659")
+			)
+			(table_cell "SPI boot"
+				(exclude_from_sim no)
+				(at 234.95 200.66 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d8f5a795-98c8-4a23-8fce-2dfc8e7e7943")
+			)
+			(table_cell "JTAG download"
+				(exclude_from_sim no)
+				(at 255.27 200.66 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7b1057b5-ea1b-4f95-b0fe-6525746f0519")
+			)
+			(table_cell "SDIO download"
+				(exclude_from_sim no)
+				(at 275.59 200.66 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "8cc2632f-d078-4285-b54e-9804b10576d2")
+			)
+			(table_cell "GPIO 26"
+				(exclude_from_sim no)
+				(at 220.98 203.2 0)
+				(size 13.97 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e1306e77-c55d-4a4a-a451-26b7a3b5bc8b")
+			)
+			(table_cell "X"
+				(exclude_from_sim no)
+				(at 234.95 203.2 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c7f7d573-5d74-4511-aa22-ba6206f72d30")
+			)
+			(table_cell "X"
+				(exclude_from_sim no)
+				(at 255.27 203.2 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "3d3417df-ac0b-4ada-99f8-26439c52f6da")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 275.59 203.2 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ef307d79-ba00-4529-a248-c2b431279b1f")
+			)
+			(table_cell "GPIO 27"
+				(exclude_from_sim no)
+				(at 220.98 205.74 0)
+				(size 13.97 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "a6193eae-ec8e-4a25-8085-f8083dae7cff")
+			)
+			(table_cell "X"
+				(exclude_from_sim no)
+				(at 234.95 205.74 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "12c6f159-a5d3-4080-9e0d-617a3a2e3baa")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 255.27 205.74 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "bb0015ca-6b38-4a56-8625-35cfed321ebe")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 275.59 205.74 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "3e2a0a02-1664-44f0-8c93-5cea852c6365")
+			)
+			(table_cell "GPIO 28"
+				(exclude_from_sim no)
+				(at 220.98 208.28 0)
+				(size 13.97 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "36bd4241-fafd-4372-966e-25551bdce7b8")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 234.95 208.28 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "4626ecde-00d6-4d98-b499-17fae5ab0648")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 255.27 208.28 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "46acfe59-b515-4469-8943-56382bced6ec")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 275.59 208.28 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "1336f1f2-1d0c-444c-838c-4e8ab22371d0")
+			)
+			(table_cell "27 & 28 have internal pullups"
+				(exclude_from_sim no)
+				(at 220.98 210.82 0)
+				(size 74.93 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 4 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ddf83fc9-ff61-418a-9e07-320a9c8bce9f")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 234.95 210.82 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 0 0)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "9a94f868-1938-44e6-b4e3-60207f17f4f1")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 255.27 210.82 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 0 0)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "1c739890-9c4c-43a3-a084-5326d323ab30")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 275.59 210.82 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 0 0)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c8cbff69-2105-45e7-9f82-60d07a935648")
+			)
+		)
 	)
 	(label "ANT_5G"
 		(at 35.56 232.41 0)

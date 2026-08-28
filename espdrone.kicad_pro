@@ -697,7 +697,7 @@
       },
       {
         "filename": "motors.kicad_sch",
-        "name": "DC Motors",
+        "name": "Motors",
         "uuid": "d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
       },
       {
@@ -709,14 +709,9 @@
         "filename": "coprocessor.kicad_sch",
         "name": "Coprocessor",
         "uuid": "b7952862-8d86-4464-ae6b-e7392f598094"
-      },
-      {
-        "filename": "bldc_motors.kicad_sch",
-        "name": "BLDC Motors",
-        "uuid": "a5e1f939-8787-422e-82b4-1d76b193c21a"
       }
     ],
-    "used_designators": "#FLG1,#FLG3-5,Y1,#PWR3,#PWR5,#PWR8-157,#PWR180-204,L1-2,L5-7,SW1-2,C1-2,C6-88,C106-114,Card1,FPC1,JP1-6,R1-2,R4-70,TP1-25,USB1-3,J1-5,D1-9,U1-18,Q1-10",
+    "used_designators": "J1-2,USB1-3,L1-4,SW2,C1-105,C107-108,FPC1,Card1,D1-8,U1-16,Q1-12,#PWR3,#PWR5,#PWR8-69,#PWR71-147,#PWR158-179,#PWR202,#PWR205,Y1-3,#FLG1,#FLG3-5,R1-36,R60-71,TP1-25",
     "variants": []
   },
   "sheets": [
@@ -734,7 +729,7 @@
     ],
     [
       "d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4",
-      "DC Motors"
+      "Motors"
     ],
     [
       "3837eda8-3025-44a4-8f49-2f5419cf97df",
@@ -745,11 +740,7 @@
       "Coprocessor"
     ],
     [
-      "a5e1f939-8787-422e-82b4-1d76b193c21a",
-      "BLDC Motors"
-    ],
-    [
-      "757e8319-0643-48be-93b3-d559ecdf79b7",
+      "f67a0a21-fbe2-4b17-a37c-c4def8389078",
       "ESC"
     ]
   ],

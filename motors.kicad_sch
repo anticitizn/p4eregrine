@@ -5618,52 +5618,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 175.26 34.29)
-		(size 31.75 40.64)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "f67a0a21-fbe2-4b17-a37c-c4def8389078")
-		(property "Sheetname" "ESC"
-			(at 175.26 33.5784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "esc.kicad_sch"
-			(at 175.26 75.5146 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "espdrone"
-				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
-					(page "7")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "4")

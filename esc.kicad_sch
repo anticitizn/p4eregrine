@@ -3742,7 +3742,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 21.59) (xy 119.38 21.59)
+			(xy 118.11 20.32) (xy 120.65 20.32)
 		)
 		(stroke
 			(width 0)
@@ -3772,7 +3772,17 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 120.65) (xy 254 120.65)
+			(xy 118.11 27.94) (xy 120.65 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06529d62-ae0e-49ef-9dc3-4babdd050427")
+	)
+	(wire
+		(pts
+			(xy 252.73 120.65) (xy 255.27 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3922,7 +3932,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 30.48) (xy 118.11 31.75)
+			(xy 119.38 43.18) (xy 119.38 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4072,7 +4082,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 35.56) (xy 118.11 36.83)
+			(xy 119.38 46.99) (xy 119.38 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4122,13 +4132,23 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 31.75) (xy 118.11 31.75)
+			(xy 118.11 44.45) (xy 119.38 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "25f84f76-168d-499e-8ba4-f47ab0ebbd64")
+	)
+	(wire
+		(pts
+			(xy 118.11 30.48) (xy 120.65 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2715aaee-d5d6-4d3d-9e55-5f32d985d899")
 	)
 	(wire
 		(pts
@@ -4219,6 +4239,16 @@
 			(type default)
 		)
 		(uuid "31d056b5-b459-47cf-a7d4-1498e9d8b626")
+	)
+	(wire
+		(pts
+			(xy 39.37 152.4) (xy 39.37 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "327a54ad-496f-487c-b575-21bfbdf16b18")
 	)
 	(wire
 		(pts
@@ -4339,6 +4369,16 @@
 			(type default)
 		)
 		(uuid "40a901b1-f04a-42de-844a-fb8cb87d9a6a")
+	)
+	(wire
+		(pts
+			(xy 118.11 35.56) (xy 120.65 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42faa0b3-12e9-4377-9edb-a386a37647a5")
 	)
 	(wire
 		(pts
@@ -4469,6 +4509,16 @@
 			(type default)
 		)
 		(uuid "51b25cd9-9bee-4980-a086-0b0c20829859")
+	)
+	(wire
+		(pts
+			(xy 118.11 33.02) (xy 120.65 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "520daf5a-de32-407f-a59b-35c8c85af3c9")
 	)
 	(wire
 		(pts
@@ -4822,7 +4872,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 35.56) (xy 118.11 35.56)
+			(xy 118.11 46.99) (xy 119.38 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4929,6 +4979,16 @@
 			(type default)
 		)
 		(uuid "816b7787-8165-4c96-8bc1-8ef61644b830")
+	)
+	(wire
+		(pts
+			(xy 40.64 153.67) (xy 39.37 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8224dd01-45a7-45d7-acde-11bf1c71bbec")
 	)
 	(wire
 		(pts
@@ -5039,16 +5099,6 @@
 			(type default)
 		)
 		(uuid "89d60a8c-9162-4e92-94cd-1aef1856078d")
-	)
-	(wire
-		(pts
-			(xy 63.5 153.67) (xy 66.04 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89f136ba-65d3-4150-af46-5050be1c1b2a")
 	)
 	(wire
 		(pts
@@ -5192,6 +5242,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 153.67) (xy 66.04 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99157f93-e58e-400b-adbd-78e78ef3d597")
+	)
+	(wire
+		(pts
 			(xy 119.38 139.7) (xy 119.38 140.97)
 		)
 		(stroke
@@ -5302,16 +5362,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 120.65) (xy 254 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1b87ac2-853f-4cf5-9e90-85ebba909408")
-	)
-	(wire
-		(pts
 			(xy 63.5 160.02) (xy 66.04 160.02)
 		)
 		(stroke
@@ -5419,16 +5469,6 @@
 			(type default)
 		)
 		(uuid "aca89af3-49f5-47b1-9f1e-1c4e4541b7c9")
-	)
-	(wire
-		(pts
-			(xy 254 121.92) (xy 255.27 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad06ce52-d4a6-46f8-9bd2-85463ff4efd0")
 	)
 	(wire
 		(pts
@@ -5942,7 +5982,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 19.05) (xy 119.38 19.05)
+			(xy 118.11 17.78) (xy 120.65 17.78)
 		)
 		(stroke
 			(width 0)
@@ -6039,6 +6079,16 @@
 			(type default)
 		)
 		(uuid "dd471de1-0cbf-4b3d-8936-2f48955a0b8d")
+	)
+	(wire
+		(pts
+			(xy 118.11 25.4) (xy 120.65 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de3bc0f4-aab4-4577-80c2-2f38d3f4e0f9")
 	)
 	(wire
 		(pts
@@ -6320,6 +6370,16 @@
 		)
 		(uuid "ffc1ba67-c99c-4d40-895f-a3662415b87b")
 	)
+	(label "BSTC"
+		(at 92.6692 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04e86d0f-9dba-41f5-9b65-919c009b3d2a")
+	)
 	(label "A"
 		(at 140.97 39.37 0)
 		(effects
@@ -6450,6 +6510,16 @@
 		)
 		(uuid "2a33013e-97db-44f9-8c2f-c2e7f482dea1")
 	)
+	(label "GVDD"
+		(at 120.65 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c3eb000-ac06-4928-97c1-31408e2bb6f4")
+	)
 	(label "B_LOW"
 		(at 63.5 162.56 180)
 		(effects
@@ -6520,6 +6590,16 @@
 		)
 		(uuid "4750c7b9-b4b8-424e-9523-688cae851131")
 	)
+	(label "BSTA"
+		(at 120.65 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49d4b3ae-9a92-4ab1-9b9e-48b4efe59745")
+	)
 	(label "B_LOW"
 		(at 92.71 20.32 0)
 		(effects
@@ -6539,6 +6619,16 @@
 			(justify left bottom)
 		)
 		(uuid "51fe54a2-1bec-4fc4-9bf0-b2ca42cb2e26")
+	)
+	(label "BSTB"
+		(at 92.71 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57bed2fa-3a14-4a41-bb74-886427a83e21")
 	)
 	(label "VSENSE_A"
 		(at 101.6 69.85 0)
@@ -6659,6 +6749,16 @@
 			(justify left bottom)
 		)
 		(uuid "70c5f7d7-a24f-43fb-83ab-85d23e8cc740")
+	)
+	(label "BSTC"
+		(at 120.65 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "736820ba-5ae1-45ed-9f2b-802781798f84")
 	)
 	(label "C_LOW"
 		(at 63.5 165.1 180)
@@ -6790,7 +6890,7 @@
 		)
 		(uuid "9fffd8ae-9382-45a1-bfe0-3095c27eacbc")
 	)
-	(label "NRST"
+	(label "LSS"
 		(at 92.71 45.72 0)
 		(effects
 			(font
@@ -6870,6 +6970,16 @@
 		)
 		(uuid "b71a2d55-66ec-4197-bf48-b8b82faeccde")
 	)
+	(label "BSTA"
+		(at 92.71 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b88f6d83-dd0c-4f20-b35e-a1ff6d38a06e")
+	)
 	(label "NRST"
 		(at 101.6 90.17 0)
 		(effects
@@ -6879,6 +6989,16 @@
 			(justify left bottom)
 		)
 		(uuid "b98f2319-b87e-404d-9f92-c4970c7e1ba6")
+	)
+	(label "BSTB"
+		(at 120.65 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be5f7815-bbeb-41ab-a6aa-853cb5cc8aa9")
 	)
 	(label "A"
 		(at 189.23 120.65 180)
@@ -6921,7 +7041,7 @@
 		(uuid "e9b8e88a-4b6d-425b-9ece-11fa3ce841d4")
 	)
 	(label "C"
-		(at 255.27 121.92 180)
+		(at 255.27 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6980,6 +7100,16 @@
 		)
 		(uuid "fe1811c1-afce-46a6-be01-bdbc3365ad75")
 	)
+	(label "PVDD"
+		(at 120.65 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe28c0f2-9bd5-435b-9515-992b267890a2")
+	)
 	(hierarchical_label "DSHOT"
 		(shape input)
 		(at 120.65 62.23 0)
@@ -6993,7 +7123,7 @@
 	)
 	(hierarchical_label "TELEMETRY"
 		(shape input)
-		(at 119.38 21.59 0)
+		(at 120.65 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7015,7 +7145,7 @@
 	)
 	(hierarchical_label "DSHOT"
 		(shape input)
-		(at 119.38 19.05 0)
+		(at 120.65 17.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7335,6 +7465,83 @@
 			(project "espdrone"
 				(path "/a5e1f939-8787-422e-82b4-1d76b193c21a/757e8319-0643-48be-93b3-d559ecdf79b7"
 					(reference "#PWR0216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 118.11 33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "021c4b7f-f336-4bff-97d8-6516a8f34570")
+		(property "Reference" "TP46"
+			(at 110.998 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 114.808 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 118.11 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a910f8b6-ae34-4f2b-a6ab-aeba5d532669")
+		)
+		(instances
+			(project "espdrone"
+				(path "/a5e1f939-8787-422e-82b4-1d76b193c21a/757e8319-0643-48be-93b3-d559ecdf79b7"
+					(reference "TP46")
 					(unit 1)
 				)
 			)
@@ -8982,7 +9189,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 116.84 19.05 90)
+		(at 118.11 17.78 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8992,7 +9199,7 @@
 		(dnp no)
 		(uuid "37d433bb-9968-4806-8281-cff56c2b3545")
 		(property "Reference" "TP39"
-			(at 109.728 19.05 90)
+			(at 110.998 17.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9002,7 +9209,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 113.538 16.51 90)
+			(at 114.808 15.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9013,7 +9220,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 13.97 0)
+			(at 118.11 12.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9024,7 +9231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 13.97 0)
+			(at 118.11 12.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9035,7 +9242,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 116.84 19.05 0)
+			(at 118.11 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9410,6 +9617,83 @@
 			(project "espdrone"
 				(path "/a5e1f939-8787-422e-82b4-1d76b193c21a/757e8319-0643-48be-93b3-d559ecdf79b7"
 					(reference "C124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 118.11 30.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4101e7e3-4746-4c06-8564-ad1b190809e3")
+		(property "Reference" "TP45"
+			(at 110.998 30.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 114.808 27.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 118.11 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e0a67c8-bd9d-448d-92e2-c55fdee876db")
+		)
+		(instances
+			(project "espdrone"
+				(path "/a5e1f939-8787-422e-82b4-1d76b193c21a/757e8319-0643-48be-93b3-d559ecdf79b7"
+					(reference "TP45")
 					(unit 1)
 				)
 			)
@@ -10620,7 +10904,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 116.84 31.75 90)
+		(at 118.11 44.45 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10630,7 +10914,7 @@
 		(dnp no)
 		(uuid "5d355912-d4ff-45c6-b15f-872c8ae1c635")
 		(property "Reference" "TP41"
-			(at 109.728 31.75 90)
+			(at 110.998 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10640,7 +10924,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 113.538 29.21 90)
+			(at 114.808 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10651,7 +10935,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 26.67 0)
+			(at 118.11 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10662,7 +10946,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 26.67 0)
+			(at 118.11 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10673,7 +10957,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 116.84 31.75 0)
+			(at 118.11 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11168,7 +11452,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 116.84 35.56 90)
+		(at 118.11 46.99 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11178,7 +11462,7 @@
 		(dnp no)
 		(uuid "6b02231e-f176-4c35-bb62-6e2c797f9d77")
 		(property "Reference" "TP42"
-			(at 109.728 35.56 90)
+			(at 110.998 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11188,7 +11472,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 113.538 33.02 90)
+			(at 114.808 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11199,7 +11483,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 30.48 0)
+			(at 118.11 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11210,7 +11494,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 30.48 0)
+			(at 118.11 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11221,7 +11505,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 116.84 35.56 0)
+			(at 118.11 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11617,7 +11901,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 118.11 30.48 0)
+		(at 119.38 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11627,7 +11911,7 @@
 		(dnp no)
 		(uuid "7026339a-d848-403f-a52f-2d6a8050690c")
 		(property "Reference" "#PWR0226"
-			(at 118.11 34.29 0)
+			(at 119.38 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11638,7 +11922,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 114.554 26.67 0)
+			(at 115.824 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11649,7 +11933,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 30.48 0)
+			(at 119.38 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11660,7 +11944,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 30.48 0)
+			(at 119.38 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11671,7 +11955,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 118.11 30.48 0)
+			(at 119.38 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12732,6 +13016,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 39.37 152.4 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9ad98cd0-750e-43c1-977b-1075f583011d")
+		(property "Reference" "#PWR0227"
+			(at 39.37 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 39.37 148.082 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 39.37 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1ccde29-f2d4-4a07-bb5f-cd5395108596")
+		)
+		(instances
+			(project "espdrone"
+				(path "/a5e1f939-8787-422e-82b4-1d76b193c21a/757e8319-0643-48be-93b3-d559ecdf79b7"
+					(reference "#PWR0227")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 64.77 29.21 0)
 		(mirror x)
@@ -12894,6 +13256,83 @@
 			(project "espdrone"
 				(path "/a5e1f939-8787-422e-82b4-1d76b193c21a/757e8319-0643-48be-93b3-d559ecdf79b7"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 118.11 27.94 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a4586fdd-92a8-483a-85e3-bf90259754ff")
+		(property "Reference" "TP44"
+			(at 110.998 27.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 114.808 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 118.11 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d42c0686-abcb-4ad0-903c-2bb0eb1bf569")
+		)
+		(instances
+			(project "espdrone"
+				(path "/a5e1f939-8787-422e-82b4-1d76b193c21a/757e8319-0643-48be-93b3-d559ecdf79b7"
+					(reference "TP44")
 					(unit 1)
 				)
 			)
@@ -13375,9 +13814,8 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 118.11 36.83 0)
+		(lib_id "Device:R")
+		(at 44.45 153.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13385,10 +13823,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b29bee91-bfc6-4d4d-a215-b88f5250c168")
-		(property "Reference" "#PWR0225"
-			(at 118.11 43.18 0)
-			(hide yes)
+		(uuid "afce3f5e-3e1b-4d0f-92a8-d1d26bac7c53")
+		(property "Reference" "R81"
+			(at 44.45 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13397,8 +13834,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 118.11 40.64 0)
+		(property "Value" "4.7k"
+			(at 44.45 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13407,8 +13844,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 118.11 36.83 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 44.45 155.448 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13419,7 +13856,165 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 36.83 0)
+			(at 44.45 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 44.45 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d645278a-007c-48d7-b1ab-1b3cfa43a1ea")
+		)
+		(pin "1"
+			(uuid "1ddfe25b-934d-4cad-be88-6d7f63e83f92")
+		)
+		(instances
+			(project "espdrone"
+				(path "/a5e1f939-8787-422e-82b4-1d76b193c21a/757e8319-0643-48be-93b3-d559ecdf79b7"
+					(reference "R81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 118.11 35.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b289ab04-e929-4696-8602-f501dee257c1")
+		(property "Reference" "TP47"
+			(at 110.998 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 114.808 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 118.11 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5edb9efd-86c3-4e4f-92f1-dcd0a9573303")
+		)
+		(instances
+			(project "espdrone"
+				(path "/a5e1f939-8787-422e-82b4-1d76b193c21a/757e8319-0643-48be-93b3-d559ecdf79b7"
+					(reference "TP47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 119.38 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b29bee91-bfc6-4d4d-a215-b88f5250c168")
+		(property "Reference" "#PWR0225"
+			(at 119.38 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13430,7 +14025,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 36.83 0)
+			(at 119.38 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14795,7 +15390,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 116.84 21.59 90)
+		(at 118.11 20.32 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14805,7 +15400,7 @@
 		(dnp no)
 		(uuid "d31d7423-c85b-429a-9b48-1c1e784386f6")
 		(property "Reference" "TP40"
-			(at 109.728 21.59 90)
+			(at 110.998 20.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14815,7 +15410,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 113.538 19.05 90)
+			(at 114.808 17.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14826,7 +15421,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 16.51 0)
+			(at 118.11 15.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14837,7 +15432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 16.51 0)
+			(at 118.11 15.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14848,7 +15443,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 116.84 21.59 0)
+			(at 118.11 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15549,6 +16144,83 @@
 			(project "espdrone"
 				(path "/a5e1f939-8787-422e-82b4-1d76b193c21a/757e8319-0643-48be-93b3-d559ecdf79b7"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 118.11 25.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f07f96d2-c628-4e53-a557-32e9d64c0934")
+		(property "Reference" "TP43"
+			(at 110.998 25.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 114.808 22.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 118.11 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c3329af-9c8c-4848-8008-9e2016fd0c53")
+		)
+		(instances
+			(project "espdrone"
+				(path "/a5e1f939-8787-422e-82b4-1d76b193c21a/757e8319-0643-48be-93b3-d559ecdf79b7"
+					(reference "TP43")
 					(unit 1)
 				)
 			)

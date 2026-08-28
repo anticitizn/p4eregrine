@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 33.02 26.67)
-		(size 39.37 49.53)
+		(at 20.32 20.32)
+		(size 19.05 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "757e8319-0643-48be-93b3-d559ecdf79b7")
 		(property "Sheetname" "ESC"
-			(at 33.02 25.9584 0)
+			(at 20.32 19.6084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "esc.kicad_sch"
-			(at 33.02 76.7846 0)
+			(at 20.32 47.5746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -43,9 +43,9 @@
 				(justify left top)
 			)
 		)
-		(pin "NFAULT" input
-			(at 33.02 64.77 180)
-			(uuid "757bb556-3177-4cd4-bdf2-43adb6efc995")
+		(pin "DSHOT" input
+			(at 20.32 31.75 180)
+			(uuid "c2269d3a-74e3-4a51-80cc-fcb864e31e9e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53,9 +53,9 @@
 				(justify left)
 			)
 		)
-		(pin "INLA" input
-			(at 33.02 39.37 180)
-			(uuid "f0d6e4bf-b14e-400f-8683-557fb8332f20")
+		(pin "TELEMETRY" input
+			(at 20.32 35.56 180)
+			(uuid "24fc278d-c762-47ce-803a-6015d8af1fe4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63,59 +63,29 @@
 				(justify left)
 			)
 		)
-		(pin "INHB" input
-			(at 33.02 44.45 180)
-			(uuid "890a3272-c31f-4623-9dcb-09abf3acd2a4")
+		(pin "+BATT" input
+			(at 33.02 20.32 90)
+			(uuid "53aff667-e4f2-4b58-80e4-8c92a1895a7f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "NSLEEP" input
-			(at 33.02 67.31 180)
-			(uuid "dc0d3381-66e5-449b-b0cd-32296f64664e")
+		(pin "3V3" input
+			(at 26.67 20.32 90)
+			(uuid "7fbdc02e-9f49-4a43-ab7c-9a3e268603ba")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "INLC" input
-			(at 33.02 54.61 180)
-			(uuid "4462edc1-295d-4732-862b-50cb05587a4d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "INHC" input
-			(at 33.02 52.07 180)
-			(uuid "bf4ca202-662c-4538-b139-ee7322be4428")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "INLB" input
-			(at 33.02 46.99 180)
-			(uuid "f5bc1360-a345-4863-a54e-fd3b41ff0ca3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "INHA" input
-			(at 33.02 36.83 180)
-			(uuid "f394ae1e-38a0-44f6-80a1-6adb8110738d")
+		(pin "GND" input
+			(at 29.21 46.99 270)
+			(uuid "2e36643b-1b65-4871-8769-930e271e51f1")
 			(effects
 				(font
 					(size 1.27 1.27)

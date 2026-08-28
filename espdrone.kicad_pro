@@ -709,14 +709,9 @@
         "filename": "coprocessor.kicad_sch",
         "name": "Coprocessor",
         "uuid": "b7952862-8d86-4464-ae6b-e7392f598094"
-      },
-      {
-        "filename": "bldc_motors.kicad_sch",
-        "name": "BLDC Motors",
-        "uuid": "a5e1f939-8787-422e-82b4-1d76b193c21a"
       }
     ],
-    "used_designators": "U1-21,D1-13,Q1-16,Y1,#PWR3,#PWR5,#PWR8-157,#PWR180-204,#PWR206-259,#FLG1,#FLG3-5,SW1-2,L1-2,L5-7,R1-2,R4-70,R72-106,TP1-41,TP43-72,JP1-6,FPC1,C1-88,C106-148,Card1,USB1-3,J1-7",
+    "used_designators": "U1-29,D1-19,Q1-34,Y1,#PWR3,#PWR5,#PWR8-157,#PWR180-346,#FLG1,#FLG3-5,SW1-2,L1-2,L5-7,R1-2,R4-70,R72-181,TP1-41,TP43-142,JP1-6,FPC1,C1-88,C106-204,Card1,USB1-3,J1-10",
     "variants": []
   },
   "sheets": [
@@ -745,16 +740,20 @@
       "Coprocessor"
     ],
     [
-      "a5e1f939-8787-422e-82b4-1d76b193c21a",
-      "BLDC Motors"
+      "3f1ec40b-2861-4856-8c91-e3c961c5da6f",
+      "ESC1"
     ],
     [
-      "757e8319-0643-48be-93b3-d559ecdf79b7",
-      "ESC"
+      "54db73ba-97d3-488f-8063-7cfc3cee66e2",
+      "ESC2"
     ],
     [
       "e73f72f2-28de-4d9d-8e81-9b095eab4bb5",
       "ESC"
+    ],
+    [
+      "51921b67-4a63-4a4a-adc0-e4b24a3252b8",
+      "ESC3"
     ]
   ],
   "text_variables": {},

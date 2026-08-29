@@ -276,7 +276,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -701,17 +701,12 @@
         "uuid": "d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
       },
       {
-        "filename": "sensors.kicad_sch",
-        "name": "Sensors",
-        "uuid": "3837eda8-3025-44a4-8f49-2f5419cf97df"
-      },
-      {
         "filename": "coprocessor.kicad_sch",
         "name": "Coprocessor",
         "uuid": "b7952862-8d86-4464-ae6b-e7392f598094"
       }
     ],
-    "used_designators": "U1-29,D1-19,Q1-34,Y1,#PWR3,#PWR5,#PWR8-157,#PWR180-346,#FLG1,#FLG3-5,SW1-2,L1-2,L5-7,R1-2,R4-70,R72-181,TP1-41,TP43-142,JP1-6,FPC1,C1-88,C106-204,Card1,USB1-3,J1-10",
+    "used_designators": "U1-29,D1-19,Q1-36,Y1,#PWR1,#PWR3,#PWR5,#PWR8-157,#PWR180-346,#FLG1-7,SW1-2,L1-2,L5-7,R1-2,R4-70,R72-181,TP1-41,TP43-142,JP1-6,FPC1,C1-88,C106-204,Card1,USB1-3,J1-10",
     "variants": []
   },
   "sheets": [
@@ -730,10 +725,6 @@
     [
       "d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4",
       "Motors"
-    ],
-    [
-      "3837eda8-3025-44a4-8f49-2f5419cf97df",
-      "Sensors"
     ],
     [
       "b7952862-8d86-4464-ae6b-e7392f598094",

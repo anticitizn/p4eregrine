@@ -4,6 +4,14 @@
 	(generator_version "10.0")
 	(uuid "1eed20af-268a-4193-801b-67dce70974e2")
 	(paper "A3")
+	(title_block
+		(title "Anticopter Duo")
+		(date "2026-08-28")
+		(rev "1.0")
+		(company "All-in-one drone flight controller, camera and ESC")
+		(comment 1 "ESP32 P4 + ESP32 C5, 4xAM32 ESCs")
+		(comment 2 "1S DC motors, 2S-3S BLDC motors")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
@@ -3389,6 +3397,12 @@
 		(uuid "251e2b5f-7c65-4fcf-8327-b18432ac943b")
 	)
 	(junction
+		(at 232.41 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "288d4662-6fc4-4b6f-885c-4a8589790137")
+	)
+	(junction
 		(at 259.08 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3407,10 +3421,16 @@
 		(uuid "2ca2ae01-58eb-4798-8f24-c3618d98cb99")
 	)
 	(junction
-		(at 232.41 124.46)
+		(at 144.78 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3549ecd5-2ceb-4fdb-86d5-1768de1221b9")
+		(uuid "330b980b-ea31-4ba5-83c4-d86e17cba24d")
+	)
+	(junction
+		(at 240.03 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "378f104c-41d6-4dd0-a5f1-2b7488d7d760")
 	)
 	(junction
 		(at 104.14 104.14)
@@ -3431,22 +3451,10 @@
 		(uuid "3cc9139f-fb7b-4ebb-a6e8-fb2a34489a8b")
 	)
 	(junction
-		(at 144.78 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d5b28b1-5b7a-49b2-855a-338a3a230981")
-	)
-	(junction
 		(at 200.66 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52acc30c-55c5-4f37-bffe-f1f48cd31e79")
-	)
-	(junction
-		(at 193.04 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53034752-51df-415f-9657-9ed1710dc5e6")
 	)
 	(junction
 		(at 224.79 95.25)
@@ -3485,22 +3493,10 @@
 		(uuid "6b17f74b-b7c7-49f2-8e92-d9c51a23029a")
 	)
 	(junction
-		(at 247.65 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "752da10e-1a52-49b4-9a13-cf7dbc037c0f")
-	)
-	(junction
 		(at 127 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a45bd4f-fbc0-4090-8fa9-e34b41b4e2d8")
-	)
-	(junction
-		(at 255.27 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b29bcf1-f31e-4206-adcf-200281265c33")
 	)
 	(junction
 		(at 59.69 246.38)
@@ -3551,6 +3547,12 @@
 		(uuid "97d5ad48-5f0b-4ecb-a04b-063ede31a2e0")
 	)
 	(junction
+		(at 207.01 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99614a14-eac1-49ff-ac64-9c0af9ab4595")
+	)
+	(junction
 		(at 154.94 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3563,10 +3565,10 @@
 		(uuid "9afc4678-8c18-4f38-831a-b3310e02bdb6")
 	)
 	(junction
-		(at 262.89 142.24)
+		(at 255.27 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a0780dc9-19e5-4f4b-bd9e-506c468cc6f5")
+		(uuid "9d8191d6-d73d-47b2-8bdc-17310eaf70e4")
 	)
 	(junction
 		(at 260.35 180.34)
@@ -3579,6 +3581,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a29322a1-be3f-4824-b67f-a193292c8e62")
+	)
+	(junction
+		(at 193.04 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a697b019-e21c-4611-b8ee-c2112940c6bc")
+	)
+	(junction
+		(at 262.89 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aaecdd0e-c4ec-4d73-9bf6-ddd0d1f1fa5e")
 	)
 	(junction
 		(at 246.38 68.58)
@@ -3599,34 +3613,22 @@
 		(uuid "b6d85dae-9766-4785-a14a-f12cbbbcdc1c")
 	)
 	(junction
-		(at 207.01 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd945a85-87a2-4038-8021-d186cb817f00")
-	)
-	(junction
 		(at 255.27 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1aeec56-4c9b-494e-b497-d01066835ead")
 	)
 	(junction
-		(at 171.45 87.63)
+		(at 247.65 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c73c6eac-9fb3-4592-9488-a796ada9633f")
+		(uuid "cc605473-f4b7-47c5-9e29-29d6c34ce620")
 	)
 	(junction
 		(at 142.24 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2cfd154-3b16-45e6-878f-3ef72aa77c67")
-	)
-	(junction
-		(at 240.03 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d97e6cc1-6d20-4a69-81d2-3b6a9a42a7e0")
 	)
 	(junction
 		(at 49.53 222.25)
@@ -3657,6 +3659,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f779b7f4-f599-4e81-a906-4743a76762ce")
+	)
+	(junction
+		(at 171.45 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb2214ee-575e-455d-a320-60922a397cc9")
 	)
 	(no_connect
 		(at 195.58 175.26)
@@ -4145,16 +4153,6 @@
 			(type default)
 		)
 		(uuid "24494056-b14b-4d58-9efd-00f771d2d6a4")
-	)
-	(wire
-		(pts
-			(xy 191.77 109.22) (xy 191.77 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "246ff92f-d0aa-43c0-911c-014369481854")
 	)
 	(wire
 		(pts
@@ -5828,6 +5826,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 105.41) (xy 191.77 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3376448-7a4d-4522-93b1-354a733c88b7")
+	)
+	(wire
+		(pts
 			(xy 35.56 246.38) (xy 49.53 246.38)
 		)
 		(stroke
@@ -6866,7 +6874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
 			(at 116.84 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -7127,7 +7135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 111.4552 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -7795,7 +7803,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 238.76 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -8434,7 +8442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 50.4952 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -9544,7 +9552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 101.2952 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -10625,7 +10633,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 238.76 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -10707,7 +10715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 60.6552 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -11346,7 +11354,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 50.4952 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -12301,7 +12309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
 			(at 251.46 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -12649,7 +12657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 60.6552 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -13689,7 +13697,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 238.76 171.45 0)
 			(hide yes)
 			(show_name no)

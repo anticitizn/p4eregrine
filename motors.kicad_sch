@@ -4,6 +4,14 @@
 	(generator_version "10.0")
 	(uuid "96cf0c73-b89e-4c0c-9a51-5a1ce9bcc735")
 	(paper "A4")
+	(title_block
+		(title "Anticopter Duo")
+		(date "2026-08-28")
+		(rev "1.0")
+		(company "All-in-one drone flight controller, camera and ESC")
+		(comment 1 "ESP32 P4 + ESP32 C5, 4xAM32 ESCs")
+		(comment 2 "1S DC motors, 2S-3S BLDC motors")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -1391,10 +1399,10 @@
 		(uuid "26fcbd64-e97d-4c7c-8412-63d605bde095")
 	)
 	(junction
-		(at 39.37 143.51)
+		(at 45.72 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "35e267bb-9fb6-4f56-b5c2-57bbad48bca8")
+		(uuid "2aa7613d-6a4e-49ba-a841-446950348633")
 	)
 	(junction
 		(at 66.04 87.63)
@@ -1413,12 +1421,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4fa99188-a7ff-49a6-91bd-349080775944")
-	)
-	(junction
-		(at 45.72 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56bb50d2-8a50-46c6-91ec-0f3cb8f2e095")
 	)
 	(junction
 		(at 60.96 33.02)
@@ -1479,6 +1481,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b9239ec-36f6-4326-92d1-bfd0c25ca0b8")
+	)
+	(junction
+		(at 39.37 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a064eabf-fa74-43c1-a08e-f3440b4f59c9")
 	)
 	(junction
 		(at 90.17 76.2)
@@ -5337,7 +5345,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 39.37 124.46 0)
+			(at 38.608 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5770,7 +5778,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 42.164 124.46 0)
+			(at 42.418 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

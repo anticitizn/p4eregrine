@@ -10781,7 +10781,7 @@
 			)
 		)
 	)
-	(global_label "BAT_VSENSE"
+	(global_label "VBUS_VSENSE"
 		(shape input)
 		(at 173.99 82.55 0)
 		(fields_autoplaced yes)
@@ -10793,7 +10793,7 @@
 		)
 		(uuid "1b6287ab-ce57-49ca-8fa3-f8217ebd5907")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.4051 82.55 0)
+			(at 189.9775 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

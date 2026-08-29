@@ -3184,7 +3184,7 @@
 	)
 	(text "0 ohm resistors are placeholders for inductors"
 		(exclude_from_sim no)
-		(at 87.122 251.46 0)
+		(at 86.36 252.73 0)
 		(effects
 			(font
 				(size 1.0668 1.0668)
@@ -9169,7 +9169,7 @@
 		(dnp no)
 		(uuid "6c38c4d8-da18-4cce-bbc2-41aaaa368ce0")
 		(property "Reference" "R17"
-			(at 116.84 115.57 90)
+			(at 118.11 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9179,7 +9179,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 119.38 115.57 90)
+			(at 118.11 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12858,7 +12858,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-C5"
+		(property "Value" "ESP32-C5HF4"
 			(at 150.876 186.182 0)
 			(show_name no)
 			(do_not_autoplace no)

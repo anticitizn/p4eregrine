@@ -469,6 +469,276 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Battery"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery"
+				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Multiple-cell battery"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "DC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "batt voltage-source cell"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Battery_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.286 -1.27)
+					(end 2.286 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 -2.032)
+					(end 1.524 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -942,7 +1212,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SMAJ18A"
+		(symbol "Diode:SMAJ14A"
 			(pin_numbers
 				(hide yes)
 			)
@@ -965,7 +1235,7 @@
 					)
 				)
 			)
-			(property "Value" "SMAJ18A"
+			(property "Value" "SMAJ14A"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -997,7 +1267,7 @@
 					)
 				)
 			)
-			(property "Description" "400W unidirectional Transient Voltage Suppressor, 18.0Vr, SMA(DO-214AC)"
+			(property "Description" "400W unidirectional Transient Voltage Suppressor, 14.0Vr, SMA(DO-214AC)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1030,7 +1300,7 @@
 					)
 				)
 			)
-			(symbol "SMAJ18A_0_1"
+			(symbol "SMAJ14A_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
@@ -1056,7 +1326,7 @@
 					)
 				)
 			)
-			(symbol "SMAJ18A_1_1"
+			(symbol "SMAJ14A_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -3443,6 +3713,12 @@
 		(uuid "464907b6-d34a-44e5-85a8-31b11a1bb2a4")
 	)
 	(junction
+		(at 254 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48082dc1-50c0-4c20-ae41-5e85bc0b67ce")
+	)
+	(junction
 		(at 189.23 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3575,6 +3851,12 @@
 		(uuid "ac977b08-73eb-4d6b-8f5b-3266f73f2f89")
 	)
 	(junction
+		(at 266.7 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adb1549f-11b2-4be2-87c2-75566d073150")
+	)
+	(junction
 		(at 93.98 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3633,6 +3915,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6ca2999-27d8-41fb-b7d5-e6953074234c")
+	)
+	(junction
+		(at 256.54 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8cc3e07-df98-49cd-a5cc-6078c1e05a9a")
 	)
 	(junction
 		(at 53.34 49.53)
@@ -3794,7 +4082,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 35.56) (xy 256.54 45.72)
+			(xy 256.54 33.02) (xy 256.54 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3934,6 +4222,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 34.29) (xy 256.54 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c045ea-490f-49d6-8ec3-26d66a103dc3")
+	)
+	(wire
+		(pts
 			(xy 44.45 49.53) (xy 48.26 49.53)
 		)
 		(stroke
@@ -3964,7 +4262,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 45.72) (xy 237.49 35.56)
+			(xy 237.49 45.72) (xy 237.49 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4321,6 +4619,16 @@
 			(type default)
 		)
 		(uuid "49f00653-5faa-4d71-b759-c948888bf2a1")
+	)
+	(wire
+		(pts
+			(xy 243.84 128.27) (xy 254 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a7bc00e-a4c4-4ada-85ae-b9287b415da2")
 	)
 	(wire
 		(pts
@@ -4744,7 +5052,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 45.72) (xy 266.7 35.56)
+			(xy 266.7 34.29) (xy 266.7 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5074,6 +5382,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 137.16) (xy 243.84 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b419afdb-dc70-4ed2-b172-e7c1b5e6487c")
+	)
+	(wire
+		(pts
 			(xy 237.49 45.72) (xy 237.49 53.34)
 		)
 		(stroke
@@ -5161,6 +5479,26 @@
 			(type default)
 		)
 		(uuid "becd72d9-be99-4828-85be-36c7562ed487")
+	)
+	(wire
+		(pts
+			(xy 266.7 34.29) (xy 266.7 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c067fa1c-269f-4eeb-9cc7-43ed416b1281")
+	)
+	(wire
+		(pts
+			(xy 254 139.7) (xy 254 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b19b0f-85f8-4821-9266-f6b01bd19d53")
 	)
 	(wire
 		(pts
@@ -5374,6 +5712,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 129.54) (xy 243.84 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a020d0-7e87-40c3-81db-655b65da1641")
+	)
+	(wire
+		(pts
 			(xy 229.87 45.72) (xy 237.49 45.72)
 		)
 		(stroke
@@ -5571,6 +5919,16 @@
 			(type default)
 		)
 		(uuid "ef4ceaed-1d30-4fb4-98bf-9773fe3fcd87")
+	)
+	(wire
+		(pts
+			(xy 243.84 138.43) (xy 254 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f197ba79-2b18-4116-a15a-1364ea269f39")
 	)
 	(wire
 		(pts
@@ -7512,6 +7870,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMAJ14A")
+		(at 24.13 49.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ed51e83-65bc-48b4-9a68-406a68c9a1eb")
+		(property "Reference" "D9"
+			(at 26.67 48.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ14A"
+			(at 26.67 50.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 19.05 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 24.13 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 14.0Vr, SMA(DO-214AC)"
+			(at 24.13 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6bea8a07-96fd-4f04-b4f5-182cbe8ab644")
+		)
+		(pin "2"
+			(uuid "6d97e4c0-30fa-4d35-9341-aa19924ea413")
+		)
+		(instances
+			(project "espdrone"
+				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 152.4 44.45 270)
 		(mirror x)
@@ -8143,6 +8583,118 @@
 			(project "espdrone"
 				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
 					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery")
+		(at 261.62 34.29 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6b3e5c45-5bb5-479d-9db8-ab753005ff46")
+		(property "Reference" "BT1"
+			(at 261.62 27.432 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Battery"
+			(at 261.62 29.972 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.096 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.096 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 261.62 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 261.62 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 261.62 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 261.62 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "68be0946-974e-4808-bf1b-630c3fb389d3")
+		)
+		(pin "1"
+			(uuid "fb72f42e-07ff-4771-839f-3514d8c5f183")
+		)
+		(instances
+			(project "espdrone"
+				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
+					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -8864,7 +9416,7 @@
 	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 254 138.43 0)
+		(at 254 139.7 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8875,7 +9427,7 @@
 		(dnp no)
 		(uuid "880eacec-55f1-4e37-83d9-8870e6b1e738")
 		(property "Reference" "#PWR0350"
-			(at 254 144.78 0)
+			(at 254 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8886,7 +9438,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254 142.24 0)
+			(at 254 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8896,7 +9448,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 138.43 0)
+			(at 254 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8907,7 +9459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 138.43 0)
+			(at 254 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8918,7 +9470,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 138.43 0)
+			(at 254 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9404,6 +9956,88 @@
 			(project "espdrone"
 				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
 					(reference "#PWR0351")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 243.84 133.35 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "97fa48ad-6c7f-4acf-bc90-e0ac0197ee68")
+		(property "Reference" "C108"
+			(at 241.3 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 241.554 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 242.8748 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 243.84 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b198bb15-acf7-432d-ad56-6c6f9890a508")
+		)
+		(pin "2"
+			(uuid "42e1811b-29b8-4fa1-ba23-770dc64226b1")
+		)
+		(instances
+			(project "espdrone"
+				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -10027,85 +10661,6 @@
 			(project "espdrone"
 				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
 					(reference "#PWR0123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SMAJ18A")
-		(at 24.13 49.53 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b0dbeebb-6cf4-4996-86be-134f95dd464f")
-		(property "Reference" "D20"
-			(at 18.542 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMAJ18A"
-			(at 21.082 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 19.05 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 24.13 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "400W unidirectional Transient Voltage Suppressor, 18.0Vr, SMA(DO-214AC)"
-			(at 24.13 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f49a6f36-4f8f-4c8e-9d17-2b8f23b28c43")
-		)
-		(pin "2"
-			(uuid "41efa6cf-427c-4a11-9c61-3ccfb299abae")
-		)
-		(instances
-			(project "espdrone"
-				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
-					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -11031,7 +11586,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 266.7 35.56 0)
+		(at 266.7 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11041,7 +11596,7 @@
 		(dnp no)
 		(uuid "e506591e-a130-4a94-8035-1394614e1b4e")
 		(property "Reference" "TP10"
-			(at 268.224 30.988 0)
+			(at 268.224 29.718 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11052,7 +11607,8 @@
 			)
 		)
 		(property "Value" "-BATT"
-			(at 268.224 33.528 0)
+			(at 268.224 30.988 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11063,7 +11619,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 271.78 35.56 0)
+			(at 271.78 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11074,7 +11630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 35.56 0)
+			(at 271.78 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11085,7 +11641,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 266.7 35.56 0)
+			(at 266.7 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11426,7 +11982,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 237.49 35.56 0)
+		(at 237.49 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11436,7 +11992,7 @@
 		(dnp no)
 		(uuid "f00a21cd-ffa3-4949-9a8c-c9b4efe7fc43")
 		(property "Reference" "#PWR062"
-			(at 237.49 39.37 0)
+			(at 237.49 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11447,7 +12003,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 237.49 30.48 0)
+			(at 237.49 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11457,7 +12013,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 35.56 0)
+			(at 237.49 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11468,7 +12024,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 35.56 0)
+			(at 237.49 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11479,7 +12035,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 237.49 35.56 0)
+			(at 237.49 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11981,7 +12537,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 256.54 35.56 0)
+		(at 256.54 33.02 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11992,7 +12548,7 @@
 		(dnp no)
 		(uuid "ff2ce957-88d3-4027-947b-fd606891fbfe")
 		(property "Reference" "TP9"
-			(at 255.016 31.242 0)
+			(at 255.27 29.972 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12003,7 +12559,8 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 255.016 33.782 0)
+			(at 255.016 31.242 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12014,7 +12571,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 251.46 35.56 0)
+			(at 251.46 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12025,7 +12582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 35.56 0)
+			(at 251.46 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12036,7 +12593,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 256.54 35.56 0)
+			(at 256.54 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

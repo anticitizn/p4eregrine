@@ -3348,7 +3348,7 @@
 	)
 	(text "0 ohm resistors are placeholders for inductors"
 		(exclude_from_sim no)
-		(at 103.886 252.73 0)
+		(at 87.122 251.46 0)
 		(effects
 			(font
 				(size 1.0668 1.0668)
@@ -3379,6 +3379,16 @@
 			)
 		)
 		(uuid "b826ad2e-1965-4644-bfa0-a62d32305e05")
+	)
+	(text "ESP32-C5HF4 has \ninternal flash"
+		(exclude_from_sim no)
+		(at 197.104 188.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d86e5b62-4068-4013-a354-8e04efbc3f64")
 	)
 	(junction
 		(at 254 95.25)
@@ -3790,7 +3800,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 161.29) (xy 260.35 161.29)
+			(xy 261.62 162.56) (xy 260.35 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3990,7 +4000,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 161.29) (xy 252.73 161.29)
+			(xy 251.46 162.56) (xy 252.73 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4160,6 +4170,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 171.45) (xy 224.79 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2391b66c-daa9-4dda-8ed3-dd4f2cd3f163")
+	)
+	(wire
+		(pts
 			(xy 196.85 73.66) (xy 207.01 73.66)
 		)
 		(stroke
@@ -4200,7 +4220,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 156.21) (xy 246.38 156.21)
+			(xy 224.79 153.67) (xy 246.38 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4250,7 +4270,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 161.29) (xy 232.41 161.29)
+			(xy 229.87 162.56) (xy 232.41 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4280,7 +4300,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 161.29) (xy 96.52 162.56)
+			(xy 96.52 161.29) (xy 96.52 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5060,7 +5080,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 161.29) (xy 241.3 161.29)
+			(xy 240.03 162.56) (xy 241.3 162.56)
 		)
 		(stroke
 			(width 0)
@@ -5347,16 +5367,6 @@
 			(type default)
 		)
 		(uuid "b5d69ad2-284c-4669-93e3-69a08f446fd7")
-	)
-	(wire
-		(pts
-			(xy 214.63 171.45) (xy 224.79 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b83d90a0-f46d-4ac5-a23f-bc45daefb2d5")
 	)
 	(wire
 		(pts
@@ -5690,7 +5700,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 156.21) (xy 246.38 157.48)
+			(xy 246.38 153.67) (xy 246.38 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5760,7 +5770,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 161.29) (xy 231.14 162.56)
+			(xy 229.87 162.56) (xy 229.87 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5770,7 +5780,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 161.29) (xy 261.62 162.56)
+			(xy 261.62 162.56) (xy 261.62 163.83)
 		)
 		(stroke
 			(width 0)
@@ -6080,7 +6090,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 156.21) (xy 224.79 171.45)
+			(xy 224.79 153.67) (xy 224.79 171.45)
 		)
 		(stroke
 			(width 0)
@@ -9061,7 +9071,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 236.22 161.29 270)
+		(at 236.22 162.56 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9071,7 +9081,7 @@
 		(dnp no)
 		(uuid "554c9fac-6676-4c29-aa2f-275fc6da7bb1")
 		(property "Reference" "R58"
-			(at 236.22 166.37 90)
+			(at 236.22 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9081,7 +9091,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 236.22 163.83 90)
+			(at 236.22 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9091,7 +9101,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 236.22 159.512 90)
+			(at 236.22 160.782 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9102,7 +9112,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 161.29 0)
+			(at 236.22 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9113,7 +9123,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 236.22 161.29 0)
+			(at 236.22 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9218,7 +9228,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 261.62 162.56 0)
+		(at 261.62 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9228,7 +9238,7 @@
 		(dnp no)
 		(uuid "640af78a-984d-43c4-91f6-4f31ee364810")
 		(property "Reference" "#PWR0195"
-			(at 261.62 168.91 0)
+			(at 261.62 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9239,7 +9249,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 261.62 166.878 0)
+			(at 261.62 168.148 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9249,7 +9259,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 162.56 0)
+			(at 261.62 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9260,7 +9270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 162.56 0)
+			(at 261.62 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9271,7 +9281,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 162.56 0)
+			(at 261.62 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10537,8 +10547,8 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 231.14 162.56 0)
-		(mirror x)
+		(at 229.87 161.29 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10548,7 +10558,7 @@
 		(dnp no)
 		(uuid "847c2aaa-a023-4cb6-8a3f-09d1821c3256")
 		(property "Reference" "#PWR0194"
-			(at 231.14 158.75 0)
+			(at 229.87 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10559,7 +10569,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 227.838 166.624 0)
+			(at 233.172 157.226 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10570,7 +10580,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 162.56 0)
+			(at 229.87 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10581,7 +10591,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 162.56 0)
+			(at 229.87 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10592,7 +10602,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 231.14 162.56 0)
+			(at 229.87 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10860,7 +10870,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 256.54 161.29 270)
+		(at 256.54 162.56 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10870,7 +10880,7 @@
 		(dnp no)
 		(uuid "8c863349-cae2-4064-b0a2-adfe9976c0ba")
 		(property "Reference" "R59"
-			(at 256.54 166.37 90)
+			(at 256.54 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10880,7 +10890,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 256.54 163.83 90)
+			(at 256.54 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10890,7 +10900,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 256.54 159.512 90)
+			(at 256.54 160.782 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10901,7 +10911,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 161.29 0)
+			(at 256.54 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10912,7 +10922,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 256.54 161.29 0)
+			(at 256.54 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12290,7 +12300,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Open")
-		(at 246.38 161.29 0)
+		(at 246.38 162.56 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -12301,7 +12311,7 @@
 		(dnp no)
 		(uuid "bed13a50-3b89-4339-a73f-6104f2fb1471")
 		(property "Reference" "JP6"
-			(at 244.602 164.084 0)
+			(at 244.602 165.354 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12312,7 +12322,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Open"
-			(at 247.6499 163.83 90)
+			(at 247.6499 165.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12324,7 +12334,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
-			(at 246.38 161.29 0)
+			(at 246.38 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12335,7 +12345,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 146.05 0)
+			(at 246.38 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12346,7 +12356,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 246.38 148.59 0)
+			(at 246.38 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12357,7 +12367,7 @@
 			)
 		)
 		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
-			(at 246.38 143.51 0)
+			(at 246.38 144.78 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -12368,7 +12378,7 @@
 			)
 		)
 		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
-			(at 246.38 140.97 0)
+			(at 246.38 142.24 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -12398,8 +12408,8 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 96.52 162.56 0)
-		(mirror x)
+		(at 96.52 160.02 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12409,7 +12419,7 @@
 		(dnp no)
 		(uuid "c01b26c3-3b2a-4f51-8bab-8b98ab155246")
 		(property "Reference" "#PWR0192"
-			(at 96.52 158.75 0)
+			(at 96.52 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12420,7 +12430,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 93.218 166.624 0)
+			(at 99.822 155.956 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12431,7 +12441,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 162.56 0)
+			(at 96.52 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12442,7 +12452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 162.56 0)
+			(at 96.52 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12453,7 +12463,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 96.52 162.56 0)
+			(at 96.52 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13221,10 +13231,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e46e4d95-d496-47aa-ae75-f050588e89cb")
 		(property "Reference" "U3"
-			(at 197.7233 184.15 0)
+			(at 150.876 183.642 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13235,7 +13244,7 @@
 			)
 		)
 		(property "Value" "ESP32-C5"
-			(at 197.7233 186.69 0)
+			(at 150.876 186.182 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -1454,7 +1454,7 @@
 		(at 64.77 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8aeb6c37-fee4-4baa-9849-a0941f8bd8a3")
+		(uuid "891c1968-73fd-4909-8195-a4b07a08e938")
 	)
 	(junction
 		(at 78.74 184.15)
@@ -1606,7 +1606,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 46.99) (xy 64.77 46.99)
+			(xy 62.23 46.99) (xy 64.77 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2778,7 +2778,7 @@
 	)
 	(global_label "DC_MOT1"
 		(shape input)
-		(at 60.96 46.99 180)
+		(at 62.23 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2788,7 +2788,7 @@
 		)
 		(uuid "49e7d285-0b0a-444b-80ab-b45f6caf958b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.5082 46.99 0)
+			(at 50.7782 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6313,6 +6313,86 @@
 			(project "espdrone"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 55.88 64.77 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f25c37be-2ac3-4a21-b163-9af7342ae4f5")
+		(property "Reference" "R186"
+			(at 55.88 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 55.88 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 55.88 66.548 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 55.88 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3d71eaa0-9360-440d-8e4d-37ba4b26799d")
+		)
+		(pin "1"
+			(uuid "6965ef67-e6e0-4587-a99d-ca4b45028fbf")
+		)
+		(instances
+			(project "espdrone"
+				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
+					(reference "R186")
 					(unit 1)
 				)
 			)

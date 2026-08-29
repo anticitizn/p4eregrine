@@ -3601,7 +3601,7 @@
 	)
 	(text "GVDD capacitor should be at least\n10x the Bstx -> Shx capacitance"
 		(exclude_from_sim no)
-		(at 48.006 125.222 0)
+		(at 45.466 124.46 0)
 		(effects
 			(font
 				(size 0.9144 0.9144)
@@ -4083,16 +4083,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 26.67) (xy 127 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06529d62-ae0e-49ef-9dc3-4babdd050427")
-	)
-	(wire
-		(pts
 			(xy 276.86 120.65) (xy 279.4 120.65)
 		)
 		(stroke
@@ -4443,7 +4433,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 29.21) (xy 127 29.21)
+			(xy 124.46 26.67) (xy 127 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4933,7 +4923,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 31.75) (xy 127 31.75)
+			(xy 124.46 29.21) (xy 127 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5033,7 +5023,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 34.29) (xy 127 34.29)
+			(xy 124.46 31.75) (xy 127 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5833,7 +5823,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 36.83) (xy 127 36.83)
+			(xy 124.46 34.29) (xy 127 34.29)
 		)
 		(stroke
 			(width 0)
@@ -7142,7 +7132,7 @@
 		(uuid "4750c7b9-b4b8-424e-9523-688cae851131")
 	)
 	(label "BSTA"
-		(at 127 29.21 0)
+		(at 127 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7180,6 +7170,16 @@
 			(justify left bottom)
 		)
 		(uuid "53b5b7cf-2f72-4fd3-8d1e-da0657aa56c3")
+	)
+	(label "GVDD"
+		(at 63.5 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "55434a33-4ed3-49da-b624-d85a97f42f9d")
 	)
 	(label "VSENSE_A"
 		(at 101.6 71.12 0)
@@ -7482,7 +7482,7 @@
 		(uuid "ad181281-2929-439f-aa2d-2f5e80bcae96")
 	)
 	(label "NRST"
-		(at 127 34.29 0)
+		(at 127 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7542,7 +7542,7 @@
 		(uuid "b88f6d83-dd0c-4f20-b35e-a1ff6d38a06e")
 	)
 	(label "VSENSE"
-		(at 127 31.75 0)
+		(at 127 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7552,7 +7552,7 @@
 		(uuid "be5f7815-bbeb-41ab-a6aa-853cb5cc8aa9")
 	)
 	(label "NSLEEP"
-		(at 127 36.83 0)
+		(at 127 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7651,16 +7651,6 @@
 		)
 		(uuid "fe1811c1-afce-46a6-be01-bdbc3365ad75")
 	)
-	(label "PVDD"
-		(at 127 26.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fe28c0f2-9bd5-435b-9515-992b267890a2")
-	)
 	(hierarchical_label "DSHOT"
 		(shape input)
 		(at 123.19 63.5 0)
@@ -7705,7 +7695,7 @@
 		)
 		(uuid "a5214bd9-aea8-4599-bdd9-7a9d603280a6")
 	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "+3V3"
 		(shape input)
 		(at 156.21 181.61 180)
 		(effects
@@ -8014,7 +8004,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 124.46 36.83 90)
+		(at 124.46 34.29 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8024,7 +8014,7 @@
 		(dnp no)
 		(uuid "01a32654-1a89-4768-8b53-c2b02241cbc0")
 		(property "Reference" "TP30"
-			(at 117.348 36.83 90)
+			(at 117.348 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8034,7 +8024,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 121.158 34.29 90)
+			(at 121.158 31.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8045,7 +8035,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 124.46 31.75 0)
+			(at 124.46 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8056,7 +8046,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 31.75 0)
+			(at 124.46 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8067,7 +8057,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 124.46 36.83 0)
+			(at 124.46 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8193,7 +8183,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 124.46 31.75 90)
+		(at 124.46 29.21 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8203,7 +8193,7 @@
 		(dnp no)
 		(uuid "021c4b7f-f336-4bff-97d8-6516a8f34570")
 		(property "Reference" "TP28"
-			(at 117.348 31.75 90)
+			(at 117.348 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8213,7 +8203,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 121.158 29.21 90)
+			(at 121.158 26.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8224,7 +8214,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 124.46 26.67 0)
+			(at 124.46 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8235,7 +8225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 26.67 0)
+			(at 124.46 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8246,7 +8236,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 124.46 31.75 0)
+			(at 124.46 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10423,7 +10413,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 124.46 29.21 90)
+		(at 124.46 26.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10433,7 +10423,7 @@
 		(dnp no)
 		(uuid "4101e7e3-4746-4c06-8564-ad1b190809e3")
 		(property "Reference" "TP27"
-			(at 117.348 29.21 90)
+			(at 117.348 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10443,7 +10433,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 121.158 26.67 90)
+			(at 121.158 24.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10454,7 +10444,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 124.46 24.13 0)
+			(at 124.46 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10465,7 +10455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 24.13 0)
+			(at 124.46 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10476,7 +10466,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 124.46 29.21 0)
+			(at 124.46 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14440,95 +14430,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 124.46 26.67 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a4586fdd-92a8-483a-85e3-bf90259754ff")
-		(property "Reference" "TP26"
-			(at 117.348 26.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 121.158 24.13 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 124.46 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 124.46 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "879fb459-bb05-425d-b719-43f26ed77784")
-		)
-		(instances
-			(project "espdrone"
-				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/3f1ec40b-2861-4856-8c91-e3c961c5da6f"
-					(reference "TP51")
-					(unit 1)
-				)
-				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/51921b67-4a63-4a4a-adc0-e4b24a3252b8"
-					(reference "TP101")
-					(unit 1)
-				)
-				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/54db73ba-97d3-488f-8063-7cfc3cee66e2"
-					(reference "TP76")
-					(unit 1)
-				)
-				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/e73f72f2-28de-4d9d-8e81-9b095eab4bb5"
-					(reference "TP26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 269.24 152.4 0)
 		(mirror x)
@@ -17372,7 +17273,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 124.46 34.29 90)
+		(at 124.46 31.75 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17382,7 +17283,7 @@
 		(dnp no)
 		(uuid "e40f6d72-c2fa-4dc9-a773-8d823218559e")
 		(property "Reference" "TP29"
-			(at 117.348 34.29 90)
+			(at 117.348 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17392,7 +17293,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 121.158 31.75 90)
+			(at 121.158 29.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17403,7 +17304,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 124.46 29.21 0)
+			(at 124.46 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17414,7 +17315,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 29.21 0)
+			(at 124.46 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17425,7 +17326,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 124.46 34.29 0)
+			(at 124.46 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

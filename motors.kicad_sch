@@ -6980,16 +6980,6 @@
 				(justify right)
 			)
 		)
-		(pin "3V3" input
-			(at 76.2 152.4 90)
-			(uuid "28909aa6-059e-44cf-a6f0-1632807535bb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "GND" input
 			(at 78.74 179.07 270)
 			(uuid "80791a5a-add7-4d10-90c8-d4c63451a60b")
@@ -6998,6 +6988,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "+3V3" input
+			(at 76.2 152.4 90)
+			(uuid "dea42281-dede-4982-9044-f80b8170e9e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -7076,7 +7076,7 @@
 				(justify right)
 			)
 		)
-		(pin "3V3" input
+		(pin "+3V3" input
 			(at 152.4 152.4 90)
 			(uuid "90ff69ec-59e1-47f5-b156-0221000853d5")
 			(effects
@@ -7172,7 +7172,7 @@
 				(justify right)
 			)
 		)
-		(pin "3V3" input
+		(pin "+3V3" input
 			(at 114.3 152.4 90)
 			(uuid "39d5742a-8adc-4d2b-b03e-39cb5c78d7c6")
 			(effects
@@ -7268,7 +7268,7 @@
 				(justify right)
 			)
 		)
-		(pin "3V3" input
+		(pin "+3V3" input
 			(at 38.1 152.4 90)
 			(uuid "1c326e2b-bdca-44c4-a274-c8cba62e64b9")
 			(effects

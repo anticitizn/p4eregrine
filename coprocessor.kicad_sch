@@ -6485,7 +6485,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05873221-8718-4278-bfe4-162b6e130934")
-		(property "Reference" "C93"
+		(property "Reference" "C48"
 			(at 165.608 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6549,7 +6549,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "C93")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -6567,7 +6567,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0741dc53-2052-45f5-b3b2-a1fdd3c4f181")
-		(property "Reference" "C100"
+		(property "Reference" "C53"
 			(at 238.252 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6631,7 +6631,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "C100")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -6649,7 +6649,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08a5a768-98e4-4e63-bd9f-dcbbaaa2c6cf")
-		(property "Reference" "JP5"
+		(property "Reference" "JP2"
 			(at 109.982 164.084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6739,7 +6739,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "JP5")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -6756,7 +6756,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0cf5bc5e-7246-4ec9-845a-28a46a5b3374")
-		(property "Reference" "#PWR0159"
+		(property "Reference" "#PWR052"
 			(at 91.44 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6816,7 +6816,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0159")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -6834,7 +6834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d00ee1f-3fa7-4e6e-bd5e-c0286bfff61f")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR077"
 			(at 242.57 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -6894,7 +6894,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR058")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -6911,7 +6911,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "0f7bac03-16a9-4e70-b21e-0f2ee28d2332")
-		(property "Reference" "C7"
+		(property "Reference" "C42"
 			(at 118.364 234.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6975,7 +6975,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "C7")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -6992,7 +6992,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12aebf8d-7d78-48a3-8783-8b07fc62b8a7")
-		(property "Reference" "#PWR0185"
+		(property "Reference" "#PWR050"
 			(at 54.61 254 0)
 			(hide yes)
 			(show_name no)
@@ -7052,7 +7052,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0185")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -7070,7 +7070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "132b78fc-c32d-4a65-bb5b-b6fd9b69fb0c")
-		(property "Reference" "Y3"
+		(property "Reference" "Y2"
 			(at 91.44 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7160,7 +7160,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "Y3")
+					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -7178,7 +7178,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15cd22df-1736-4158-9a26-b1570464ef99")
-		(property "Reference" "#PWR0189"
+		(property "Reference" "#PWR078"
 			(at 255.27 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -7238,7 +7238,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0189")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -7256,7 +7256,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16fa229c-5b2a-484b-a9db-5305b4fdef9d")
-		(property "Reference" "C105"
+		(property "Reference" "C44"
 			(at 134.112 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7320,7 +7320,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "C105")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -7338,7 +7338,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "177d9c21-31de-43c4-b730-cf335d3f2932")
-		(property "Reference" "R37"
+		(property "Reference" "R13"
 			(at 59.69 227.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7400,7 +7400,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "R37")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -7418,7 +7418,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17af264a-c4ff-488e-a35b-52ab2cc2cc6e")
-		(property "Reference" "C96"
+		(property "Reference" "C49"
 			(at 186.182 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7482,7 +7482,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "C96")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -7499,7 +7499,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a0002f5-03ef-4445-8b52-dfa80acd5224")
-		(property "Reference" "R43"
+		(property "Reference" "R28"
 			(at 259.334 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7563,7 +7563,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "R43")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -7580,7 +7580,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e6b28f0-c71a-4195-8037-9bb1c6c53c2c")
-		(property "Reference" "JP1"
+		(property "Reference" "JP5"
 			(at 233.68 191.516 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7643,7 +7643,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "JP1")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -7660,7 +7660,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f4e13e2-2244-4f6e-98df-6ec72649c529")
-		(property "Reference" "#PWR0182"
+		(property "Reference" "#PWR051"
 			(at 68.58 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -7720,7 +7720,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0182")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -7738,7 +7738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23da588a-e74f-43a9-b899-fc983b4ffe86")
-		(property "Reference" "#PWR0160"
+		(property "Reference" "#PWR058"
 			(at 121.92 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7798,7 +7798,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0160")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -7817,7 +7817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "278f4e27-f2c0-4974-965d-312690803b1c")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR073"
 			(at 212.09 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7877,7 +7877,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0164")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -7895,7 +7895,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e0702f9-fa8e-4a95-b5e9-455e1bd26bad")
-		(property "Reference" "R28"
+		(property "Reference" "R14"
 			(at 59.69 231.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7957,7 +7957,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "R28")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7975,7 +7975,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "337869fc-d4e3-41a9-aa11-64e9825a34a6")
-		(property "Reference" "L4"
+		(property "Reference" "L2"
 			(at 237.4901 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8039,7 +8039,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "L4")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -8057,7 +8057,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3543763d-dc46-4102-bd88-cbde9bcf51f2")
-		(property "Reference" "R22"
+		(property "Reference" "R16"
 			(at 110.49 226.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8119,7 +8119,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "R22")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -8136,7 +8136,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39583c26-7a6e-4c51-8743-d41caf611648")
-		(property "Reference" "R39"
+		(property "Reference" "R20"
 			(at 236.474 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8200,7 +8200,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "R39")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -8218,7 +8218,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "3ae48a89-a32f-49b2-9678-ecab783b72cd")
-		(property "Reference" "C10"
+		(property "Reference" "C35"
 			(at 57.404 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8282,7 +8282,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "C10")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -8299,7 +8299,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c85e508-c6de-4774-a1b9-0fd306120827")
-		(property "Reference" "#PWR0184"
+		(property "Reference" "#PWR056"
 			(at 105.41 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -8359,7 +8359,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0184")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -8378,7 +8378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ca16949-b59a-4fa6-8aee-ac88df144c07")
-		(property "Reference" "#PWR0179"
+		(property "Reference" "#PWR062"
 			(at 137.16 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -8438,7 +8438,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0179")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -8457,7 +8457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f1bfd9f-c99a-4d35-84d7-a0339249d7d7")
-		(property "Reference" "#PWR0173"
+		(property "Reference" "#PWR081"
 			(at 266.7 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8517,7 +8517,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0173")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -8534,7 +8534,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fe0349a-dc0b-4e4a-a609-9f182de83271")
-		(property "Reference" "#PWR0193"
+		(property "Reference" "#PWR059"
 			(at 127 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -8594,7 +8594,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0193")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -8612,7 +8612,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41c48c0d-d8f0-48cf-be25-41397b368076")
-		(property "Reference" "C99"
+		(property "Reference" "C54"
 			(at 250.952 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8676,7 +8676,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "C99")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -8695,7 +8695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a56c23d-4c29-4d19-8a26-67982c0d7f76")
-		(property "Reference" "#PWR0177"
+		(property "Reference" "#PWR083"
 			(at 266.7 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -8755,7 +8755,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0177")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -8773,7 +8773,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50e90cdf-7b1c-4e9c-80ec-8d21c40c0841")
-		(property "Reference" "C98"
+		(property "Reference" "C56"
 			(at 263.652 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8837,7 +8837,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "C98")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -8854,7 +8854,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "554c9fac-6676-4c29-aa2f-275fc6da7bb1")
-		(property "Reference" "R58"
+		(property "Reference" "R21"
 			(at 236.22 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8916,7 +8916,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "R58")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -8934,7 +8934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "636d0509-15e2-4e69-b063-c115db6835fe")
-		(property "Reference" "#PWR0161"
+		(property "Reference" "#PWR064"
 			(at 137.16 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -8994,7 +8994,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0161")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -9011,7 +9011,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "640af78a-984d-43c4-91f6-4f31ee364810")
-		(property "Reference" "#PWR0195"
+		(property "Reference" "#PWR079"
 			(at 261.62 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -9071,7 +9071,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0195")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -9090,7 +9090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b03bab9-466c-4280-bc68-de225e7ec2ec")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR070"
 			(at 189.23 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -9150,7 +9150,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0169")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -9168,7 +9168,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c38c4d8-da18-4cce-bbc2-41aaaa368ce0")
-		(property "Reference" "R21"
+		(property "Reference" "R17"
 			(at 116.84 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9230,7 +9230,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "R21")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -9247,7 +9247,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c688ca8-8b75-47d6-a28b-10cc299719b8")
-		(property "Reference" "C102"
+		(property "Reference" "C51"
 			(at 222.758 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9311,7 +9311,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "C102")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -9328,7 +9328,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "70cdb90d-fbc6-4e3b-b5a0-115703f1688d")
-		(property "Reference" "C6"
+		(property "Reference" "C41"
 			(at 108.204 234.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9392,7 +9392,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "C6")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -9411,7 +9411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7219e764-57ce-4ba2-abf1-9ae84077f41c")
-		(property "Reference" "#PWR0174"
+		(property "Reference" "#PWR074"
 			(at 219.71 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9471,7 +9471,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0174")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -9488,7 +9488,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "733eb9f7-d498-45c3-af72-08529cbe1050")
-		(property "Reference" "#PWR0183"
+		(property "Reference" "#PWR060"
 			(at 128.27 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -9548,7 +9548,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0183")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -9567,7 +9567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7541f2af-4e90-4659-87b3-3aa00f42c4c2")
-		(property "Reference" "#PWR0176"
+		(property "Reference" "#PWR082"
 			(at 266.7 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9627,7 +9627,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0176")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -9646,7 +9646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75c41136-3974-4016-bca6-050c608b486b")
-		(property "Reference" "#PWR0165"
+		(property "Reference" "#PWR068"
 			(at 181.61 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -9706,7 +9706,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0165")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -9723,7 +9723,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77056664-5434-489d-bbf0-840c5217fedb")
-		(property "Reference" "R42"
+		(property "Reference" "R26"
 			(at 251.714 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9787,7 +9787,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "R42")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -9805,7 +9805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77084ccc-8ff4-48f3-a131-fdb7dcdd7233")
-		(property "Reference" "U10"
+		(property "Reference" "U4"
 			(at 85.09 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9918,7 +9918,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "U10")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -9936,7 +9936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7800c725-e348-426a-a48c-68bad04a2ce3")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR065"
 			(at 158.75 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -9996,7 +9996,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0163")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -10013,7 +10013,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78422d45-88fb-496f-b6fc-8e0d24fe92b8")
-		(property "Reference" "C91"
+		(property "Reference" "C43"
 			(at 118.872 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10077,7 +10077,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "C91")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -10094,7 +10094,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c1052e9-cbe5-4780-b02a-ad85419b8a9b")
-		(property "Reference" "#PWR0180"
+		(property "Reference" "#PWR054"
 			(at 101.6 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -10154,7 +10154,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0180")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -10173,7 +10173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c735140-cc27-493f-97a7-17c97d4955e5")
-		(property "Reference" "#PWR0167"
+		(property "Reference" "#PWR067"
 			(at 162.56 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -10233,7 +10233,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0167")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -10251,7 +10251,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "847c2aaa-a023-4cb6-8a3f-09d1821c3256")
-		(property "Reference" "#PWR0194"
+		(property "Reference" "#PWR076"
 			(at 229.87 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -10312,7 +10312,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0194")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -10411,7 +10411,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "8a3303cf-6301-484d-8b37-736bd329cc5b")
-		(property "Reference" "C11"
+		(property "Reference" "C37"
 			(at 67.564 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10475,7 +10475,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "C11")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -10492,7 +10492,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b2e6d47-c1b3-448c-b334-be92acfe3489")
-		(property "Reference" "R41"
+		(property "Reference" "R22"
 			(at 244.094 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10556,7 +10556,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "R41")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -10573,7 +10573,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c863349-cae2-4064-b0a2-adfe9976c0ba")
-		(property "Reference" "R59"
+		(property "Reference" "R27"
 			(at 256.54 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10635,7 +10635,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "R59")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -10652,7 +10652,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "924b1231-6a3f-4b0b-b96c-dc7e62792586")
-		(property "Reference" "R57"
+		(property "Reference" "R18"
 			(at 121.92 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10714,7 +10714,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "R57")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -10732,7 +10732,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96b4ac3e-f174-4b61-9855-06ace3d5f1b7")
-		(property "Reference" "C103"
+		(property "Reference" "C55"
 			(at 250.952 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10796,7 +10796,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "C103")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -10814,7 +10814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96d6cc02-0d49-4701-9709-c54ca0830449")
-		(property "Reference" "#PWR0162"
+		(property "Reference" "#PWR063"
 			(at 137.16 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -10874,7 +10874,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0162")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -10893,7 +10893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b94c95e-7fad-44ad-9269-0370c144b230")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR069"
 			(at 189.23 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -10953,7 +10953,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0168")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -10970,7 +10970,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "9c7933d6-370d-44bd-9c34-63aac6f9ed26")
-		(property "Reference" "C8"
+		(property "Reference" "C36"
 			(at 57.404 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11034,7 +11034,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "C8")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -11051,7 +11051,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9fdfe7ae-5892-461c-9474-d60237047c95")
-		(property "Reference" "#PWR0181"
+		(property "Reference" "#PWR053"
 			(at 101.6 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -11111,7 +11111,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0181")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -11128,7 +11128,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a41c347c-213b-4636-a460-c61ee86a7606")
-		(property "Reference" "R38"
+		(property "Reference" "R19"
 			(at 228.854 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11192,7 +11192,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "R38")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -11209,7 +11209,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a462a7dd-96d8-45f3-9d32-530151d19127")
-		(property "Reference" "#PWR0158"
+		(property "Reference" "#PWR057"
 			(at 121.92 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -11270,7 +11270,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0158")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -11289,7 +11289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4dc6e83-cf90-43f8-bf4b-6d758f075301")
-		(property "Reference" "#PWR0178"
+		(property "Reference" "#PWR061"
 			(at 137.16 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -11349,7 +11349,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0178")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -11367,7 +11367,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa4dc818-9e6a-4c65-8262-2ca83563d538")
-		(property "Reference" "C89"
+		(property "Reference" "C39"
 			(at 82.042 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11431,7 +11431,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "C89")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -11450,7 +11450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae651c5b-a608-4902-a96b-7fe9db92ab3f")
-		(property "Reference" "#PWR0171"
+		(property "Reference" "#PWR072"
 			(at 207.01 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11510,7 +11510,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0171")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -11529,7 +11529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b021b666-157b-43e3-9623-346ca7f1abe8")
-		(property "Reference" "#PWR0170"
+		(property "Reference" "#PWR071"
 			(at 207.01 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11589,7 +11589,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0170")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -11607,7 +11607,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b420e8e1-c60a-46bd-a408-3eb38d7638e6")
-		(property "Reference" "#PWR0186"
+		(property "Reference" "#PWR049"
 			(at 54.61 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -11667,7 +11667,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0186")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -11684,7 +11684,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7310f50-eb38-49e5-b788-5361b23c7049")
-		(property "Reference" "C90"
+		(property "Reference" "C40"
 			(at 102.108 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11748,7 +11748,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "C90")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -11767,7 +11767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9ff5d1f-2acc-4f81-a20f-82e9f091c3a1")
-		(property "Reference" "#PWR0172"
+		(property "Reference" "#PWR080"
 			(at 266.7 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -11827,7 +11827,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0172")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -11846,7 +11846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb6b7b03-a5c5-4de2-a1e3-091b7a83436e")
-		(property "Reference" "#PWR0175"
+		(property "Reference" "#PWR075"
 			(at 219.71 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -11906,7 +11906,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0175")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -12032,7 +12032,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c01b26c3-3b2a-4f51-8bab-8b98ab155246")
-		(property "Reference" "#PWR0192"
+		(property "Reference" "#PWR055"
 			(at 96.52 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -12093,7 +12093,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0192")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -12111,7 +12111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c14b9ae9-b63c-45a5-8144-a24149e2966d")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 132.08 230.1631 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12175,7 +12175,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -12192,7 +12192,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c39504d7-5b88-468b-9b84-c0e1af1cd6f3")
-		(property "Reference" "C94"
+		(property "Reference" "C45"
 			(at 140.208 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12256,7 +12256,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "C94")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -12273,7 +12273,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "c42638cf-be12-4874-8ba8-3ff3cf231a70")
-		(property "Reference" "C9"
+		(property "Reference" "C38"
 			(at 67.564 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12337,7 +12337,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "C9")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -12355,7 +12355,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4f21f39-ea31-45d1-a49f-18962f9dba93")
-		(property "Reference" "R51"
+		(property "Reference" "R25"
 			(at 246.38 194.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12417,7 +12417,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "R51")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -12435,7 +12435,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c70cc6d0-c751-4ae9-a6ad-1ecc0eed2694")
-		(property "Reference" "R53"
+		(property "Reference" "R23"
 			(at 246.38 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12497,7 +12497,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "R53")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -12515,7 +12515,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7625b6b-48f8-4abd-b425-c68b1fc0e17f")
-		(property "Reference" "L3"
+		(property "Reference" "L1"
 			(at 88.9 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12579,7 +12579,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "L3")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -12596,7 +12596,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c94afb4c-c37b-46a2-9fa5-5d7194f5d475")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 146.812 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12665,7 +12665,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -12683,7 +12683,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cfc1a4f8-b2ef-4ea9-bce3-f2f09efd5bbf")
-		(property "Reference" "C95"
+		(property "Reference" "C47"
 			(at 159.512 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12747,7 +12747,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "C95")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -12765,7 +12765,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0e2b714-f6b1-4fcb-8595-d942300b6a8d")
-		(property "Reference" "C104"
+		(property "Reference" "C57"
 			(at 263.652 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12829,7 +12829,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "C104")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -12846,7 +12846,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e46e4d95-d496-47aa-ae75-f050588e89cb")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 150.876 183.642 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13051,7 +13051,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -13068,7 +13068,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4a2ce7e-28bf-4fcf-8374-df4509a04a58")
-		(property "Reference" "C92"
+		(property "Reference" "C46"
 			(at 152.908 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13132,7 +13132,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "C92")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -13150,7 +13150,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb227a16-c011-46ff-9009-5386e4aea280")
-		(property "Reference" "C101"
+		(property "Reference" "C52"
 			(at 228.092 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13214,7 +13214,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "C101")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -13232,7 +13232,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f15860a6-61d5-47c1-8c02-c106e702b1e3")
-		(property "Reference" "C97"
+		(property "Reference" "C50"
 			(at 203.962 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13296,7 +13296,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "C97")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -13313,7 +13313,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f16fef62-a6b6-45cf-80ee-c655a1123d42")
-		(property "Reference" "JP2"
+		(property "Reference" "JP4"
 			(at 233.68 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13376,7 +13376,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "JP2")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -13395,7 +13395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa6ae0d3-579f-4c4c-9316-830667843003")
-		(property "Reference" "#PWR0166"
+		(property "Reference" "#PWR066"
 			(at 162.56 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -13455,7 +13455,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "#PWR0166")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -13472,7 +13472,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa94fe4e-4167-4347-b7cc-a9aeaceed481")
-		(property "Reference" "R56"
+		(property "Reference" "R15"
 			(at 101.6 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13534,7 +13534,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "R56")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -13552,7 +13552,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff6ade59-46e8-4f2f-ba39-404ce1216884")
-		(property "Reference" "R52"
+		(property "Reference" "R24"
 			(at 246.38 184.658 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13614,7 +13614,7 @@
 		(instances
 			(project "espdrone"
 				(path "/b7952862-8d86-4464-ae6b-e7392f598094"
-					(reference "R52")
+					(reference "R24")
 					(unit 1)
 				)
 			)

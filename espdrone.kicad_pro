@@ -706,13 +706,17 @@
         "uuid": "b7952862-8d86-4464-ae6b-e7392f598094"
       }
     ],
-    "used_designators": "U1-29,D1-19,Q1-36,Y1,#PWR1,#PWR3,#PWR5,#PWR8-157,#PWR180-346,#FLG1-7,SW1-2,L1-2,L5-7,R1-2,R4-70,R72-181,TP1-41,TP43-142,JP1-6,FPC1,C1-88,C106-204,Card1,USB1-3,J1-10",
+    "used_designators": "U1-29,D1-19,C1-88,C106-204,Q1-36,J1-10,USB1-3,TP1-41,TP43-142,R1-2,R4-70,R72-181,#PWR1,#PWR3,#PWR5-6,#PWR8-157,#PWR180-346,Y1,L1-2,L5-7,SW1-2,#FLG1-8,JP1-6,FPC1,Card1",
     "variants": []
   },
   "sheets": [
     [
       "6e047eb1-70b3-49d8-916c-92a2df32e839",
       "MCU"
+    ],
+    [
+      "b7952862-8d86-4464-ae6b-e7392f598094",
+      "Coprocessor"
     ],
     [
       "2723c68b-03b3-439a-ab40-abcaf927b8a9",
@@ -727,8 +731,8 @@
       "Motors"
     ],
     [
-      "b7952862-8d86-4464-ae6b-e7392f598094",
-      "Coprocessor"
+      "e73f72f2-28de-4d9d-8e81-9b095eab4bb5",
+      "ESC"
     ],
     [
       "3f1ec40b-2861-4856-8c91-e3c961c5da6f",
@@ -737,10 +741,6 @@
     [
       "54db73ba-97d3-488f-8063-7cfc3cee66e2",
       "ESC2"
-    ],
-    [
-      "e73f72f2-28de-4d9d-8e81-9b095eab4bb5",
-      "ESC"
     ],
     [
       "51921b67-4a63-4a4a-adc0-e4b24a3252b8",

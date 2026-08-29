@@ -4464,6 +4464,12 @@
 		(uuid "23595089-9268-4017-a31c-ef07ec25c625")
 	)
 	(junction
+		(at 69.85 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23e0e711-8838-4cae-b7a9-144963d605dc")
+	)
+	(junction
 		(at 31.75 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4542,6 +4548,12 @@
 		(uuid "782a4248-5dbf-4e44-8baf-38ef7aec4d58")
 	)
 	(junction
+		(at 107.95 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81937ab7-2f41-4637-827c-b4436064f243")
+	)
+	(junction
 		(at 45.72 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4588,12 +4600,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a43c20ea-2b9d-4b23-ac9f-cf8e39b980b1")
-	)
-	(junction
-		(at 107.95 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8713f85-7fa4-4e30-9226-370eadb89e3c")
 	)
 	(junction
 		(at 149.86 74.93)
@@ -4971,7 +4977,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 101.6) (xy 107.95 102.87)
+			(xy 107.95 101.6) (xy 107.95 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5171,7 +5177,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 93.98) (xy 80.01 93.98)
+			(xy 77.47 93.98) (xy 80.01 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5381,6 +5387,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 69.85) (xy 77.47 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e249fd0-7052-4b33-9378-0ef5900174b7")
+	)
+	(wire
+		(pts
 			(xy 128.27 176.53) (xy 130.81 176.53)
 		)
 		(stroke
@@ -5488,16 +5504,6 @@
 			(type default)
 		)
 		(uuid "4ede4bde-0a75-4a07-abb1-c6d148d099f9")
-	)
-	(wire
-		(pts
-			(xy 58.42 88.9) (xy 80.01 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51199bb0-f971-49ff-a837-b2de6f22f3a3")
 	)
 	(wire
 		(pts
@@ -5831,6 +5837,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 93.98) (xy 77.47 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ba3849-8c0c-457b-af8a-f77b354d229e")
+	)
+	(wire
+		(pts
 			(xy 254 81.28) (xy 267.97 81.28)
 		)
 		(stroke
@@ -5878,6 +5894,16 @@
 			(type default)
 		)
 		(uuid "8cd8b46e-0664-4754-ba38-d0aeadeb8dbe")
+	)
+	(wire
+		(pts
+			(xy 77.47 69.85) (xy 77.47 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ee27fd3-ef10-453d-8d75-9aae5f9cb0ae")
 	)
 	(wire
 		(pts
@@ -6378,6 +6404,16 @@
 			(type default)
 		)
 		(uuid "d2e4350a-712e-41ad-bc4b-2ffb7c69db48")
+	)
+	(wire
+		(pts
+			(xy 77.47 88.9) (xy 80.01 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e4dde7-a089-4d99-af0e-0434515d21d6")
 	)
 	(wire
 		(pts
@@ -9510,86 +9546,6 @@
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
 					(reference "R47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 58.42 93.98 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40c93e4d-b3ba-449f-b3d3-34b8fd02c5e9")
-		(property "Reference" "#PWR031"
-			(at 52.07 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 54.61 93.9799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "82e73775-64ed-4bcb-be8d-1ad9751ea020")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -14208,85 +14164,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 58.42 88.9 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3c6d731-813b-4033-9989-803df535a5ed")
-		(property "Reference" "#PWR030"
-			(at 62.23 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 54.61 88.8999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 58.42 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9135a1c8-84e0-433d-8f0f-8cf726ec02d2")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 147.32 139.7 180)
 		(unit 1)
@@ -14849,7 +14726,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 107.95 102.87 0)
+		(at 107.95 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14860,7 +14737,7 @@
 		(fields_autoplaced yes)
 		(uuid "e483a1be-26c5-4f67-ba94-b0f80d2b7a23")
 		(property "Reference" "#PWR036"
-			(at 107.95 109.22 0)
+			(at 107.95 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14871,7 +14748,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 107.95 0)
+			(at 107.95 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14881,7 +14758,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 102.87 0)
+			(at 107.95 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14892,7 +14769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 102.87 0)
+			(at 107.95 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14903,7 +14780,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 102.87 0)
+			(at 107.95 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15235,6 +15112,85 @@
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
 					(reference "#PWR0153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 77.47 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f89c8fe6-5927-43e8-9672-83f961aab8d3")
+		(property "Reference" "#PWR049"
+			(at 77.47 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ece6d7eb-65bb-4700-b838-f936ad3d4a77")
+		)
+		(instances
+			(project "espdrone"
+				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)

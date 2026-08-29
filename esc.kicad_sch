@@ -3373,6 +3373,8 @@
 		(effects
 			(font
 				(size 3.2512 3.2512)
+				(thickness 0.6502)
+				(bold yes)
 			)
 		)
 		(uuid "48c06346-b361-49a7-9bb6-f05bfeed875c")
@@ -3383,6 +3385,8 @@
 		(effects
 			(font
 				(size 3.2512 3.2512)
+				(thickness 0.6502)
+				(bold yes)
 			)
 		)
 		(uuid "5521a1a2-6fef-41b1-959f-0e6724a6a4d0")
@@ -3413,6 +3417,8 @@
 		(effects
 			(font
 				(size 3.2512 3.2512)
+				(thickness 0.6502)
+				(bold yes)
 			)
 		)
 		(uuid "a4c4b9ec-706b-4526-a645-2ec32490e448")

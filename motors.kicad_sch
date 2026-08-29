@@ -1342,7 +1342,7 @@
 		)
 		(uuid "51cd55ff-e4bb-4c56-8281-9c62b49f42f1")
 	)
-	(text "DC motor control"
+	(text "DC Motor Control"
 		(exclude_from_sim no)
 		(at 36.83 18.034 0)
 		(effects
@@ -1354,7 +1354,7 @@
 		)
 		(uuid "99d1d822-81d1-4150-ae03-940b6224cd11")
 	)
-	(text "BLDC motor control"
+	(text "BLDC Motor Control"
 		(exclude_from_sim no)
 		(at 40.132 122.682 0)
 		(effects

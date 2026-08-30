@@ -1729,204 +1729,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Shunt"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at -2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Shunt"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Shunt resistor with Kelvin connections"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res shunt resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*Shunt*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_Shunt_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Shunt_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:SMAJ14A"
 			(pin_numbers
 				(hide yes)
@@ -2193,33 +1995,52 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:PSMN1R4-40YLDX"
+		(symbol "Simulation_SPICE:NMOS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
-				(at 0 10.16 0)
+				(at 5.08 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "PSMN1R4-40YLDX"
-				(at 0 -10.16 0)
+			(property "Value" "NMOS"
+				(at 5.08 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:SOT-669_L4.9-W4.0-P1.27-LS6.0-BR"
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2230,7 +2051,40 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_Nexperia-PSMN1R4-40YLDX_C458253.html"
+			(property "Description" "N-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "NMOS"
+				(at 0 -17.145 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2241,7 +2095,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2252,187 +2106,178 @@
 					)
 				)
 			)
-			(property "Manufacturer" "Nexperia(安世)"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "NMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
-			(property "MPN" "PSMN1R4-40YLDX"
-				(at 0 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C458253"
-				(at 0 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "MOSFETs"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PSMN1R4-40YLDX_0_1"
-				(polyline
-					(pts
-						(xy -3.05 2.29) (xy -3.05 -2.29)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.29) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.78) (xy 0 1.78) (xy 0 2.54) (xy 2.54 2.54) (xy 2.54 0.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.02 -0.51) (xy -1.02 0.51) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0 0) (xy 0 -2.54) (xy 2.54 -2.54) (xy 2.54 -0.76)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -0.51) (xy -2.54 0.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.29) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.78) (xy -2.54 -1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.69 0.57) (xy 3.32 0.57)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0.51) (xy 1.78 -0.76) (xy 3.3 -0.76) (xy 2.54 0.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 90)
+			(symbol "NMOS_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2447,10 +2292,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 2.54 -5.08 90)
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "S"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2465,8 +2310,8 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 5.08 -5.08 90)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
 					(name "S"
 						(effects
@@ -2476,42 +2321,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3565,6 +3374,16 @@
 		)
 		(uuid "2086815e-f06d-49b1-a94b-1d0fdd042a8c")
 	)
+	(text "Route as 4-wire\nkelvin shunt!"
+		(exclude_from_sim no)
+		(at 160.02 80.518 0)
+		(effects
+			(font
+				(size 0.9144 0.9144)
+			)
+		)
+		(uuid "321149b0-5d39-4305-89ab-e36d0dbf05cb")
+	)
 	(text "MOSFETs"
 		(exclude_from_sim no)
 		(at 156.21 17.018 0)
@@ -3631,6 +3450,16 @@
 		)
 		(uuid "bfa17f25-6400-414e-b24d-6ad5b7f2f31a")
 	)
+	(text "WSD4070DN33, 4.5 mOhm@10V"
+		(exclude_from_sim no)
+		(at 161.036 21.082 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "efa618f2-cea0-46b3-a480-e7bcb294a2a9")
+	)
 	(junction
 		(at 189.23 157.48)
 		(diameter 0)
@@ -3650,16 +3479,16 @@
 		(uuid "105a1506-bd79-4583-b8c6-012194f896b1")
 	)
 	(junction
+		(at 167.64 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1866e57e-f9cb-4c02-9bb6-6828723d2678")
+	)
+	(junction
 		(at 21.59 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1acf4fa4-fd41-4222-b868-695ae256d79e")
-	)
-	(junction
-		(at 261.62 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2206cf4c-7362-4420-925c-6e2a1cded357")
 	)
 	(junction
 		(at 182.88 71.12)
@@ -3674,22 +3503,10 @@
 		(uuid "29c95852-20fd-4046-b8f4-d6990c9720f7")
 	)
 	(junction
-		(at 172.72 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2afd39d3-71ed-4223-ace6-702e26690b70")
-	)
-	(junction
 		(at 74.93 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "363c7350-ce8a-4af5-b35c-f0190eb7a918")
-	)
-	(junction
-		(at 170.18 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d01d70c-feee-4a88-90ae-68c2e78a3efe")
 	)
 	(junction
 		(at 177.8 147.32)
@@ -3698,28 +3515,22 @@
 		(uuid "3e4b1e4b-e495-446b-88f6-65558ea89b71")
 	)
 	(junction
-		(at 170.18 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "436d6652-f895-4213-bf45-10f031020129")
-	)
-	(junction
 		(at 166.37 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44d2ae54-9c56-4b0c-a48a-e24813b173a9")
 	)
 	(junction
+		(at 167.64 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49b0ce97-2056-4df2-8d7d-a0e3d7dbabbd")
+	)
+	(junction
 		(at 212.09 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a3e584e-d453-4466-a07e-6d278926fd76")
-	)
-	(junction
-		(at 215.9 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a65d78b-2d79-4cc4-b742-e0037c3fc6e1")
 	)
 	(junction
 		(at 257.81 147.32)
@@ -3776,24 +3587,6 @@
 		(uuid "6c65aa63-4831-400d-aa26-55a33c7b8261")
 	)
 	(junction
-		(at 261.62 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f1dc838-1070-44d5-813a-f0283a315046")
-	)
-	(junction
-		(at 172.72 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7caf5823-1a83-45aa-b5b2-6deb32bb3c55")
-	)
-	(junction
-		(at 264.16 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83d076c5-ed0f-4b67-a66c-6430b9b78743")
-	)
-	(junction
 		(at 246.38 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3824,12 +3617,6 @@
 		(uuid "9393b654-9081-4c1c-a1c5-6aeb86bc0c9c")
 	)
 	(junction
-		(at 218.44 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "975debb1-256c-4e55-a275-572d7c99e247")
-	)
-	(junction
 		(at 200.66 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3852,12 +3639,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fac68c0-b88b-4ef4-8027-fc397f23eec9")
-	)
-	(junction
-		(at 218.44 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1641ab8-0185-4219-a236-b5ce1357c118")
 	)
 	(junction
 		(at 119.38 130.81)
@@ -3950,12 +3731,6 @@
 		(uuid "dff2a518-325d-4af8-83a1-b7ce6a75ba12")
 	)
 	(junction
-		(at 259.08 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2187538-3d8a-4285-9210-359b54026965")
-	)
-	(junction
 		(at 78.74 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3972,12 +3747,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e80c22db-eea6-4359-adef-b4020dc1dd1e")
-	)
-	(junction
-		(at 215.9 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f81ebebc-3299-4476-b2a5-3218e8dbcdcb")
 	)
 	(junction
 		(at 234.95 120.65)
@@ -4173,7 +3942,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 33.02) (xy 208.28 33.02)
+			(xy 204.47 33.02) (xy 205.74 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4293,6 +4062,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 90.17) (xy 167.64 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ab36411-862e-46e7-b77c-8a538c277154")
+	)
+	(wire
+		(pts
 			(xy 267.97 114.3) (xy 267.97 120.65)
 		)
 		(stroke
@@ -4353,16 +4132,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 53.34) (xy 264.16 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "238b4849-4bcc-458c-9fce-352caede3a9d")
-	)
-	(wire
-		(pts
 			(xy 21.59 135.89) (xy 21.59 137.16)
 		)
 		(stroke
@@ -4393,17 +4162,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 40.64) (xy 172.72 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25e2a6db-bba9-472e-8dda-56f16b330671")
-	)
-	(wire
-		(pts
-			(xy 264.16 40.64) (xy 265.43 40.64)
+			(xy 238.76 40.64) (xy 261.62 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4483,7 +4242,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 82.55) (xy 177.8 82.55)
+			(xy 172.72 82.55) (xy 177.8 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4523,16 +4282,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 48.26) (xy 162.56 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31d056b5-b459-47cf-a7d4-1498e9d8b626")
-	)
-	(wire
-		(pts
 			(xy 39.37 152.4) (xy 39.37 153.67)
 		)
 		(stroke
@@ -4553,17 +4302,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 57.15) (xy 259.08 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34d25f74-5aee-469c-bd89-269eaeb411e9")
-	)
-	(wire
-		(pts
-			(xy 167.64 90.17) (xy 167.64 95.25)
+			(xy 167.64 88.9) (xy 167.64 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4593,16 +4332,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 53.34) (xy 172.72 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bc2ef6a-e1ad-48a7-a009-27c8962167d5")
-	)
-	(wire
-		(pts
 			(xy 101.6 55.88) (xy 99.06 55.88)
 		)
 		(stroke
@@ -4610,6 +4339,16 @@
 			(type default)
 		)
 		(uuid "3bf9de24-9aab-4633-92b4-fbb198cc2baf")
+	)
+	(wire
+		(pts
+			(xy 167.64 57.15) (xy 167.64 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c4d17a3-0aee-46b3-aee4-9bd7a5dc0fbf")
 	)
 	(wire
 		(pts
@@ -4653,16 +4392,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 40.64) (xy 264.16 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fe07ef7-328b-4c6e-b478-202e1677535f")
-	)
-	(wire
-		(pts
 			(xy 76.2 186.69) (xy 76.2 187.96)
 		)
 		(stroke
@@ -4673,7 +4402,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 87.63) (xy 177.8 87.63)
+			(xy 172.72 87.63) (xy 177.8 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4683,7 +4412,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 48.26) (xy 245.11 48.26)
+			(xy 238.76 48.26) (xy 242.57 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4763,16 +4492,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 57.15) (xy 167.64 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f005b3e-883d-41fa-853e-eac4e906025f")
-	)
-	(wire
-		(pts
 			(xy 166.37 132.08) (xy 166.37 130.81)
 		)
 		(stroke
@@ -4793,7 +4512,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 53.34) (xy 215.9 57.15)
+			(xy 213.36 53.34) (xy 213.36 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4883,7 +4602,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 33.02) (xy 245.11 33.02)
+			(xy 238.76 33.02) (xy 242.57 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5013,6 +4732,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 80.01) (xy 167.64 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "637bb7f3-a081-4dd6-8612-cc75e77301b0")
+	)
+	(wire
+		(pts
 			(xy 182.88 71.12) (xy 186.69 71.12)
 		)
 		(stroke
@@ -5053,16 +4782,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 38.1) (xy 264.16 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "665ebaa6-6ac2-4c9d-ab7f-9f297a6e7b34")
-	)
-	(wire
-		(pts
 			(xy 182.88 68.58) (xy 182.88 71.12)
 		)
 		(stroke
@@ -5070,6 +4789,16 @@
 			(type default)
 		)
 		(uuid "68aedee6-59d5-4746-b38c-4e7dacb036bb")
+	)
+	(wire
+		(pts
+			(xy 172.72 80.01) (xy 167.64 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab600d6-837f-43d0-9fa6-8d572535706d")
 	)
 	(wire
 		(pts
@@ -5093,7 +4822,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 48.26) (xy 208.28 48.26)
+			(xy 204.47 48.26) (xy 205.74 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5113,13 +4842,23 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 48.26) (xy 153.67 48.26)
+			(xy 147.32 48.26) (xy 151.13 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6f9c6286-05c3-44f1-b0bb-f39edad6122e")
+	)
+	(wire
+		(pts
+			(xy 172.72 87.63) (xy 172.72 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "707912e8-aacd-49ed-9913-475525d3b353")
 	)
 	(wire
 		(pts
@@ -5143,6 +4882,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 82.55) (xy 172.72 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7446b695-4f4c-4db4-8f45-55a8bb6d8c10")
+	)
+	(wire
+		(pts
 			(xy 234.95 120.65) (xy 236.22 120.65)
 		)
 		(stroke
@@ -5160,16 +4909,6 @@
 			(type default)
 		)
 		(uuid "788184e5-a45e-4395-8b3e-8548be036c41")
-	)
-	(wire
-		(pts
-			(xy 261.62 57.15) (xy 259.08 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "795844a3-9aee-4034-8c80-108c1f0ad8d2")
 	)
 	(wire
 		(pts
@@ -5300,16 +5039,6 @@
 			(type default)
 		)
 		(uuid "812a1ab8-8125-4bff-a34b-a668707e2135")
-	)
-	(wire
-		(pts
-			(xy 172.72 38.1) (xy 172.72 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81689d63-d855-4725-acd2-15580239087b")
 	)
 	(wire
 		(pts
@@ -5503,16 +5232,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 53.34) (xy 218.44 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ed2cd5d-83c6-4956-aa9a-97adc78abeea")
-	)
-	(wire
-		(pts
 			(xy 93.98 165.1) (xy 91.44 165.1)
 		)
 		(stroke
@@ -5543,16 +5262,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 57.15) (xy 172.72 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "913f98c8-3097-42c2-89fb-5b85b0a721d0")
-	)
-	(wire
-		(pts
 			(xy 121.92 63.5) (xy 123.19 63.5)
 		)
 		(stroke
@@ -5573,17 +5282,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 38.1) (xy 261.62 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9503797f-f062-4805-a500-1016f360469b")
-	)
-	(wire
-		(pts
-			(xy 219.71 40.64) (xy 218.44 40.64)
+			(xy 193.04 40.64) (xy 215.9 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5600,16 +5299,6 @@
 			(type default)
 		)
 		(uuid "958c717d-979a-4919-90e9-590da90ec74a")
-	)
-	(wire
-		(pts
-			(xy 170.18 53.34) (xy 170.18 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "966495e1-8df4-4427-bbac-5e985e9e2de4")
 	)
 	(wire
 		(pts
@@ -5660,16 +5349,6 @@
 			(type default)
 		)
 		(uuid "992dd34a-536d-4c4a-830e-8e02f6cd43b7")
-	)
-	(wire
-		(pts
-			(xy 264.16 57.15) (xy 261.62 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a0d6259-6d9c-4d75-b1e3-eddb7b4020c1")
 	)
 	(wire
 		(pts
@@ -5793,6 +5472,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 48.26) (xy 160.02 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3670589-438c-4bc0-9c1b-011c2247e532")
+	)
+	(wire
+		(pts
 			(xy 39.37 25.4) (xy 39.37 26.67)
 		)
 		(stroke
@@ -5893,16 +5582,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 38.1) (xy 170.18 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad8fd22d-b236-42cf-9d1e-e5920c69f72e")
-	)
-	(wire
-		(pts
 			(xy 189.23 156.21) (xy 189.23 157.48)
 		)
 		(stroke
@@ -5993,16 +5672,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 40.64) (xy 172.72 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b287a3bf-a581-40c0-99b7-39d859e895da")
-	)
-	(wire
-		(pts
 			(xy 29.21 62.23) (xy 29.21 63.5)
 		)
 		(stroke
@@ -6073,7 +5742,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 40.64) (xy 170.18 40.64)
+			(xy 147.32 40.64) (xy 170.18 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6090,16 +5759,6 @@
 			(type default)
 		)
 		(uuid "b8dc7184-50d6-4c33-9809-5e4c19c82311")
-	)
-	(wire
-		(pts
-			(xy 172.72 57.15) (xy 218.44 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b97f01a1-b4d4-43d0-96e1-d1232265809a")
 	)
 	(wire
 		(pts
@@ -6283,17 +5942,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 38.1) (xy 215.9 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbc1a480-ec84-4d01-9d84-02a298441e33")
-	)
-	(wire
-		(pts
-			(xy 252.73 33.02) (xy 254 33.02)
+			(xy 250.19 33.02) (xy 251.46 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6373,17 +6022,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 33.02) (xy 162.56 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d305e7f8-968c-4bc2-8bcd-fa50e94bc233")
-	)
-	(wire
-		(pts
-			(xy 252.73 48.26) (xy 254 48.26)
+			(xy 250.19 48.26) (xy 251.46 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6413,6 +6052,26 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 33.02) (xy 160.02 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d818ec4b-bb34-46d7-b8c3-761d9dad416a")
+	)
+	(wire
+		(pts
+			(xy 167.64 57.15) (xy 259.08 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a45296-8c92-404e-9336-c6f9eb6975df")
+	)
+	(wire
+		(pts
 			(xy 177.8 147.32) (xy 189.23 147.32)
 		)
 		(stroke
@@ -6420,16 +6079,6 @@
 			(type default)
 		)
 		(uuid "d98efca1-f169-4077-8f1f-69bee81c5553")
-	)
-	(wire
-		(pts
-			(xy 261.62 53.34) (xy 261.62 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9917a86-436f-47bf-a3af-4b9e3cd8aa8e")
 	)
 	(wire
 		(pts
@@ -6493,16 +6142,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 38.1) (xy 218.44 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddd334fd-4332-4bc7-b1a3-ab047c5b6775")
-	)
-	(wire
-		(pts
 			(xy 257.81 147.32) (xy 269.24 147.32)
 		)
 		(stroke
@@ -6543,7 +6182,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 33.02) (xy 153.67 33.02)
+			(xy 147.32 33.02) (xy 151.13 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6663,23 +6302,13 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 48.26) (xy 199.39 48.26)
+			(xy 193.04 48.26) (xy 196.85 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ee3b8287-8392-44b2-bc8e-0a872b18260c")
-	)
-	(wire
-		(pts
-			(xy 213.36 53.34) (xy 213.36 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efbe5b00-64a4-4457-b8f6-546b08ba02ad")
 	)
 	(wire
 		(pts
@@ -6690,6 +6319,16 @@
 			(type default)
 		)
 		(uuid "f287195e-d457-4eab-abb8-1cf1196b6e94")
+	)
+	(wire
+		(pts
+			(xy 167.64 90.17) (xy 167.64 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4ba086c-66fb-41bf-965c-f7584292bb18")
 	)
 	(wire
 		(pts
@@ -6713,7 +6352,17 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 33.02) (xy 199.39 33.02)
+			(xy 213.36 38.1) (xy 213.36 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6abeb69-6e37-4c0b-b34e-f8741a0fa456")
+	)
+	(wire
+		(pts
+			(xy 193.04 33.02) (xy 196.85 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6730,16 +6379,6 @@
 			(type default)
 		)
 		(uuid "fb7c0631-bcc4-4a75-8280-295c528909a1")
-	)
-	(wire
-		(pts
-			(xy 195.58 40.64) (xy 218.44 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc364265-69af-4e55-9698-7438b42fe797")
 	)
 	(wire
 		(pts
@@ -6771,18 +6410,8 @@
 		)
 		(uuid "fddbdbe7-b226-42af-93bc-5cf79c8d0063")
 	)
-	(wire
-		(pts
-			(xy 213.36 38.1) (xy 213.36 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffc1ba67-c99c-4d40-895f-a3662415b87b")
-	)
 	(label "A"
-		(at 149.86 40.64 0)
+		(at 147.32 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6872,7 +6501,7 @@
 		(uuid "24500634-d77f-4c98-8aa9-d0f658a7e376")
 	)
 	(label "GLB"
-		(at 195.58 48.26 0)
+		(at 193.04 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6932,7 +6561,7 @@
 		(uuid "3adc154f-9d97-4681-ab75-4e8d259d2cdb")
 	)
 	(label "GHC"
-		(at 241.3 33.02 0)
+		(at 238.76 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7092,7 +6721,7 @@
 		(uuid "6f29cb27-020b-46fa-8df2-34351a53e5e9")
 	)
 	(label "GHB"
-		(at 195.58 33.02 0)
+		(at 193.04 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7102,7 +6731,7 @@
 		(uuid "70668b7c-6a26-412e-950e-c10361530170")
 	)
 	(label "GLA"
-		(at 149.86 48.26 0)
+		(at 147.32 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7172,7 +6801,7 @@
 		(uuid "9067022c-0bdc-44f6-97c7-0ebc9abfbf66")
 	)
 	(label "B"
-		(at 195.58 40.64 0)
+		(at 193.04 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7242,7 +6871,7 @@
 		(uuid "9fffd8ae-9382-45a1-bfe0-3095c27eacbc")
 	)
 	(label "GHA"
-		(at 149.86 33.02 0)
+		(at 147.32 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7302,7 +6931,7 @@
 		(uuid "b55d7992-77d3-42ca-a83e-92743e0c29ae")
 	)
 	(label "GLC"
-		(at 241.3 48.26 0)
+		(at 238.76 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7402,7 +7031,7 @@
 		(uuid "f94fd39c-a549-4c6a-a44a-f47cd935ebf1")
 	)
 	(label "C"
-		(at 241.3 40.64 0)
+		(at 238.76 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8115,6 +7744,135 @@
 				)
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/e73f72f2-28de-4d9d-8e81-9b095eab4bb5"
 					(reference "#PWR0189")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 165.1 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0daa0270-3afb-4552-bd59-6ba7da7a9aef")
+		(property "Reference" "Q5"
+			(at 170.434 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 170.434 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:PDFN3333-8_L3.1-W3.2-P0.65-LS3.4-BL"
+			(at 170.18 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 165.1 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 165.1 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 165.1 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 165.1 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 165.1 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "45787376-31a3-4774-aa96-a8fac788f529")
+		)
+		(pin "3"
+			(uuid "33c0398e-1bd1-4e9f-8480-10adcf8e1ce3")
+		)
+		(pin "1"
+			(uuid "d299b2cf-b323-4347-8108-510c45d5f216")
+		)
+		(instances
+			(project "espdrone"
+				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/3f1ec40b-2861-4856-8c91-e3c961c5da6f"
+					(reference "Q11")
+					(unit 1)
+				)
+				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/51921b67-4a63-4a4a-adc0-e4b24a3252b8"
+					(reference "Q23")
+					(unit 1)
+				)
+				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/54db73ba-97d3-488f-8063-7cfc3cee66e2"
+					(reference "Q17")
+					(unit 1)
+				)
+				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/e73f72f2-28de-4d9d-8e81-9b095eab4bb5"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -8859,6 +8617,135 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 165.1 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "21031d6f-6a0d-461a-b328-0e105744fb3d")
+		(property "Reference" "Q6"
+			(at 170.18 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 170.18 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:PDFN3333-8_L3.1-W3.2-P0.65-LS3.4-BL"
+			(at 170.18 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 165.1 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 165.1 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 165.1 65.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 165.1 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 165.1 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "090cebc3-6178-454c-81ba-f0058363fe4d")
+		)
+		(pin "3"
+			(uuid "90c0a301-475e-435a-85eb-a41c3cb5bc01")
+		)
+		(pin "1"
+			(uuid "a0a3a6da-0d03-471b-ab3d-93a076bd84ff")
+		)
+		(instances
+			(project "espdrone"
+				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/3f1ec40b-2861-4856-8c91-e3c961c5da6f"
+					(reference "Q12")
+					(unit 1)
+				)
+				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/51921b67-4a63-4a4a-adc0-e4b24a3252b8"
+					(reference "Q24")
+					(unit 1)
+				)
+				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/54db73ba-97d3-488f-8063-7cfc3cee66e2"
+					(reference "Q18")
+					(unit 1)
+				)
+				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/e73f72f2-28de-4d9d-8e81-9b095eab4bb5"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 201.93 130.81 180)
 		(unit 1)
@@ -8869,7 +8756,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22322d63-2674-44d0-8162-276c5a50d4e9")
-		(property "Reference" "R76"
+		(property "Reference" "R78"
 			(at 205.74 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8931,19 +8818,19 @@
 		(instances
 			(project "espdrone"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/3f1ec40b-2861-4856-8c91-e3c961c5da6f"
-					(reference "R101")
+					(reference "R103")
 					(unit 1)
 				)
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/51921b67-4a63-4a4a-adc0-e4b24a3252b8"
-					(reference "R151")
+					(reference "R153")
 					(unit 1)
 				)
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/54db73ba-97d3-488f-8063-7cfc3cee66e2"
-					(reference "R126")
+					(reference "R128")
 					(unit 1)
 				)
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/e73f72f2-28de-4d9d-8e81-9b095eab4bb5"
-					(reference "R76")
+					(reference "R78")
 					(unit 1)
 				)
 			)
@@ -8951,7 +8838,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 265.43 40.64 270)
+		(at 261.62 40.64 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8961,7 +8848,7 @@
 		(dnp no)
 		(uuid "243469ad-e6d8-4e7a-bde8-30cb9e9f0bc7")
 		(property "Reference" "TP22"
-			(at 269.748 39.37 90)
+			(at 265.938 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8972,7 +8859,7 @@
 			)
 		)
 		(property "Value" "MOT_C"
-			(at 269.748 41.91 90)
+			(at 265.938 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8982,8 +8869,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
-			(at 265.43 45.72 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+			(at 261.62 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8994,7 +8881,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 45.72 0)
+			(at 261.62 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9005,7 +8892,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 265.43 40.64 0)
+			(at 261.62 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9041,7 +8928,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 203.2 48.26 270)
+		(at 200.66 48.26 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9050,8 +8937,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "245f385f-b144-4a65-b630-5a2286575781")
-		(property "Reference" "R78"
-			(at 203.2 43.18 90)
+		(property "Reference" "R76"
+			(at 200.66 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9061,7 +8948,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 203.2 45.72 90)
+			(at 200.66 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9071,7 +8958,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 203.2 46.482 90)
+			(at 200.66 46.482 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9082,7 +8969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 48.26 0)
+			(at 200.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9093,7 +8980,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 203.2 48.26 0)
+			(at 200.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9112,19 +8999,112 @@
 		(instances
 			(project "espdrone"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/3f1ec40b-2861-4856-8c91-e3c961c5da6f"
-					(reference "R103")
+					(reference "R101")
 					(unit 1)
 				)
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/51921b67-4a63-4a4a-adc0-e4b24a3252b8"
-					(reference "R153")
+					(reference "R151")
 					(unit 1)
 				)
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/54db73ba-97d3-488f-8063-7cfc3cee66e2"
-					(reference "R128")
+					(reference "R126")
 					(unit 1)
 				)
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/e73f72f2-28de-4d9d-8e81-9b095eab4bb5"
-					(reference "R78")
+					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 167.64 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "24ce9da1-7f3c-4a0c-bc8f-97985d58f147")
+		(property "Reference" "R40"
+			(at 166.116 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.001"
+			(at 166.116 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 165.862 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.64 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b9fd9c3f-827f-4cba-9090-8e0b3572c6fa")
+		)
+		(pin "1"
+			(uuid "0d24d20d-b4af-4f44-aba1-d99e33e628f9")
+		)
+		(instances
+			(project "espdrone"
+				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/3f1ec40b-2861-4856-8c91-e3c961c5da6f"
+					(reference "R41")
+					(unit 1)
+				)
+				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/51921b67-4a63-4a4a-adc0-e4b24a3252b8"
+					(reference "R164")
+					(unit 1)
+				)
+				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/54db73ba-97d3-488f-8063-7cfc3cee66e2"
+					(reference "R163")
+					(unit 1)
+				)
+				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/e73f72f2-28de-4d9d-8e81-9b095eab4bb5"
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -9215,141 +9195,6 @@
 				)
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/e73f72f2-28de-4d9d-8e81-9b095eab4bb5"
 					(reference "#PWR0184")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:PSMN1R4-40YLDX")
-		(at 167.64 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "306d9055-f3b6-4a23-90de-efe469df49f9")
-		(property "Reference" "Q6"
-			(at 173.736 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PSMN1R4-40YLDX"
-			(at 173.736 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SOT-669_L4.9-W4.0-P1.27-LS6.0-BR"
-			(at 167.64 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_Nexperia-PSMN1R4-40YLDX_C458253.html"
-			(at 167.64 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Nexperia(安世)"
-			(at 167.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "PSMN1R4-40YLDX"
-			(at 167.64 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C458253"
-			(at 167.64 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "bbc5d7b1-d41e-4b4e-909d-ac7089372563")
-		)
-		(pin "2"
-			(uuid "ecf441a3-bc78-43d9-b672-1a5af07f7c9c")
-		)
-		(pin "4"
-			(uuid "46327813-dee0-4ef7-9511-ae5973f308c9")
-		)
-		(pin "3"
-			(uuid "7b903672-d863-4116-a058-6f684ccfaa32")
-		)
-		(pin "1"
-			(uuid "23482e10-cff6-4c66-af45-f11f9ce43611")
-		)
-		(instances
-			(project "espdrone"
-				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/3f1ec40b-2861-4856-8c91-e3c961c5da6f"
-					(reference "Q12")
-					(unit 1)
-				)
-				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/51921b67-4a63-4a4a-adc0-e4b24a3252b8"
-					(reference "Q24")
-					(unit 1)
-				)
-				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/54db73ba-97d3-488f-8063-7cfc3cee66e2"
-					(reference "Q18")
-					(unit 1)
-				)
-				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/e73f72f2-28de-4d9d-8e81-9b095eab4bb5"
-					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -9720,7 +9565,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 203.2 33.02 270)
+		(at 200.66 33.02 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9729,8 +9574,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d6a898e-0ebd-4d82-9101-cd8e97ae518e")
-		(property "Reference" "R77"
-			(at 203.2 27.94 90)
+		(property "Reference" "R75"
+			(at 200.66 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9740,7 +9585,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 203.2 30.48 90)
+			(at 200.66 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9750,7 +9595,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 203.2 31.242 90)
+			(at 200.66 31.242 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9761,7 +9606,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 33.02 0)
+			(at 200.66 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9772,7 +9617,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 203.2 33.02 0)
+			(at 200.66 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9791,19 +9636,19 @@
 		(instances
 			(project "espdrone"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/3f1ec40b-2861-4856-8c91-e3c961c5da6f"
-					(reference "R102")
+					(reference "R100")
 					(unit 1)
 				)
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/51921b67-4a63-4a4a-adc0-e4b24a3252b8"
-					(reference "R152")
+					(reference "R150")
 					(unit 1)
 				)
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/54db73ba-97d3-488f-8063-7cfc3cee66e2"
-					(reference "R127")
+					(reference "R125")
 					(unit 1)
 				)
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/e73f72f2-28de-4d9d-8e81-9b095eab4bb5"
-					(reference "R77")
+					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -10285,7 +10130,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51f13efd-6071-4c56-9a6b-e0762dcb9acd")
-		(property "Reference" "R75"
+		(property "Reference" "R77"
 			(at 205.74 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10347,19 +10192,19 @@
 		(instances
 			(project "espdrone"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/3f1ec40b-2861-4856-8c91-e3c961c5da6f"
-					(reference "R100")
+					(reference "R102")
 					(unit 1)
 				)
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/51921b67-4a63-4a4a-adc0-e4b24a3252b8"
-					(reference "R150")
+					(reference "R152")
 					(unit 1)
 				)
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/54db73ba-97d3-488f-8063-7cfc3cee66e2"
-					(reference "R125")
+					(reference "R127")
 					(unit 1)
 				)
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/e73f72f2-28de-4d9d-8e81-9b095eab4bb5"
-					(reference "R75")
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -10813,6 +10658,135 @@
 				)
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/e73f72f2-28de-4d9d-8e81-9b095eab4bb5"
 					(reference "#PWR0188")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 256.54 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5aa0b654-49dc-4707-b108-732a7f516f68")
+		(property "Reference" "Q10"
+			(at 261.874 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 261.874 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:PDFN3333-8_L3.1-W3.2-P0.65-LS3.4-BL"
+			(at 261.62 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 256.54 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 256.54 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 256.54 65.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 256.54 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 256.54 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1f1a2a08-db6e-48a2-8b7d-2f95d69ae7b1")
+		)
+		(pin "3"
+			(uuid "a69ed4c4-dd32-43e3-9b1c-6ce4e8d6f2b8")
+		)
+		(pin "1"
+			(uuid "9b62a8c9-7d75-403b-bc0b-28f56d58a1c1")
+		)
+		(instances
+			(project "espdrone"
+				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/3f1ec40b-2861-4856-8c91-e3c961c5da6f"
+					(reference "Q16")
+					(unit 1)
+				)
+				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/51921b67-4a63-4a4a-adc0-e4b24a3252b8"
+					(reference "Q28")
+					(unit 1)
+				)
+				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/54db73ba-97d3-488f-8063-7cfc3cee66e2"
+					(reference "Q22")
+					(unit 1)
+				)
+				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/e73f72f2-28de-4d9d-8e81-9b095eab4bb5"
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -11276,8 +11250,8 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:PSMN1R4-40YLDX")
-		(at 213.36 33.02 0)
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 256.54 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11285,9 +11259,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "69f47c04-b960-4f43-9820-a0fe571a0dd2")
-		(property "Reference" "Q7"
-			(at 219.456 33.02 0)
+		(uuid "68c42d17-b218-4142-b70e-ca6a91eec79e")
+		(property "Reference" "Q9"
+			(at 261.62 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11297,8 +11271,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PSMN1R4-40YLDX"
-			(at 219.456 35.56 0)
+		(property "Value" "NMOS"
+			(at 261.62 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11308,8 +11282,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SOT-669_L4.9-W4.0-P1.27-LS6.0-BR"
-			(at 213.36 45.72 0)
+		(property "Footprint" "easyeda2kicad:PDFN3333-8_L3.1-W3.2-P0.65-LS3.4-BL"
+			(at 261.62 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11319,8 +11293,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_Nexperia-PSMN1R4-40YLDX_C458253.html"
-			(at 213.36 48.26 0)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 256.54 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11330,8 +11304,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 213.36 33.02 0)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 256.54 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11341,8 +11315,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Nexperia(安世)"
-			(at 213.36 50.8 0)
+		(property "Sim.Device" "NMOS"
+			(at 256.54 50.165 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11352,8 +11326,8 @@
 				)
 			)
 		)
-		(property "MPN" "PSMN1R4-40YLDX"
-			(at 213.36 53.34 0)
+		(property "Sim.Type" "VDMOS"
+			(at 256.54 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11363,8 +11337,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C458253"
-			(at 213.36 55.88 0)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 256.54 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11373,38 +11347,32 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "5"
-			(uuid "058ece3c-0b20-4412-a0cc-6d48b1458f88")
 		)
 		(pin "2"
-			(uuid "2cd32115-50ae-44d3-866c-3934a01b3baf")
-		)
-		(pin "4"
-			(uuid "2cac02c9-8af4-4066-a882-301a8aeb240d")
+			(uuid "010b6463-a089-4251-8a2f-89975dd740fd")
 		)
 		(pin "3"
-			(uuid "4e2f220d-e6fb-4d94-94aa-81840b2a8456")
+			(uuid "36c84fa7-020b-4f65-ae5e-6c4ed2f84dfd")
 		)
 		(pin "1"
-			(uuid "a6fce1af-47cb-481e-9660-8c251ab606eb")
+			(uuid "57d321dd-3233-4d3e-bc00-5f92438e127a")
 		)
 		(instances
 			(project "espdrone"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/3f1ec40b-2861-4856-8c91-e3c961c5da6f"
-					(reference "Q13")
+					(reference "Q15")
 					(unit 1)
 				)
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/51921b67-4a63-4a4a-adc0-e4b24a3252b8"
-					(reference "Q25")
+					(reference "Q27")
 					(unit 1)
 				)
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/54db73ba-97d3-488f-8063-7cfc3cee66e2"
-					(reference "Q19")
+					(reference "Q21")
 					(unit 1)
 				)
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/e73f72f2-28de-4d9d-8e81-9b095eab4bb5"
-					(reference "Q7")
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -12096,7 +12064,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 157.48 33.02 270)
+		(at 154.94 33.02 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12106,7 +12074,7 @@
 		(dnp no)
 		(uuid "7a6687b1-a798-487e-b577-3d7083f5425d")
 		(property "Reference" "R71"
-			(at 157.48 27.94 90)
+			(at 154.94 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12116,7 +12084,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 157.48 30.48 90)
+			(at 154.94 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12126,7 +12094,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 157.48 31.242 90)
+			(at 154.94 31.242 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12137,7 +12105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 33.02 0)
+			(at 154.94 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12148,7 +12116,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 157.48 33.02 0)
+			(at 154.94 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12458,7 +12426,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 248.92 48.26 270)
+		(at 246.38 48.26 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12468,7 +12436,7 @@
 		(dnp no)
 		(uuid "8cc13426-8fcc-4dd2-8d2a-75796e245bd7")
 		(property "Reference" "R84"
-			(at 248.92 43.18 90)
+			(at 246.38 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12478,7 +12446,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 248.92 45.72 90)
+			(at 246.38 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12488,7 +12456,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 248.92 46.482 90)
+			(at 246.38 46.482 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12499,7 +12467,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 48.26 0)
+			(at 246.38 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12510,7 +12478,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 248.92 48.26 0)
+			(at 246.38 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14324,7 +14292,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 219.71 40.64 270)
+		(at 215.9 40.64 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14334,7 +14302,7 @@
 		(dnp no)
 		(uuid "b7c9fb57-8a95-4097-8a11-a245d51db9a5")
 		(property "Reference" "TP21"
-			(at 224.282 39.37 90)
+			(at 220.472 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14345,7 +14313,7 @@
 			)
 		)
 		(property "Value" "MOT_B"
-			(at 224.282 41.91 90)
+			(at 220.472 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14355,8 +14323,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
-			(at 219.71 45.72 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+			(at 215.9 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14367,7 +14335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 45.72 0)
+			(at 215.9 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14378,7 +14346,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 219.71 40.64 0)
+			(at 215.9 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14591,6 +14559,135 @@
 				)
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/e73f72f2-28de-4d9d-8e81-9b095eab4bb5"
 					(reference "C126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 210.82 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bc415f9f-b24c-415a-882b-30294532e372")
+		(property "Reference" "Q7"
+			(at 215.9 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 215.9 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:PDFN3333-8_L3.1-W3.2-P0.65-LS3.4-BL"
+			(at 215.9 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 210.82 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 210.82 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 210.82 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 210.82 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 210.82 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c51adbc7-8f62-4480-9954-8dc97ba90df1")
+		)
+		(pin "3"
+			(uuid "c6ad369a-cf50-44ee-a2fc-df7168fc7334")
+		)
+		(pin "1"
+			(uuid "9013d01a-c688-4666-81f0-9675ab4f6129")
+		)
+		(instances
+			(project "espdrone"
+				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/3f1ec40b-2861-4856-8c91-e3c961c5da6f"
+					(reference "Q13")
+					(unit 1)
+				)
+				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/51921b67-4a63-4a4a-adc0-e4b24a3252b8"
+					(reference "Q25")
+					(unit 1)
+				)
+				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/54db73ba-97d3-488f-8063-7cfc3cee66e2"
+					(reference "Q19")
+					(unit 1)
+				)
+				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/e73f72f2-28de-4d9d-8e81-9b095eab4bb5"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -14873,7 +14970,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 248.92 33.02 270)
+		(at 246.38 33.02 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14883,7 +14980,7 @@
 		(dnp no)
 		(uuid "c409d424-e25a-4e86-993b-85f5b1fd702e")
 		(property "Reference" "R83"
-			(at 248.92 27.94 90)
+			(at 246.38 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14893,7 +14990,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 248.92 30.48 90)
+			(at 246.38 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14903,7 +15000,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 248.92 31.242 90)
+			(at 246.38 31.242 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14914,7 +15011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 33.02 0)
+			(at 246.38 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14925,7 +15022,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 248.92 33.02 0)
+			(at 246.38 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14957,141 +15054,6 @@
 				)
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/e73f72f2-28de-4d9d-8e81-9b095eab4bb5"
 					(reference "R83")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:PSMN1R4-40YLDX")
-		(at 167.64 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c6517bdd-b295-4e08-83e2-b43a0c40c965")
-		(property "Reference" "Q5"
-			(at 173.736 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PSMN1R4-40YLDX"
-			(at 173.736 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SOT-669_L4.9-W4.0-P1.27-LS6.0-BR"
-			(at 167.64 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_Nexperia-PSMN1R4-40YLDX_C458253.html"
-			(at 167.64 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Nexperia(安世)"
-			(at 167.64 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "PSMN1R4-40YLDX"
-			(at 167.64 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C458253"
-			(at 167.64 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "3f39d4ab-6305-4094-bbb5-6b8da1c1b922")
-		)
-		(pin "2"
-			(uuid "da4e2a6a-2635-4443-a793-f786f63dadb9")
-		)
-		(pin "4"
-			(uuid "c5e98b7e-7bfb-40a7-9d21-423ede34aad3")
-		)
-		(pin "3"
-			(uuid "47f49f81-351b-4d8e-81fb-2721e6bc3fb5")
-		)
-		(pin "1"
-			(uuid "a7dc9483-32dc-46c3-8179-5cbe0486c261")
-		)
-		(instances
-			(project "espdrone"
-				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/3f1ec40b-2861-4856-8c91-e3c961c5da6f"
-					(reference "Q11")
-					(unit 1)
-				)
-				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/51921b67-4a63-4a4a-adc0-e4b24a3252b8"
-					(reference "Q23")
-					(unit 1)
-				)
-				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/54db73ba-97d3-488f-8063-7cfc3cee66e2"
-					(reference "Q17")
-					(unit 1)
-				)
-				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/e73f72f2-28de-4d9d-8e81-9b095eab4bb5"
-					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -15732,141 +15694,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:PSMN1R4-40YLDX")
-		(at 259.08 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ddfa2d5c-22c2-486e-a90f-d207826ca8bc")
-		(property "Reference" "Q9"
-			(at 265.176 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PSMN1R4-40YLDX"
-			(at 265.176 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SOT-669_L4.9-W4.0-P1.27-LS6.0-BR"
-			(at 259.08 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_Nexperia-PSMN1R4-40YLDX_C458253.html"
-			(at 259.08 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Nexperia(安世)"
-			(at 259.08 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "PSMN1R4-40YLDX"
-			(at 259.08 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C458253"
-			(at 259.08 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "8a9cf3df-7797-4f46-a0ea-17b1fc78a0d0")
-		)
-		(pin "2"
-			(uuid "4cf3f319-9e06-4eee-99ba-5970a2c9cf90")
-		)
-		(pin "4"
-			(uuid "c4cfaccc-4765-4ff6-b432-10feba1a5eb4")
-		)
-		(pin "3"
-			(uuid "b53e57cb-80d8-44dd-a760-27cceafe517c")
-		)
-		(pin "1"
-			(uuid "3ec10e1d-5dcb-4b98-a06e-102da2eba478")
-		)
-		(instances
-			(project "espdrone"
-				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/3f1ec40b-2861-4856-8c91-e3c961c5da6f"
-					(reference "Q15")
-					(unit 1)
-				)
-				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/51921b67-4a63-4a4a-adc0-e4b24a3252b8"
-					(reference "Q27")
-					(unit 1)
-				)
-				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/54db73ba-97d3-488f-8063-7cfc3cee66e2"
-					(reference "Q21")
-					(unit 1)
-				)
-				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/e73f72f2-28de-4d9d-8e81-9b095eab4bb5"
-					(reference "Q9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 190.5 71.12 90)
 		(unit 1)
@@ -15961,7 +15788,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 173.99 40.64 270)
+		(at 170.18 40.64 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15971,7 +15798,7 @@
 		(dnp no)
 		(uuid "e2b2f439-7cf9-41de-bf78-8fd9ff015b60")
 		(property "Reference" "TP20"
-			(at 178.308 39.37 90)
+			(at 174.498 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15982,7 +15809,7 @@
 			)
 		)
 		(property "Value" "MOT_A"
-			(at 178.308 41.91 90)
+			(at 174.498 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15992,8 +15819,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
-			(at 173.99 45.72 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+			(at 170.18 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16004,7 +15831,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 45.72 0)
+			(at 170.18 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16015,7 +15842,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 173.99 40.64 0)
+			(at 170.18 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16133,107 +15960,6 @@
 				)
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/e73f72f2-28de-4d9d-8e81-9b095eab4bb5"
 					(reference "TP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Shunt")
-		(at 167.64 85.09 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e711cd2f-03bc-4edf-a4b5-219f305cbf2d")
-		(property "Reference" "R73"
-			(at 165.1 83.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.001"
-			(at 165.1 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSK2512_6332Metric_T2.66mm"
-			(at 165.862 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Shunt resistor with Kelvin connections"
-			(at 167.64 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "372295e0-bff0-4f0b-be38-f50ed58cb10e")
-		)
-		(pin "3"
-			(uuid "7feb968f-face-45c0-96b4-9073446c90ee")
-		)
-		(pin "4"
-			(uuid "13ec042d-310a-4236-ab61-e82b4ff29baa")
-		)
-		(pin "1"
-			(uuid "aa86fa1a-5538-460e-bab9-8941ecc48035")
-		)
-		(instances
-			(project "espdrone"
-				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/3f1ec40b-2861-4856-8c91-e3c961c5da6f"
-					(reference "R98")
-					(unit 1)
-				)
-				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/51921b67-4a63-4a4a-adc0-e4b24a3252b8"
-					(reference "R148")
-					(unit 1)
-				)
-				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/54db73ba-97d3-488f-8063-7cfc3cee66e2"
-					(reference "R123")
-					(unit 1)
-				)
-				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/e73f72f2-28de-4d9d-8e81-9b095eab4bb5"
-					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -16425,7 +16151,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 157.48 48.26 270)
+		(at 154.94 48.26 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16435,7 +16161,7 @@
 		(dnp no)
 		(uuid "eca802a5-95e4-4be6-b0ce-853473ec7ffb")
 		(property "Reference" "R72"
-			(at 157.48 43.18 90)
+			(at 154.94 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16445,7 +16171,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 157.48 45.72 90)
+			(at 154.94 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16455,7 +16181,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 157.48 46.482 90)
+			(at 154.94 46.482 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16466,7 +16192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 48.26 0)
+			(at 154.94 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16477,7 +16203,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 157.48 48.26 0)
+			(at 154.94 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16515,8 +16241,8 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:PSMN1R4-40YLDX")
-		(at 213.36 48.26 0)
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 210.82 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16524,9 +16250,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ecd589dc-2503-4a7d-9bf1-f7b8d77b6f5c")
+		(uuid "f0c8c21a-12e3-4c90-a06b-08d2b314a504")
 		(property "Reference" "Q8"
-			(at 219.456 48.26 0)
+			(at 216.154 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16536,8 +16262,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PSMN1R4-40YLDX"
-			(at 219.456 50.8 0)
+		(property "Value" "NMOS"
+			(at 216.154 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16547,8 +16273,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SOT-669_L4.9-W4.0-P1.27-LS6.0-BR"
-			(at 213.36 60.96 0)
+		(property "Footprint" "easyeda2kicad:PDFN3333-8_L3.1-W3.2-P0.65-LS3.4-BL"
+			(at 215.9 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16558,8 +16284,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_Nexperia-PSMN1R4-40YLDX_C458253.html"
-			(at 213.36 63.5 0)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 210.82 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16569,8 +16295,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 213.36 48.26 0)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 210.82 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16580,8 +16306,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Nexperia(安世)"
-			(at 213.36 66.04 0)
+		(property "Sim.Device" "NMOS"
+			(at 210.82 65.405 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16591,8 +16317,8 @@
 				)
 			)
 		)
-		(property "MPN" "PSMN1R4-40YLDX"
-			(at 213.36 68.58 0)
+		(property "Sim.Type" "VDMOS"
+			(at 210.82 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16602,8 +16328,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C458253"
-			(at 213.36 71.12 0)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 210.82 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16612,21 +16338,15 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "5"
-			(uuid "b8ca4db4-8c98-42f2-8a97-faeca3b1219a")
 		)
 		(pin "2"
-			(uuid "bb881eb9-7248-4074-8437-c8c9b7ae8dae")
-		)
-		(pin "4"
-			(uuid "251bb17f-6892-4ba3-a39b-e4be2dc47928")
+			(uuid "0d672ba6-3ad1-45b7-888e-e64efd930c23")
 		)
 		(pin "3"
-			(uuid "5e6c59bd-2d42-4ab7-a5e0-9a062fddd9bf")
+			(uuid "21ba5210-948f-482a-bc74-ec39e28d73af")
 		)
 		(pin "1"
-			(uuid "aaa0d5c8-0e8a-448d-8393-b89e8ee3b71b")
+			(uuid "827a281d-4fbb-473a-9eb7-4cd78d276a33")
 		)
 		(instances
 			(project "espdrone"
@@ -17009,141 +16729,6 @@
 				)
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/e73f72f2-28de-4d9d-8e81-9b095eab4bb5"
 					(reference "C120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:PSMN1R4-40YLDX")
-		(at 259.08 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "febb74c3-d78b-42af-b2bd-1b399040ea55")
-		(property "Reference" "Q10"
-			(at 265.176 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PSMN1R4-40YLDX"
-			(at 265.176 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SOT-669_L4.9-W4.0-P1.27-LS6.0-BR"
-			(at 259.08 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_Nexperia-PSMN1R4-40YLDX_C458253.html"
-			(at 259.08 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Nexperia(安世)"
-			(at 259.08 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "PSMN1R4-40YLDX"
-			(at 259.08 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C458253"
-			(at 259.08 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "cd530597-bc5f-4720-ba08-b741b5758834")
-		)
-		(pin "2"
-			(uuid "09abd3ad-5bf1-4191-b1a2-6b51173f4e54")
-		)
-		(pin "4"
-			(uuid "087f0fbf-c779-497a-9fb0-9880392b9d33")
-		)
-		(pin "3"
-			(uuid "614c0f44-58b9-4a9a-a30d-d649ae3e81a0")
-		)
-		(pin "1"
-			(uuid "7b08b4ad-86ef-4577-abbe-e32239eb061f")
-		)
-		(instances
-			(project "espdrone"
-				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/3f1ec40b-2861-4856-8c91-e3c961c5da6f"
-					(reference "Q16")
-					(unit 1)
-				)
-				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/51921b67-4a63-4a4a-adc0-e4b24a3252b8"
-					(reference "Q28")
-					(unit 1)
-				)
-				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/54db73ba-97d3-488f-8063-7cfc3cee66e2"
-					(reference "Q22")
-					(unit 1)
-				)
-				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4/e73f72f2-28de-4d9d-8e81-9b095eab4bb5"
-					(reference "Q10")
 					(unit 1)
 				)
 			)

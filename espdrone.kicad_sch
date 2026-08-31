@@ -9233,16 +9233,6 @@
 		)
 		(uuid "25a56800-b324-4841-a77d-15a2cc016a0d")
 	)
-	(label "VDDO_4"
-		(at 323.85 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "381855a3-03fd-4585-a6a6-127ca1a2e0f3")
-	)
 	(label "VDDO_3"
 		(at 309.88 151.13 0)
 		(effects
@@ -9890,6 +9880,30 @@
 		(uuid "3503cb87-07ee-45cb-b464-0d919067dd19")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 210.9023 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VDDO_4"
+		(shape input)
+		(at 323.85 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "43080443-ddb6-49fc-b0fd-61e91f6a1cd5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 333.9714 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

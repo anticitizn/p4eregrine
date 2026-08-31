@@ -12525,7 +12525,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "easyeda2kicad:SolderJumper-2-0.6x0.5mm"
 			(at 212.09 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -15979,7 +15979,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "100n"
 			(at 68.834 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15990,7 +15990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 67.0052 120.65 0)
 			(hide yes)
 			(show_name no)

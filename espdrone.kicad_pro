@@ -74,6 +74,16 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.1,
+          "via_gap": 0.0,
+          "width": 0.1
+        },
+        {
+          "gap": 0.15,
+          "via_gap": 0.0,
+          "width": 0.1
         }
       ],
       "drc_exclusions": [],
@@ -147,8 +157,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.09,
-        "min_connection": 0.09,
+        "min_clearance": 0.1,
+        "min_connection": 0.1,
         "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
@@ -160,7 +170,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.09,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -212,7 +222,11 @@
       ],
       "track_widths": [
         0.0,
-        0.1
+        0.1,
+        0.15,
+        0.3,
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -244,6 +258,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -533,7 +555,7 @@
         "clearance": 0.1,
         "name": "Dense",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "tuning_profile": "",
@@ -542,9 +564,18 @@
       },
       {
         "clearance": 0.15,
-        "name": "Low-Voltage Power",
+        "name": "GATE_DRIVE",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.15,
+        "name": "LV_POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "tuning_profile": "",
@@ -552,25 +583,65 @@
         "via_drill": 0.3
       },
       {
-        "clearance": 0.5,
-        "name": "Phase Power",
+        "clearance": 0.15,
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.1,
+        "name": "MIPI_100R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "tuning_profile": "MIPI CSI"
+      },
+      {
+        "clearance": 0.5,
+        "name": "PHASE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "tuning_profile": "",
-        "via_diameter": 0.5,
+        "via_diameter": 0.6,
         "via_drill": 0.3
       },
       {
         "clearance": 0.2,
-        "name": "VBUS",
+        "name": "RF_50R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "tuning_profile": "RF"
+      },
+      {
+        "clearance": 0.2,
+        "name": "SW_NODE",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_width": 0.1,
+        "name": "USB_90R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "tuning_profile": "USB 2.0"
+      },
+      {
+        "clearance": 0.2,
+        "name": "VBAT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "tuning_profile": "",
-        "via_diameter": 0.5,
+        "via_diameter": 0.6,
         "via_drill": 0.3
       }
     ],
@@ -579,7 +650,40 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "MIPI_100R",
+        "pattern": "CSI_*"
+      },
+      {
+        "netclass": "VBAT",
+        "pattern": "+BATT"
+      },
+      {
+        "netclass": "LV_POWER",
+        "pattern": "VDD_HP"
+      },
+      {
+        "netclass": "LV_POWER",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "LV_POWER",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "LV_POWER",
+        "pattern": "+1V8"
+      },
+      {
+        "netclass": "USB_90R",
+        "pattern": "/MCU/USB_D(+|-)"
+      },
+      {
+        "netclass": "RF_50R",
+        "pattern": "/Coprocessor/ANT_(2G|5G)"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -783,7 +887,7 @@
         "uuid": "b7952862-8d86-4464-ae6b-e7392f598094"
       }
     ],
-    "used_designators": "R1-193,JP1-6,FPC1,L1-7,Y1-2,#PWR1-356,TP1-142,#FLG1-8,BT1,Q1-56,SW1-2,C1-206,Card1,U1-30,D1-22,USB1-3,J1-13",
+    "used_designators": "USB1-3,J1-13,#FLG1-8,BT1,Card1,C1-206,FPC1,JP1-6,TP1-142,R1-193,D1-22,U1-30,Q1-56,#PWR1-356,Y1-2,L1-7,SW1-2",
     "variants": []
   },
   "sheets": [
@@ -854,7 +958,7 @@
           {
             "bottom_reference_layer": "In1.Cu",
             "delay": 0,
-            "diff_pair_gap": 0,
+            "diff_pair_gap": 150000,
             "signal_layer": "F.Cu",
             "top_reference_layer": "UNDEFINED",
             "width": 100000
@@ -875,28 +979,10 @@
             "diff_pair_gap": 0,
             "signal_layer": "F.Cu",
             "top_reference_layer": "UNDEFINED",
-            "width": 0
+            "width": 170000
           }
         ],
         "profile_name": "RF",
-        "target_impedance": 50.0,
-        "type": 0,
-        "via_overrides": [],
-        "via_prop_delay": 0
-      },
-      {
-        "enable_time_domain_tuning": true,
-        "layer_entries": [
-          {
-            "bottom_reference_layer": "In1.Cu",
-            "delay": 0,
-            "diff_pair_gap": 0,
-            "signal_layer": "F.Cu",
-            "top_reference_layer": "UNDEFINED",
-            "width": 0
-          }
-        ],
-        "profile_name": "SDIO",
         "target_impedance": 50.0,
         "type": 0,
         "via_overrides": [],

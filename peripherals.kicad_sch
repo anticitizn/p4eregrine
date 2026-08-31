@@ -7715,7 +7715,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02390792-7548-4aab-b757-f60091559c02")
-		(property "Reference" "C89"
+		(property "Reference" "C87"
 			(at 178.308 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7779,7 +7779,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "C89")
+					(reference "C87")
 					(unit 1)
 				)
 			)
@@ -8042,7 +8042,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "090819e4-43f0-498e-981f-492895471804")
-		(property "Reference" "C93"
+		(property "Reference" "C91"
 			(at 203.708 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8106,7 +8106,187 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "C93")
+					(reference "C91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 274.32 48.26 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "090f79e5-b2db-4800-9d6c-6452a22182a7")
+		(property "Reference" "J12"
+			(at 277.114 46.482 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 274.32 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:Connector_Pad_1.27mm_1x04"
+			(at 274.32 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 274.32 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ff4e7f59-c6b5-43d5-a43a-693941236d30")
+		)
+		(pin "4"
+			(uuid "737aae10-9246-41f7-b546-96092fa68e64")
+		)
+		(pin "1"
+			(uuid "79791125-41f5-4ff1-b839-6dba6f166d98")
+		)
+		(pin "3"
+			(uuid "874eb5f1-2ad5-45c3-b070-56b3a8c88fb1")
+		)
+		(instances
+			(project "espdrone"
+				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 276.86 83.82 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "096b87c7-55ec-4168-9036-eb90eee5319b")
+		(property "Reference" "J7"
+			(at 276.86 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 276.86 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:Connector_Pad_1.27mm_1x06"
+			(at 276.86 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 276.86 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "00014232-7876-45d0-9835-1ec3f6320e3c")
+		)
+		(pin "4"
+			(uuid "33dc18eb-ba51-4e7b-8909-a6719af0cd94")
+		)
+		(pin "2"
+			(uuid "35621d5f-fcad-43ef-8862-6bb8ccbfc409")
+		)
+		(pin "3"
+			(uuid "8c49567e-48bd-44cf-ac56-dc13a4757f74")
+		)
+		(pin "1"
+			(uuid "06b8f18f-d378-41c0-93b5-61c10ef1df29")
+		)
+		(pin "5"
+			(uuid "48088d9e-2ee4-4d35-8aef-07ac2cadef83")
+		)
+		(instances
+			(project "espdrone"
+				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -8200,7 +8380,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b6660a2-4e86-444b-95dc-8ad2bb381406")
-		(property "Reference" "C92"
+		(property "Reference" "C90"
 			(at 198.628 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8264,7 +8444,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "C92")
+					(reference "C90")
 					(unit 1)
 				)
 			)
@@ -8281,7 +8461,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15635ebc-8a69-4d56-9a1a-522b26ab2e43")
-		(property "Reference" "C80"
+		(property "Reference" "C78"
 			(at 74.93 47.752 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8343,7 +8523,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "C80")
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -8360,7 +8540,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c752288-0216-4d02-b597-712ead51d90f")
-		(property "Reference" "U11"
+		(property "Reference" "U10"
 			(at 64.008 153.416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8502,7 +8682,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "U11")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -8907,7 +9087,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e9d7042-f866-414e-b96e-02b32cb3efba")
-		(property "Reference" "R47"
+		(property "Reference" "R45"
 			(at 113.03 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8969,7 +9149,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "R47")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -9309,7 +9489,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c815109-a5b6-46a5-aca6-03fc9009d2d4")
-		(property "Reference" "R53"
+		(property "Reference" "R51"
 			(at 264.668 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9371,7 +9551,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "R53")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -9388,7 +9568,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d167689-4681-48c9-aa0e-52f800778432")
-		(property "Reference" "C90"
+		(property "Reference" "C88"
 			(at 188.468 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9452,7 +9632,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "C90")
+					(reference "C88")
 					(unit 1)
 				)
 			)
@@ -9469,7 +9649,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "402473df-06c4-4001-8074-73e4d416053d")
-		(property "Reference" "R46"
+		(property "Reference" "R44"
 			(at 71.374 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9533,7 +9713,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "R46")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -9794,7 +9974,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5104fe61-54ef-457c-8e0f-b87540482a06")
-		(property "Reference" "R52"
+		(property "Reference" "R50"
 			(at 262.382 138.684 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9856,7 +10036,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "R52")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -9953,7 +10133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "560082c1-3aa4-4d54-8354-deed5f7a3836")
-		(property "Reference" "U14"
+		(property "Reference" "U13"
 			(at 219.3641 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10054,7 +10234,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "U14")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -10071,7 +10251,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57159c01-a1e6-4329-8741-8907cd54a93a")
-		(property "Reference" "C77"
+		(property "Reference" "C75"
 			(at 27.178 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10135,7 +10315,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "C77")
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -10299,100 +10479,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 276.86 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "587a5a31-24e2-4a8c-8fec-a990aaddf78f")
-		(property "Reference" "J7"
-			(at 278.892 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x06"
-			(at 279.4 83.8199 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical"
-			(at 276.86 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 276.86 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cbf0e65c-d131-424c-a0b3-f55a1ef58d0e")
-		)
-		(pin "5"
-			(uuid "f3508fdc-7e46-42f9-857e-885c022d6196")
-		)
-		(pin "1"
-			(uuid "5c5f31a6-3570-4403-8f48-6e0c5e93754f")
-		)
-		(pin "6"
-			(uuid "d1ed3638-d1f3-46a3-bf0a-d10ad6579de5")
-		)
-		(pin "3"
-			(uuid "6e12c2e9-d13c-4dc5-a94b-cffbebf68754")
-		)
-		(pin "4"
-			(uuid "fca823b9-31d7-42b7-b8e5-87132def2edb")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 217.17 76.2 0)
 		(unit 1)
@@ -10481,7 +10567,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d9310df-d74e-44b4-ae12-dfdf3b09b0cb")
-		(property "Reference" "R49"
+		(property "Reference" "R47"
 			(at 201.422 71.628 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10543,7 +10629,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "R49")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -10639,7 +10725,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5edfe284-f9c4-461e-9716-88bab79ff9dc")
-		(property "Reference" "C86"
+		(property "Reference" "C84"
 			(at 160.02 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10701,7 +10787,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "C86")
+					(reference "C84")
 					(unit 1)
 				)
 			)
@@ -10795,7 +10881,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "611626e4-cc34-485a-9a0c-57fe9b086d76")
-		(property "Reference" "C79"
+		(property "Reference" "C77"
 			(at 50.8 47.752 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10857,7 +10943,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "C79")
+					(reference "C77")
 					(unit 1)
 				)
 			)
@@ -10874,7 +10960,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61b802ea-ac81-499b-83ca-b0e381b99720")
-		(property "Reference" "C81"
+		(property "Reference" "C79"
 			(at 84.836 66.294 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10938,7 +11024,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "C81")
+					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -10956,7 +11042,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ae1435e-add1-4153-a3c8-75eae13a29a4")
-		(property "Reference" "R50"
+		(property "Reference" "R48"
 			(at 212.598 145.288 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11018,7 +11104,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "R50")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -11036,7 +11122,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "726e86ad-062f-4e6b-9d3c-2b47b4dfb636")
-		(property "Reference" "C85"
+		(property "Reference" "C83"
 			(at 160.02 28.956 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11098,7 +11184,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "C85")
+					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -11239,7 +11325,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7689d96f-8948-4694-9b72-5f672545da66")
-		(property "Reference" "C78"
+		(property "Reference" "C76"
 			(at 26.67 47.752 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11301,7 +11387,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "C78")
+					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -11485,7 +11571,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e986177-e026-4861-8b99-ca754590748c")
-		(property "Reference" "R45"
+		(property "Reference" "R43"
 			(at 63.754 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11549,7 +11635,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "R45")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -11797,7 +11883,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "846372d0-ec2e-4c82-a237-01767529b1c9")
-		(property "Reference" "R54"
+		(property "Reference" "R52"
 			(at 265.43 73.914 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11861,7 +11947,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "R54")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -11878,7 +11964,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84ade497-4d82-4c3d-8fd2-d26c751ff823")
-		(property "Reference" "C94"
+		(property "Reference" "C92"
 			(at 208.788 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11942,7 +12028,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "C94")
+					(reference "C92")
 					(unit 1)
 				)
 			)
@@ -11959,7 +12045,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84b03465-1ecc-4edb-ae66-2ffd0a9d29ba")
-		(property "Reference" "C83"
+		(property "Reference" "C81"
 			(at 138.938 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12023,7 +12109,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "C83")
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -12041,7 +12127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88241af4-2f55-4979-9e27-2c11f7c18b0e")
-		(property "Reference" "U12"
+		(property "Reference" "U11"
 			(at 137.16 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12135,7 +12221,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "U12")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -12309,7 +12395,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91553716-4c23-4110-a466-2d43f45be3f1")
-		(property "Reference" "C82"
+		(property "Reference" "C80"
 			(at 99.06 47.752 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12371,7 +12457,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "C82")
+					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -12778,7 +12864,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a35e9950-f6ef-4a23-9e68-bb9e22ba535a")
-		(property "Reference" "R42"
+		(property "Reference" "R40"
 			(at 40.894 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12842,7 +12928,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "R42")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -13329,7 +13415,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b166da78-cb8b-4b04-a48e-b555acf580cc")
-		(property "Reference" "C95"
+		(property "Reference" "C93"
 			(at 225.806 43.688 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13391,7 +13477,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "C95")
+					(reference "C93")
 					(unit 1)
 				)
 			)
@@ -13487,7 +13573,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b21658fd-be9a-4cf2-b09a-9b8322c701cc")
-		(property "Reference" "R51"
+		(property "Reference" "R49"
 			(at 254.381 36.195 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13549,7 +13635,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "R51")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -13954,7 +14040,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7d46528-364b-4266-b4ee-5176b7ad8508")
-		(property "Reference" "R44"
+		(property "Reference" "R42"
 			(at 56.134 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14018,7 +14104,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "R44")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -14035,7 +14121,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cca7bea8-1ac1-4729-a59d-16969a3548f2")
-		(property "Reference" "U15"
+		(property "Reference" "U14"
 			(at 230.378 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14200,7 +14286,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "U15")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -14218,7 +14304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d10c58fc-423f-4d54-a526-4daa8d42b174")
-		(property "Reference" "U13"
+		(property "Reference" "U12"
 			(at 152.0033 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14312,7 +14398,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "U13")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -14329,7 +14415,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4565a31-20f4-441a-9f83-859836319375")
-		(property "Reference" "C84"
+		(property "Reference" "C82"
 			(at 150.368 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14393,7 +14479,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "C84")
+					(reference "C82")
 					(unit 1)
 				)
 			)
@@ -14411,7 +14497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db1df153-6108-4b70-b1da-804dc2223aa5")
-		(property "Reference" "C87"
+		(property "Reference" "C85"
 			(at 168.91 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14475,7 +14561,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "C87")
+					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -14572,7 +14658,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df44566d-a432-4524-b086-4f9bb80cc338")
-		(property "Reference" "R48"
+		(property "Reference" "R46"
 			(at 135.89 53.086 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14634,7 +14720,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "R48")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -14651,7 +14737,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df550a65-3b1e-4a04-a5c0-6e0dee9d517c")
-		(property "Reference" "C91"
+		(property "Reference" "C89"
 			(at 192.278 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14715,7 +14801,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "C91")
+					(reference "C89")
 					(unit 1)
 				)
 			)
@@ -14731,7 +14817,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e329add0-d73d-4b2c-b2a6-16aa6075f0bb")
 		(property "Reference" "#PWR0138"
 			(at 149.86 83.82 0)
@@ -14745,7 +14830,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 82.55 0)
+			(at 149.86 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14889,7 +14974,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e54424b9-d388-46d8-bf5b-eeac0db8c0ca")
-		(property "Reference" "R43"
+		(property "Reference" "R41"
 			(at 48.514 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14953,7 +15038,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "R43")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -15115,94 +15200,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 274.32 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f45ee859-5135-4ad4-902b-83611d9f7451")
-		(property "Reference" "J6"
-			(at 276.352 46.736 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 276.86 48.2599 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Vertical"
-			(at 274.32 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 274.32 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e6348041-b786-42da-a810-0251d83415ca")
-		)
-		(pin "3"
-			(uuid "6c7f0a67-0f31-4add-84be-471c4255d8df")
-		)
-		(pin "4"
-			(uuid "deedfd24-5ebb-4d17-8941-d33713837bc0")
-		)
-		(pin "2"
-			(uuid "3c29f44e-3186-4af3-8d7f-702ea52c34b4")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 77.47 104.14 0)
@@ -15292,7 +15289,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fca31b1f-b8a0-4f08-b09e-a15a390ea4a2")
-		(property "Reference" "C88"
+		(property "Reference" "C86"
 			(at 168.148 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15356,7 +15353,7 @@
 		(instances
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "C88")
+					(reference "C86")
 					(unit 1)
 				)
 			)

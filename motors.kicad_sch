@@ -3027,7 +3027,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0303a3e8-f425-40f4-9491-a8221f64a082")
-		(property "Reference" "R61"
+		(property "Reference" "R59"
 			(at 128.524 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3091,7 +3091,7 @@
 		(instances
 			(project "espdrone"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
-					(reference "R61")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -3268,7 +3268,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08f974df-5ebd-404e-80f1-ec76e807e977")
-		(property "Reference" "C98"
+		(property "Reference" "C96"
 			(at 50.038 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3332,7 +3332,7 @@
 		(instances
 			(project "espdrone"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
-					(reference "C98")
+					(reference "C96")
 					(unit 1)
 				)
 			)
@@ -3510,7 +3510,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e1b3e57-ad9e-4851-957f-229da5228d03")
-		(property "Reference" "R55"
+		(property "Reference" "R53"
 			(at 59.69 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3572,7 +3572,7 @@
 		(instances
 			(project "espdrone"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
-					(reference "R55")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -3770,7 +3770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "easyeda2kicad:MotorPad_1x3mm"
 			(at 128.27 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -3849,7 +3849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "easyeda2kicad:MotorPad_1x3mm"
 			(at 128.27 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3906,7 +3906,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2837a9d8-cb5b-47f1-83cd-a1d5c9cf78fc")
-		(property "Reference" "C96"
+		(property "Reference" "C94"
 			(at 41.91 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3970,7 +3970,7 @@
 		(instances
 			(project "espdrone"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
-					(reference "C96")
+					(reference "C94")
 					(unit 1)
 				)
 			)
@@ -3987,7 +3987,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a4a4b60-daaf-45df-9de3-714b17808aa3")
-		(property "Reference" "R57"
+		(property "Reference" "R55"
 			(at 66.294 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4051,7 +4051,7 @@
 		(instances
 			(project "espdrone"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
-					(reference "R57")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -4090,7 +4090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "easyeda2kicad:MotorPad_1x3mm"
 			(at 143.51 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -4169,7 +4169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "easyeda2kicad:MotorPad_1x3mm"
 			(at 66.04 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -4248,7 +4248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "easyeda2kicad:MotorPad_1x3mm"
 			(at 66.04 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4860,7 +4860,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8eb12edd-f8c0-44fc-8c8e-3256cd8a6367")
-		(property "Reference" "R58"
+		(property "Reference" "R56"
 			(at 63.246 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4924,7 +4924,7 @@
 		(instances
 			(project "espdrone"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
-					(reference "R58")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -4941,7 +4941,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ff6bd7b-1c70-472d-b1fa-3128711b92ea")
-		(property "Reference" "C103"
+		(property "Reference" "C101"
 			(at 112.014 82.804 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5005,7 +5005,7 @@
 		(instances
 			(project "espdrone"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
-					(reference "C103")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -5022,7 +5022,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9386c03a-a965-4f0c-a4fa-448e9b03ccda")
-		(property "Reference" "C99"
+		(property "Reference" "C97"
 			(at 50.038 82.804 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5086,7 +5086,7 @@
 		(instances
 			(project "espdrone"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
-					(reference "C99")
+					(reference "C97")
 					(unit 1)
 				)
 			)
@@ -5125,7 +5125,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "easyeda2kicad:MotorPad_1x3mm"
 			(at 143.51 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5260,7 +5260,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d8ac6b9-37bb-479e-85a3-920005d5c81f")
-		(property "Reference" "R59"
+		(property "Reference" "R57"
 			(at 121.92 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5322,7 +5322,7 @@
 		(instances
 			(project "espdrone"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
-					(reference "R59")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -5361,7 +5361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "easyeda2kicad:MotorPad_1x3mm"
 			(at 81.28 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5614,7 +5614,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b810693c-255b-417e-ac86-69cc980dad29")
-		(property "Reference" "C97"
+		(property "Reference" "C95"
 			(at 41.91 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5678,7 +5678,7 @@
 		(instances
 			(project "espdrone"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
-					(reference "C97")
+					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -5890,7 +5890,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9e52603-c1e5-4100-b887-75f440d6b254")
-		(property "Reference" "R56"
+		(property "Reference" "R54"
 			(at 52.07 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5952,7 +5952,7 @@
 		(instances
 			(project "espdrone"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
-					(reference "R56")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -5970,7 +5970,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cada1c23-2646-4a73-9b2c-5720c415896a")
-		(property "Reference" "C101"
+		(property "Reference" "C99"
 			(at 104.14 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6034,7 +6034,7 @@
 		(instances
 			(project "espdrone"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
-					(reference "C101")
+					(reference "C99")
 					(unit 1)
 				)
 			)
@@ -6286,7 +6286,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6ba12a1-8f04-474c-bbef-2936d5be9bc0")
-		(property "Reference" "C102"
+		(property "Reference" "C100"
 			(at 112.268 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6350,7 +6350,7 @@
 		(instances
 			(project "espdrone"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
-					(reference "C102")
+					(reference "C100")
 					(unit 1)
 				)
 			)
@@ -6446,7 +6446,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2439d75-ef3f-4016-9be1-a33cd7452d5d")
-		(property "Reference" "R62"
+		(property "Reference" "R60"
 			(at 128.524 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6510,7 +6510,7 @@
 		(instances
 			(project "espdrone"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
-					(reference "R62")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -6549,7 +6549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "easyeda2kicad:MotorPad_1x3mm"
 			(at 81.28 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -6763,7 +6763,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3e9ca7d-d001-4c2f-a351-44e36b381b62")
-		(property "Reference" "C100"
+		(property "Reference" "C98"
 			(at 104.14 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6827,7 +6827,7 @@
 		(instances
 			(project "espdrone"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
-					(reference "C100")
+					(reference "C98")
 					(unit 1)
 				)
 			)
@@ -6844,7 +6844,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8ddc4ff-8200-4dfd-845d-13f90780c64f")
-		(property "Reference" "R60"
+		(property "Reference" "R58"
 			(at 121.92 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6906,7 +6906,7 @@
 		(instances
 			(project "espdrone"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
-					(reference "R60")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -6928,7 +6928,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "3f1ec40b-2861-4856-8c91-e3c961c5da6f")
-		(property "Sheetname" "ESC1"
+		(property "Sheetname" "ESC2"
 			(at 69.85 151.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7024,7 +7024,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "51921b67-4a63-4a4a-adc0-e4b24a3252b8")
-		(property "Sheetname" "ESC3"
+		(property "Sheetname" "ESC4"
 			(at 146.05 151.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7120,7 +7120,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "54db73ba-97d3-488f-8063-7cfc3cee66e2")
-		(property "Sheetname" "ESC2"
+		(property "Sheetname" "ESC3"
 			(at 107.95 151.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7216,7 +7216,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "e73f72f2-28de-4d9d-8e81-9b095eab4bb5")
-		(property "Sheetname" "ESC"
+		(property "Sheetname" "ESC1"
 			(at 31.75 151.6884 0)
 			(show_name no)
 			(do_not_autoplace no)

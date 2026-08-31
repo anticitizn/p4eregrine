@@ -783,7 +783,7 @@
         "uuid": "b7952862-8d86-4464-ae6b-e7392f598094"
       }
     ],
-    "used_designators": "#FLG1-8,BT1,Q1-56,SW1-2,C1-206,Card1,D1-22,U1-30,J1-13,USB1-3,FPC1,JP1-6,R1-193,TP1-142,#PWR1-356,Y1-2,L1-7",
+    "used_designators": "R1-193,JP1-6,FPC1,L1-7,Y1-2,#PWR1-356,TP1-142,#FLG1-8,BT1,Q1-56,SW1-2,C1-206,Card1,U1-30,D1-22,USB1-3,J1-13",
     "variants": []
   },
   "sheets": [
@@ -809,19 +809,19 @@
     ],
     [
       "e73f72f2-28de-4d9d-8e81-9b095eab4bb5",
-      "ESC"
-    ],
-    [
-      "3f1ec40b-2861-4856-8c91-e3c961c5da6f",
       "ESC1"
     ],
     [
-      "54db73ba-97d3-488f-8063-7cfc3cee66e2",
+      "3f1ec40b-2861-4856-8c91-e3c961c5da6f",
       "ESC2"
     ],
     [
-      "51921b67-4a63-4a4a-adc0-e4b24a3252b8",
+      "54db73ba-97d3-488f-8063-7cfc3cee66e2",
       "ESC3"
+    ],
+    [
+      "51921b67-4a63-4a4a-adc0-e4b24a3252b8",
+      "ESC4"
     ]
   ],
   "text_variables": {},

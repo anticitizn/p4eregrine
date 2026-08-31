@@ -748,7 +748,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SMAJ14A"
+		(symbol "Diode:SMF14A"
 			(pin_numbers
 				(hide yes)
 			)
@@ -771,7 +771,7 @@
 					)
 				)
 			)
-			(property "Value" "SMAJ14A"
+			(property "Value" "SMF14A"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -781,7 +781,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SMA"
+			(property "Footprint" "Diode_SMD:D_SMF"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -792,7 +792,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(property "Datasheet" "https://www.vishay.com/doc?85881"
 				(at -1.27 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -803,7 +803,7 @@
 					)
 				)
 			)
-			(property "Description" "400W unidirectional Transient Voltage Suppressor, 14.0Vr, SMA(DO-214AC)"
+			(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 14Vrwm, SMF"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -814,7 +814,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "unidirectional diode TVS voltage suppressor"
+			(property "ki_keywords" "diode TVS voltage suppressor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -825,7 +825,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "D*SMA*"
+			(property "ki_fp_filters" "D*SMF*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -836,7 +836,7 @@
 					)
 				)
 			)
-			(symbol "SMAJ14A_0_1"
+			(symbol "SMF14A_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
@@ -862,7 +862,7 @@
 					)
 				)
 			)
-			(symbol "SMAJ14A_1_1"
+			(symbol "SMF14A_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -3107,7 +3107,7 @@
 		(uuid "34986270-392b-4e04-9285-4e115d66e1d6")
 	)
 	(junction
-		(at 232.41 46.99)
+		(at 232.41 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "373c6769-f405-4e6f-842c-99a328557875")
@@ -3161,7 +3161,7 @@
 		(uuid "573b4cde-17df-489b-a916-60cf542e56d5")
 	)
 	(junction
-		(at 259.08 46.99)
+		(at 259.08 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5804bbb4-6b75-4359-8e93-5cda2c537cf2")
@@ -3251,7 +3251,7 @@
 		(uuid "949501ca-fd78-47df-95a6-3b69f450908a")
 	)
 	(junction
-		(at 264.16 46.99)
+		(at 264.16 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97f4bfe6-dc36-4f89-a13b-73762f8f47dc")
@@ -3287,7 +3287,7 @@
 		(uuid "b13bf859-58b4-4936-973a-b116623f2167")
 	)
 	(junction
-		(at 248.92 46.99)
+		(at 248.92 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b37f78b4-e3f9-4d22-8263-cc226be3f25c")
@@ -3360,7 +3360,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 46.99) (xy 264.16 46.99)
+			(xy 273.05 49.53) (xy 264.16 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3490,7 +3490,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 48.26) (xy 264.16 46.99)
+			(xy 264.16 50.8) (xy 264.16 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3540,7 +3540,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 46.99) (xy 250.19 46.99)
+			(xy 248.92 49.53) (xy 250.19 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3580,7 +3580,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 46.99) (xy 232.41 34.29)
+			(xy 232.41 49.53) (xy 232.41 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3590,7 +3590,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 34.29) (xy 248.92 46.99)
+			(xy 248.92 36.83) (xy 248.92 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3960,7 +3960,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 46.99) (xy 264.16 46.99)
+			(xy 259.08 49.53) (xy 264.16 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4170,7 +4170,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 46.99) (xy 257.81 46.99)
+			(xy 259.08 49.53) (xy 257.81 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4320,7 +4320,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 34.29) (xy 259.08 46.99)
+			(xy 259.08 36.83) (xy 259.08 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4380,7 +4380,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 46.99) (xy 273.05 48.26)
+			(xy 273.05 49.53) (xy 273.05 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4650,7 +4650,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 46.99) (xy 232.41 48.26)
+			(xy 232.41 49.53) (xy 232.41 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4700,7 +4700,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 46.99) (xy 248.92 46.99)
+			(xy 232.41 49.53) (xy 248.92 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5237,7 +5237,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 232.41 48.26 0)
+		(at 232.41 50.8 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5248,7 +5248,7 @@
 		(dnp no)
 		(uuid "04edca22-c315-4f19-b59d-3ae896063c6d")
 		(property "Reference" "#FLG07"
-			(at 232.41 50.165 0)
+			(at 232.41 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5259,7 +5259,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 227.838 52.324 0)
+			(at 227.838 54.864 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5270,7 +5270,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 48.26 0)
+			(at 232.41 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5281,7 +5281,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 48.26 0)
+			(at 232.41 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5292,7 +5292,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 232.41 48.26 0)
+			(at 232.41 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5487,7 +5487,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "161be987-fb25-455e-9c6c-503ca4b5013b")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR097"
 			(at 88.9 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -5547,7 +5547,7 @@
 		(instances
 			(project "espdrone"
 				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
-					(reference "#PWR093")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -5808,7 +5808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1db6cf4a-0ee7-46df-93e8-617902497d00")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR093"
 			(at 45.72 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -5868,7 +5868,7 @@
 		(instances
 			(project "espdrone"
 				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
-					(reference "#PWR089")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -5886,7 +5886,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21d9e06c-7385-48d9-add9-4bc2d19db405")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR096"
 			(at 80.01 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -5946,7 +5946,7 @@
 		(instances
 			(project "espdrone"
 				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
-					(reference "#PWR092")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -5963,7 +5963,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24ad9a42-912e-4e6a-a63f-2d2d71b03fd8")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0106"
 			(at 203.2 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6023,7 +6023,7 @@
 		(instances
 			(project "espdrone"
 				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
-					(reference "#PWR0102")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -6040,7 +6040,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2623df1b-7bf3-43c6-bc26-f7651898e7cc")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0105"
 			(at 191.77 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -6100,7 +6100,7 @@
 		(instances
 			(project "espdrone"
 				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
-					(reference "#PWR0101")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -6108,7 +6108,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 254 46.99 270)
+		(at 254 49.53 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6117,8 +6117,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2807eacd-6867-4676-b5dc-837d58768910")
-		(property "Reference" "C75"
-			(at 254 43.688 90)
+		(property "Reference" "C74"
+			(at 254 46.228 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6128,7 +6128,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 254 41.656 90)
+			(at 254 44.196 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6138,7 +6138,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 250.19 47.9552 0)
+			(at 250.19 50.4952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6149,7 +6149,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 46.99 0)
+			(at 254 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6160,7 +6160,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 254 46.99 0)
+			(at 254 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6179,7 +6179,7 @@
 		(instances
 			(project "espdrone"
 				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
-					(reference "C75")
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -6753,7 +6753,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c6e1b89-e2b9-4db3-b646-659233aca7b3")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR099"
 			(at 130.81 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6813,89 +6813,7 @@
 		(instances
 			(project "espdrone"
 				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
-					(reference "#PWR095")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SMAJ14A")
-		(at 26.67 49.53 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4ed51e83-65bc-48b4-9a68-406a68c9a1eb")
-		(property "Reference" "D2"
-			(at 24.13 48.2599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMAJ14A"
-			(at 24.13 50.7999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 31.75 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 26.67 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "400W unidirectional Transient Voltage Suppressor, 14.0Vr, SMA(DO-214AC)"
-			(at 26.67 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6bea8a07-96fd-4f04-b4f5-182cbe8ab644")
-		)
-		(pin "2"
-			(uuid "6d97e4c0-30fa-4d35-9341-aa19924ea413")
-		)
-		(instances
-			(project "espdrone"
-				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
-					(reference "D2")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -6976,6 +6894,87 @@
 			(project "espdrone"
 				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
 					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMF14A")
+		(at 26.67 49.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "53ed4d82-d9f1-4412-a642-269b336f5eb5")
+		(property "Reference" "D2"
+			(at 24.13 48.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMF14A"
+			(at 24.13 50.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMF"
+			(at 21.59 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?85881"
+			(at 26.67 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 14Vrwm, SMF"
+			(at 26.67 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30663269-3184-4fca-a423-edc1252c2dd0")
+		)
+		(pin "2"
+			(uuid "fe55f847-74ad-4f19-92b2-8ad87a924f47")
+		)
+		(instances
+			(project "espdrone"
+				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -7236,7 +7235,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58c67623-600a-4c16-b608-6be79fdf388a")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR094"
 			(at 55.88 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -7296,7 +7295,7 @@
 		(instances
 			(project "espdrone"
 				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
-					(reference "#PWR090")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -7314,7 +7313,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62bd8a85-4d0d-4051-8731-c8a2fc1e4285")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR090"
 			(at 26.67 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7374,7 +7373,7 @@
 		(instances
 			(project "espdrone"
 				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
-					(reference "#PWR086")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -7552,7 +7551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fc007cf-1e5e-488b-99c7-5d23e6060f55")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR095"
 			(at 72.39 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -7612,7 +7611,7 @@
 		(instances
 			(project "espdrone"
 				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
-					(reference "#PWR091")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -7630,7 +7629,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71b8ce7e-be22-4f60-aa51-c944f6fe28b5")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0102"
 			(at 165.1 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7690,7 +7689,7 @@
 		(instances
 			(project "espdrone"
 				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
-					(reference "#PWR098")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -7777,7 +7776,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 264.16 48.26 0)
+		(at 264.16 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7787,7 +7786,7 @@
 		(dnp no)
 		(uuid "721eae31-9e34-4f3c-acae-68104b9435d4")
 		(property "Reference" "#PWR0109"
-			(at 264.16 54.61 0)
+			(at 264.16 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7798,7 +7797,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 264.16 52.578 0)
+			(at 264.16 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7808,7 +7807,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 48.26 0)
+			(at 264.16 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7819,7 +7818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 48.26 0)
+			(at 264.16 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7830,7 +7829,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 264.16 48.26 0)
+			(at 264.16 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7864,7 +7863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a4107f1-7471-4ca3-bbbc-f88432718246")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR089"
 			(at 26.67 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -7924,7 +7923,7 @@
 		(instances
 			(project "espdrone"
 				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
-					(reference "#PWR085")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -8492,7 +8491,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9afb648d-b656-498a-ae55-71a284dca4f0")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR0100"
 			(at 152.4 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8552,7 +8551,7 @@
 		(instances
 			(project "espdrone"
 				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
-					(reference "#PWR096")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -8560,7 +8559,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 273.05 48.26 180)
+		(at 273.05 50.8 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8570,7 +8569,7 @@
 		(dnp no)
 		(uuid "9d17d734-f451-4cb6-ace6-e39254c06fae")
 		(property "Reference" "#FLG08"
-			(at 273.05 50.165 0)
+			(at 273.05 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8581,7 +8580,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 273.304 52.578 0)
+			(at 273.304 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8591,7 +8590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 48.26 0)
+			(at 273.05 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8602,7 +8601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 48.26 0)
+			(at 273.05 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8613,7 +8612,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 273.05 48.26 0)
+			(at 273.05 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8646,7 +8645,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a62e8f79-2748-48fa-83b8-91a8edee624b")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR091"
 			(at 26.67 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -8706,7 +8705,7 @@
 		(instances
 			(project "espdrone"
 				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
-					(reference "#PWR087")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -8723,7 +8722,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad3a8b9d-a3cb-4abf-9763-90dd25dff318")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0103"
 			(at 176.53 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -8783,7 +8782,7 @@
 		(instances
 			(project "espdrone"
 				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
-					(reference "#PWR099")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -8801,7 +8800,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0331122-c664-42db-9048-9133463eb202")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR092"
 			(at 26.67 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -8861,7 +8860,7 @@
 		(instances
 			(project "espdrone"
 				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
-					(reference "#PWR088")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -9280,7 +9279,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb95fe17-5852-4ab7-8bf3-e30440709b71")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0101"
 			(at 160.02 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9340,7 +9339,7 @@
 		(instances
 			(project "espdrone"
 				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
-					(reference "#PWR097")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -9358,7 +9357,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d51916f1-53e3-493d-ace2-4e89d8080ae8")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0104"
 			(at 179.07 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -9418,7 +9417,7 @@
 		(instances
 			(project "espdrone"
 				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
-					(reference "#PWR0100")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -9436,7 +9435,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db987ea5-f1e6-45a5-bb6e-0b2cc82d47f8")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR098"
 			(at 102.87 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -9496,7 +9495,7 @@
 		(instances
 			(project "espdrone"
 				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
-					(reference "#PWR094")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -9504,7 +9503,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 232.41 34.29 0)
+		(at 232.41 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9513,8 +9512,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dfa6587b-f11a-4043-931b-cc092e242832")
-		(property "Reference" "#PWR0105"
-			(at 232.41 38.1 0)
+		(property "Reference" "#PWR0108"
+			(at 232.41 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9525,7 +9524,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 232.41 30.226 0)
+			(at 232.41 32.766 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9535,7 +9534,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 34.29 0)
+			(at 232.41 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9546,7 +9545,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 34.29 0)
+			(at 232.41 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9557,7 +9556,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 232.41 34.29 0)
+			(at 232.41 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9573,7 +9572,7 @@
 		(instances
 			(project "espdrone"
 				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
-					(reference "#PWR0105")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -9697,7 +9696,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 259.08 34.29 0)
+		(at 259.08 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9707,7 +9706,7 @@
 		(dnp no)
 		(uuid "e506591e-a130-4a94-8035-1394614e1b4e")
 		(property "Reference" "TP2"
-			(at 260.604 30.988 0)
+			(at 260.604 33.528 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9718,7 +9717,7 @@
 			)
 		)
 		(property "Value" "-BATT"
-			(at 260.604 32.258 0)
+			(at 260.604 34.798 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9729,8 +9728,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x01_D2mm_OD3.9mm"
-			(at 264.16 34.29 0)
+		(property "Footprint" "easyeda2kicad:BatteryPad_4x3mm"
+			(at 264.16 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9741,7 +9740,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 34.29 0)
+			(at 264.16 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9752,7 +9751,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 259.08 34.29 0)
+			(at 259.08 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9944,7 +9943,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1fd15bb-6e88-4088-afb3-ad087e8f4deb")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0107"
 			(at 203.2 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10004,7 +10003,7 @@
 		(instances
 			(project "espdrone"
 				(path "/2723c68b-03b3-439a-ab40-abcaf927b8a9"
-					(reference "#PWR0103")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -10332,7 +10331,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 248.92 34.29 0)
+		(at 248.92 36.83 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10343,7 +10342,7 @@
 		(dnp no)
 		(uuid "ff2ce957-88d3-4027-947b-fd606891fbfe")
 		(property "Reference" "TP1"
-			(at 247.65 31.242 0)
+			(at 247.65 33.782 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10354,7 +10353,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 247.396 32.512 0)
+			(at 247.396 35.052 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10365,8 +10364,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x01_D2mm_OD3.9mm"
-			(at 243.84 34.29 0)
+		(property "Footprint" "easyeda2kicad:BatteryPad_4x3mm"
+			(at 243.84 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10377,7 +10376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 34.29 0)
+			(at 243.84 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10388,7 +10387,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 248.92 34.29 0)
+			(at 248.92 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -1588,22 +1588,6 @@
 		(color 0 0 0 0)
 		(uuid "fc3c5172-ef63-49d7-9e23-13cb4c9d6bbf")
 	)
-	(no_connect
-		(at 107.95 167.64)
-		(uuid "3fe02cf3-497f-46c7-963b-7704d0aa50e8")
-	)
-	(no_connect
-		(at 146.05 167.64)
-		(uuid "9a366013-74b6-4f5d-abb2-123ffe256982")
-	)
-	(no_connect
-		(at 69.85 167.64)
-		(uuid "c442534f-86ad-4c79-ba7e-a0638e30a005")
-	)
-	(no_connect
-		(at 31.75 167.64)
-		(uuid "de807e39-a5cb-4aec-8452-af106087236f")
-	)
 	(wire
 		(pts
 			(xy 127 55.88) (xy 127 57.15)
@@ -1986,6 +1970,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 167.64) (xy 69.85 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a36e6a6-3289-41d4-bb0e-fcde9d6b6f80")
+	)
+	(wire
+		(pts
 			(xy 76.2 52.07) (xy 76.2 57.15)
 		)
 		(stroke
@@ -2143,6 +2137,16 @@
 			(type default)
 		)
 		(uuid "756252e5-601a-4b61-8b2c-81e99c80cbfa")
+	)
+	(wire
+		(pts
+			(xy 29.21 167.64) (xy 31.75 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76e4ae92-ee9c-4580-9f72-eee2167d263b")
 	)
 	(wire
 		(pts
@@ -2476,6 +2480,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 167.64) (xy 146.05 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a9a98d-c27d-46cc-97a0-3718f6abfd63")
+	)
+	(wire
+		(pts
 			(xy 64.77 46.99) (xy 68.58 46.99)
 		)
 		(stroke
@@ -2543,6 +2557,16 @@
 			(type default)
 		)
 		(uuid "bf34c5e3-15d6-4bd9-ad21-4b6a25c857af")
+	)
+	(wire
+		(pts
+			(xy 105.41 167.64) (xy 107.95 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c10be0bd-6ff5-4ffe-80b2-1097b4db7c80")
 	)
 	(wire
 		(pts
@@ -2848,6 +2872,30 @@
 			)
 		)
 	)
+	(global_label "TELEMETRY"
+		(shape input)
+		(at 67.31 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a08e8c7-6b30-4349-9675-3283de5b7ace")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.1045 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "DC_MOT1"
 		(shape input)
 		(at 54.61 57.15 180)
@@ -2920,6 +2968,30 @@
 			)
 		)
 	)
+	(global_label "TELEMETRY"
+		(shape input)
+		(at 143.51 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e14b338-ea6a-430c-a8be-cbb9d15b50d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.3045 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "DC_MOT4"
 		(shape input)
 		(at 116.84 104.14 180)
@@ -2957,6 +3029,54 @@
 		(uuid "b2a2aecd-62e0-4030-aea8-ee6caa33fc3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 132.2396 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "TELEMETRY"
+		(shape input)
+		(at 105.41 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca127bed-7ea3-424b-ac97-0f3c8908121f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.2045 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "TELEMETRY"
+		(shape input)
+		(at 29.21 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ddfa32e8-67b2-4e22-8c30-49cc34c1414f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.0045 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

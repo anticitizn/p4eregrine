@@ -3637,6 +3637,10 @@
 		(uuid "54e82510-fcfd-4f11-b360-775811a27fc5")
 	)
 	(no_connect
+		(at 49.53 55.88)
+		(uuid "96be882e-fb91-4cc1-b45d-1d912e0cf9c3")
+	)
+	(no_connect
 		(at 49.53 83.82)
 		(uuid "9702ebdd-87e6-4417-9412-9e1557f50c48")
 	)
@@ -3647,10 +3651,6 @@
 	(no_connect
 		(at 99.06 81.28)
 		(uuid "c5075d87-cc92-4f8f-a04f-550e32b4bbb7")
-	)
-	(no_connect
-		(at 49.53 60.96)
-		(uuid "d01da8ba-02f0-4cae-b135-50ce1efb5fc5")
 	)
 	(no_connect
 		(at 99.06 58.42)
@@ -5592,16 +5592,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 55.88) (xy 49.53 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b35d1a24-522d-49e2-9007-4fb2a174c4f2")
-	)
-	(wire
-		(pts
 			(xy 234.95 147.32) (xy 246.38 147.32)
 		)
 		(stroke
@@ -6460,6 +6450,16 @@
 		)
 		(uuid "3adc154f-9d97-4681-ab75-4e8d259d2cdb")
 	)
+	(label "VSENSE_REF"
+		(at 49.53 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3cb3a714-9d8d-49ec-87b1-c3379f8601f1")
+	)
 	(label "GHC"
 		(at 238.76 33.02 0)
 		(effects
@@ -6709,16 +6709,6 @@
 			(justify left bottom)
 		)
 		(uuid "9151d310-3970-4eda-96db-b8a89bc27309")
-	)
-	(label "VSENSE_REF"
-		(at 46.99 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "92d746c9-e5c2-4351-8cb9-17684a33ed2c")
 	)
 	(label "LSS"
 		(at 217.17 62.23 180)

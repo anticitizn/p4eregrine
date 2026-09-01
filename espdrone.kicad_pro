@@ -594,7 +594,7 @@
         "tuning_profile": "MIPI CSI"
       },
       {
-        "clearance": 0.5,
+        "clearance": 0.15,
         "name": "PHASE",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 5,
@@ -682,6 +682,10 @@
       {
         "netclass": "RF_50R",
         "pattern": "/Coprocessor/ANT_(2G|5G)"
+      },
+      {
+        "netclass": "PHASE",
+        "pattern": "/Motors/ESC1/PHASE_(A|B|C)"
       }
     ]
   },
@@ -887,7 +891,7 @@
         "uuid": "b7952862-8d86-4464-ae6b-e7392f598094"
       }
     ],
-    "used_designators": "USB1-3,J1-13,#FLG1-8,BT1,Card1,C1-206,FPC1,JP1-6,TP1-142,R1-193,D1-22,U1-30,Q1-56,#PWR1-356,Y1-2,L1-7,SW1-2",
+    "used_designators": "Q1-56,U1-30,D1-22,SW1-2,L1-7,Y1-2,#PWR1-356,TP1-142,R1-193,FPC1,JP1-6,USB1-3,J1-13,#FLG1-8,BT1,Card1,C1-206",
     "variants": []
   },
   "sheets": [

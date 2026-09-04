@@ -4032,6 +4032,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 204.47) (xy 101.6 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bf97712-7b6a-4b19-a9f6-d3397826a6e5")
+	)
+	(wire
+		(pts
 			(xy 111.76 97.79) (xy 111.76 99.06)
 		)
 		(stroke
@@ -4222,7 +4232,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 201.93) (xy 109.22 166.37)
+			(xy 109.22 166.37) (xy 109.22 201.93)
 		)
 		(stroke
 			(width 0)
@@ -4329,16 +4339,6 @@
 			(type default)
 		)
 		(uuid "3ccba83d-2031-436b-9d9d-86ae2024c30e")
-	)
-	(wire
-		(pts
-			(xy 101.6 193.04) (xy 101.6 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d8372be-bd0c-4756-96c8-ca31ae102126")
 	)
 	(wire
 		(pts
@@ -4752,16 +4752,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 194.31) (xy 101.6 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f09cade-bb9d-4689-9692-109f6ad7c534")
-	)
-	(wire
-		(pts
 			(xy 181.61 87.63) (xy 181.61 86.36)
 		)
 		(stroke
@@ -4789,16 +4779,6 @@
 			(type default)
 		)
 		(uuid "7367fd05-2c01-4c86-90e5-3edc28f64c52")
-	)
-	(wire
-		(pts
-			(xy 106.68 204.47) (xy 100.33 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74ac9ed2-9fb8-4e1d-b8ff-ac93a3f12e82")
 	)
 	(wire
 		(pts
@@ -5242,16 +5222,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 163.83) (xy 106.68 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6c20a2f-41ce-4376-84b6-5da231a5a537")
-	)
-	(wire
-		(pts
 			(xy 229.87 201.93) (xy 229.87 203.2)
 		)
 		(stroke
@@ -5399,6 +5369,16 @@
 			(type default)
 		)
 		(uuid "bb4f6586-020b-40e6-bb10-7ee8f50995ed")
+	)
+	(wire
+		(pts
+			(xy 100.33 194.31) (xy 106.68 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb861ef4-79ef-4fa4-b777-262a88e418c1")
 	)
 	(wire
 		(pts
@@ -5602,6 +5582,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 194.31) (xy 106.68 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d14e8f1a-26aa-476b-a1d1-143951e0676b")
+	)
+	(wire
+		(pts
 			(xy 173.99 116.84) (xy 194.31 116.84)
 		)
 		(stroke
@@ -5609,6 +5599,16 @@
 			(type default)
 		)
 		(uuid "d161053c-0369-4e17-8d6a-6c983c5b9f70")
+	)
+	(wire
+		(pts
+			(xy 100.33 204.47) (xy 101.6 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d21446b9-cda0-4cb7-9bda-ce6efc5552ec")
 	)
 	(wire
 		(pts

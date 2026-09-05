@@ -6918,7 +6918,7 @@
 			)
 		)
 	)
-	(global_label "CSI_DATAN1"
+	(global_label "CSI_DATA1N"
 		(shape input)
 		(at 49.53 147.32 180)
 		(fields_autoplaced yes)
@@ -6991,7 +6991,7 @@
 			)
 		)
 	)
-	(global_label "CSI_DATAP0"
+	(global_label "CSI_DATA0P"
 		(shape input)
 		(at 49.53 142.24 180)
 		(fields_autoplaced yes)
@@ -7234,7 +7234,7 @@
 			)
 		)
 	)
-	(global_label "CSI_DATAP1"
+	(global_label "CSI_DATA1P"
 		(shape input)
 		(at 49.53 149.86 180)
 		(fields_autoplaced yes)
@@ -7404,7 +7404,7 @@
 			)
 		)
 	)
-	(global_label "CSI_DATAN0"
+	(global_label "CSI_DATA0N"
 		(shape input)
 		(at 49.53 139.7 180)
 		(fields_autoplaced yes)

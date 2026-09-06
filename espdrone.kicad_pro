@@ -944,7 +944,7 @@
     },
     "tuning_profiles_impedance_geometric": [
       {
-        "enable_time_domain_tuning": true,
+        "enable_time_domain_tuning": false,
         "layer_entries": [
           {
             "bottom_reference_layer": "In1.Cu",
@@ -962,7 +962,7 @@
         "via_prop_delay": 0
       },
       {
-        "enable_time_domain_tuning": true,
+        "enable_time_domain_tuning": false,
         "layer_entries": [
           {
             "bottom_reference_layer": "In1.Cu",
@@ -980,7 +980,7 @@
         "via_prop_delay": 0
       },
       {
-        "enable_time_domain_tuning": true,
+        "enable_time_domain_tuning": false,
         "layer_entries": [
           {
             "bottom_reference_layer": "In1.Cu",

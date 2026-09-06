@@ -1049,277 +1049,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:WS2812B"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 5.08 5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Value" "WS2812B"
-				(at 1.27 -5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-				(at 1.27 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-				(at 2.54 -9.525 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "RGB LED with integrated controller"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "RGB LED NeoPixel addressable"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "WS2812B_0_0"
-				(text "RGB"
-					(at 2.286 -4.191 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "WS2812B_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.556) (xy 1.778 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -3.556) (xy 2.667 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "WS2812B_1_1"
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Sensor_Distance:VL53L1CXV0FY1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4045,18 +3774,6 @@
 		(uuid "9334402b-910b-4392-b797-d519dc37e30b")
 	)
 	(rectangle
-		(start 12.7 12.7)
-		(end 115.57 54.61)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "99418ec2-9039-48f0-bbb2-b177fa52a6e0")
-	)
-	(rectangle
 		(start 116.84 12.7)
 		(end 182.88 96.52)
 		(stroke
@@ -4079,18 +3796,6 @@
 			)
 		)
 		(uuid "22d92493-845f-41cf-87a4-45a1dde22d8d")
-	)
-	(text "LED"
-		(exclude_from_sim no)
-		(at 18.288 16.51 0)
-		(effects
-			(font
-				(size 3.2512 3.2512)
-				(thickness 0.6502)
-				(bold yes)
-			)
-		)
-		(uuid "274069cf-e899-4a4d-b165-6fb20703f27f")
 	)
 	(text "Magnetometer"
 		(exclude_from_sim no)
@@ -4243,18 +3948,6 @@
 		(uuid "23e0e711-8838-4cae-b7a9-144963d605dc")
 	)
 	(junction
-		(at 31.75 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3263356d-cb82-48a1-bfa1-16f2c42a3035")
-	)
-	(junction
-		(at 80.01 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3512a007-d4f6-498d-b5c0-e8ffd31f5511")
-	)
-	(junction
 		(at 46.99 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4327,12 +4020,6 @@
 		(uuid "6f15e058-465c-4792-8572-d2875c54dec7")
 	)
 	(junction
-		(at 104.14 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "782a4248-5dbf-4e44-8baf-38ef7aec4d58")
-	)
-	(junction
 		(at 107.95 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4403,12 +4090,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c50244af-7099-410d-90ed-8cf8918eb54f")
-	)
-	(junction
-		(at 55.88 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c80151f9-9b9e-43a3-a3df-318e6685187c")
 	)
 	(junction
 		(at 247.65 130.81)
@@ -4507,10 +4188,6 @@
 	(no_connect
 		(at 243.84 140.97)
 		(uuid "21ebc708-46f3-466c-8163-869c2fb2fcf0")
-	)
-	(no_connect
-		(at 111.76 31.75)
-		(uuid "2cfea5ec-35dd-4c83-ae17-f4a44edc7a80")
 	)
 	(no_connect
 		(at 243.84 128.27)
@@ -4712,16 +4389,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 41.91) (xy 80.01 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "114237d7-ce50-46bd-a202-950426bf0f7c")
-	)
-	(wire
-		(pts
 			(xy 31.75 160.02) (xy 31.75 161.29)
 		)
 		(stroke
@@ -4739,16 +4406,6 @@
 			(type default)
 		)
 		(uuid "11e545b0-3038-4a70-b391-ff50e5697544")
-	)
-	(wire
-		(pts
-			(xy 31.75 22.86) (xy 31.75 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "122b2dbc-fc38-427b-a5e8-fbdd2c4a3631")
 	)
 	(wire
 		(pts
@@ -4852,16 +4509,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 39.37) (xy 31.75 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c27eb58-2a13-4b6c-8878-3a6d82bb6d04")
-	)
-	(wire
-		(pts
 			(xy 261.62 33.02) (xy 261.62 31.75)
 		)
 		(stroke
@@ -4899,16 +4546,6 @@
 			(type default)
 		)
 		(uuid "1eb91815-97bb-46de-aac8-9fc99b4ec66d")
-	)
-	(wire
-		(pts
-			(xy 102.87 41.91) (xy 104.14 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1eeae134-1852-4d1d-a118-843b566e9c45")
 	)
 	(wire
 		(pts
@@ -5002,16 +4639,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 41.91) (xy 31.75 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25db0929-c51c-4335-8974-a67f733b1081")
-	)
-	(wire
-		(pts
 			(xy 152.4 45.72) (xy 152.4 48.26)
 		)
 		(stroke
@@ -5092,16 +4719,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 41.91) (xy 21.59 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f476ca4-ac2e-4d3d-bdea-9afbadb73dc2")
-	)
-	(wire
-		(pts
 			(xy 130.81 144.78) (xy 130.81 142.24)
 		)
 		(stroke
@@ -5129,16 +4746,6 @@
 			(type default)
 		)
 		(uuid "3314175c-1fc8-44f9-8567-5f7ad50ec5ea")
-	)
-	(wire
-		(pts
-			(xy 95.25 41.91) (xy 93.98 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3354efc3-33d7-44ab-8668-286551b515c3")
 	)
 	(wire
 		(pts
@@ -5272,16 +4879,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 31.75) (xy 39.37 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43d2400c-4e12-4270-89b9-609179aa8fe9")
-	)
-	(wire
-		(pts
 			(xy 203.2 151.13) (xy 208.28 151.13)
 		)
 		(stroke
@@ -5359,16 +4956,6 @@
 			(type default)
 		)
 		(uuid "53882638-e2ed-4be1-8524-fa154590b8b7")
-	)
-	(wire
-		(pts
-			(xy 55.88 39.37) (xy 55.88 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53a01b01-fd8e-495e-946e-dafbd2b39bcd")
 	)
 	(wire
 		(pts
@@ -5542,16 +5129,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 22.86) (xy 55.88 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7387ae62-ab45-4c5c-aa46-cfb914103aa9")
-	)
-	(wire
-		(pts
 			(xy 133.35 55.88) (xy 137.16 55.88)
 		)
 		(stroke
@@ -5559,16 +5136,6 @@
 			(type default)
 		)
 		(uuid "739f11b1-c877-44af-ba19-f6a7ff767510")
-	)
-	(wire
-		(pts
-			(xy 78.74 41.91) (xy 80.01 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7480a09d-0a21-4658-82e6-af39011243ad")
 	)
 	(wire
 		(pts
@@ -5652,16 +5219,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 22.86) (xy 104.14 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e45f781-310e-496f-bd2c-dd72549a7ea9")
-	)
-	(wire
-		(pts
 			(xy 114.3 167.64) (xy 118.11 167.64)
 		)
 		(stroke
@@ -5679,16 +5236,6 @@
 			(type default)
 		)
 		(uuid "821fef46-b77d-46fc-9960-93a4adb438f2")
-	)
-	(wire
-		(pts
-			(xy 30.48 41.91) (xy 31.75 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85298b8e-65a4-4a7d-bbde-f01f3bf8c251")
 	)
 	(wire
 		(pts
@@ -5729,16 +5276,6 @@
 			(type default)
 		)
 		(uuid "89cc1fbf-28e5-4cee-bd7a-cfe35f26480c")
-	)
-	(wire
-		(pts
-			(xy 24.13 31.75) (xy 21.59 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c4dd61b-c58f-4b0f-82d7-4c9e31aa19c3")
 	)
 	(wire
 		(pts
@@ -6392,26 +5929,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 41.91) (xy 55.88 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da19c4cf-d548-4768-844c-d9efe7ec7770")
-	)
-	(wire
-		(pts
-			(xy 96.52 31.75) (xy 87.63 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcb38107-442d-4228-8515-5070ac3b3192")
-	)
-	(wire
-		(pts
 			(xy 24.13 181.61) (xy 24.13 182.88)
 		)
 		(stroke
@@ -6422,16 +5939,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 39.37) (xy 80.01 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddddfce9-8a11-4da0-ba02-327c9ecda749")
-	)
-	(wire
-		(pts
 			(xy 165.1 138.43) (xy 165.1 139.7)
 		)
 		(stroke
@@ -6439,16 +5946,6 @@
 			(type default)
 		)
 		(uuid "de240e4a-cb01-48e6-9114-f0c76d50cb3d")
-	)
-	(wire
-		(pts
-			(xy 71.12 41.91) (xy 69.85 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de37e28d-91c3-4ca2-8315-346ccc680f17")
 	)
 	(wire
 		(pts
@@ -6542,16 +6039,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 39.37) (xy 104.14 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5b03973-90f6-4fef-b369-afccb4558022")
-	)
-	(wire
-		(pts
 			(xy 256.54 78.74) (xy 271.78 78.74)
 		)
 		(stroke
@@ -6612,26 +6099,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 22.86) (xy 80.01 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0eba287-3891-4e4c-a436-abf6eb7a0a47")
-	)
-	(wire
-		(pts
-			(xy 46.99 41.91) (xy 45.72 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f20881e9-75c6-442d-bff2-9b209cb0f76a")
-	)
-	(wire
-		(pts
 			(xy 39.37 78.74) (xy 39.37 81.28)
 		)
 		(stroke
@@ -6672,16 +6139,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 31.75) (xy 63.5 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa062daf-a762-4fc4-8d46-e2f0764d1a0b")
-	)
-	(wire
-		(pts
 			(xy 62.23 96.52) (xy 80.01 96.52)
 		)
 		(stroke
@@ -6689,16 +6146,6 @@
 			(type default)
 		)
 		(uuid "fb27891d-3bd6-48cd-81aa-82faf7476c36")
-	)
-	(wire
-		(pts
-			(xy 54.61 41.91) (xy 55.88 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbc7afa3-d1ac-4c4f-ab47-8521b2b6a6a9")
 	)
 	(wire
 		(pts
@@ -6739,16 +6186,6 @@
 			(type default)
 		)
 		(uuid "fef31217-c737-436d-9cdf-45955ef7d49e")
-	)
-	(wire
-		(pts
-			(xy 104.14 41.91) (xy 104.14 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff87e6fc-5ec5-4b95-88b2-516a44be5984")
 	)
 	(global_label "SPI_PMW3901_CS"
 		(shape input)
@@ -7429,30 +6866,6 @@
 			)
 		)
 	)
-	(global_label "LEDD"
-		(shape input)
-		(at 21.59 31.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d3532250-beb6-40e3-86ca-bc6475a7ba8a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.8877 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "SPI_EXT_CS"
 		(shape input)
 		(at 256.54 81.28 180)
@@ -7634,86 +7047,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 41.91 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0538e895-91aa-46ce-8a66-fd21f038e530")
-		(property "Reference" "#PWR0125"
-			(at 63.5 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.04 41.9099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "23bdd03c-221f-46d5-9fed-1b222b73ca42")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "#PWR0125")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 31.75 138.43 0)
 		(unit 1)
 		(body_style 1)
@@ -7784,95 +7117,6 @@
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
 					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 80.01 31.75 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0748e03b-5e54-4e7a-8ffb-9b5cc941905d")
-		(property "Reference" "D5"
-			(at 68.58 26.2538 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 68.58 28.7938 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 81.28 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 82.55 22.225 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 80.01 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4e9a8689-9eef-41fe-aeeb-fce782cd4c1b")
-		)
-		(pin "4"
-			(uuid "4c58d204-6f89-4736-899b-7d97d2f46554")
-		)
-		(pin "2"
-			(uuid "82dd5049-ebc1-4270-a82d-b849d91434ad")
-		)
-		(pin "3"
-			(uuid "0c5502df-e4ee-472b-90c6-7158741d6107")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -8292,85 +7536,6 @@
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
 					(reference "C90")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 74.93 41.91 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "15635ebc-8a69-4d56-9a1a-522b26ab2e43")
-		(property "Reference" "C78"
-			(at 74.93 47.752 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 74.93 45.72 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 71.12 42.8752 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 74.93 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9dc373f1-dac1-45e5-beca-c42cd4392118")
-		)
-		(pin "2"
-			(uuid "5234766f-2e86-40dd-9684-aabb15691e92")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -9003,85 +8168,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 55.88 22.86 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2fc3812f-493c-4533-8435-21263e39389d")
-		(property "Reference" "#PWR0121"
-			(at 55.88 16.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1d708352-a925-4623-bf82-51822a74b3ed")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "#PWR0121")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 54.61 67.31 0)
 		(unit 1)
@@ -9154,95 +8240,6 @@
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
 					(reference "#PWR0120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 104.14 31.75 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3744b97c-5962-4838-be99-c07014491a58")
-		(property "Reference" "D6"
-			(at 92.71 26.2538 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 92.71 28.7938 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 105.41 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 106.68 22.225 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 104.14 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2696819b-53c8-4ada-8faf-40d48ae7c502")
-		)
-		(pin "4"
-			(uuid "da45e4aa-e5b4-419a-8bc2-0966c5b41b8b")
-		)
-		(pin "2"
-			(uuid "4c596d1e-63ff-45fa-be99-6f7cbefee4ea")
-		)
-		(pin "3"
-			(uuid "9a2431bb-52b7-4283-8f45-0ed2bd08e0ce")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -9644,95 +8641,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 31.75 31.75 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4889eb9d-d66d-45e0-8f9c-6b521c3e8db6")
-		(property "Reference" "D3"
-			(at 20.32 26.2538 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 20.32 28.7938 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 33.02 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 34.29 22.225 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 31.75 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "63f69550-7870-4c11-adef-6087d5e7fdd9")
-		)
-		(pin "4"
-			(uuid "20039c29-f9d8-4ae0-8c30-37da20df06d8")
-		)
-		(pin "2"
-			(uuid "a7770944-c124-4a8e-a51b-1f271508329a")
-		)
-		(pin "3"
-			(uuid "0da31827-e632-40b7-b211-08d0981e1896")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 133.35 45.72 0)
 		(mirror y)
@@ -9884,85 +8792,6 @@
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
 					(reference "R50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 80.01 22.86 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "533d89ec-f9d7-4eaf-969f-dfa8fca898b4")
-		(property "Reference" "#PWR0127"
-			(at 80.01 16.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 80.01 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d56c7716-15e6-491f-be39-dac6647f2aea")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -10242,84 +9071,6 @@
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
 					(reference "#PWR0152")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 80.01 45.72 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "585d8196-8590-4374-8996-8091c7646d60")
-		(property "Reference" "#PWR0128"
-			(at 80.01 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 80.01 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 80.01 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "172a447a-2a17-47dd-a28c-ee64c520e4fe")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -10719,85 +9470,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 50.8 41.91 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "611626e4-cc34-485a-9a0c-57fe9b086d76")
-		(property "Reference" "C77"
-			(at 50.8 47.752 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 50.8 45.72 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 46.99 42.8752 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 50.8 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fcf84ca8-fe2b-44f9-9479-8c06d8f6501e")
-		)
-		(pin "2"
-			(uuid "d32ba337-4ee0-4981-a997-7791727e8ad5")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "C77")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 82.55 69.85 270)
 		(unit 1)
 		(body_style 1)
@@ -11156,174 +9828,6 @@
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
 					(reference "Card1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 26.67 41.91 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7689d96f-8948-4694-9b72-5f672545da66")
-		(property "Reference" "C76"
-			(at 26.67 47.752 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 26.67 45.72 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 22.86 42.8752 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 26.67 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "086f93ec-7876-4a1a-a425-0980206f87e7")
-		)
-		(pin "2"
-			(uuid "b71c79b2-4054-4377-baea-4681ae1a8e64")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "C76")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 55.88 31.75 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "780e2150-3a37-434d-a0f8-c93c221e6c47")
-		(property "Reference" "D4"
-			(at 44.45 26.2538 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 44.45 28.7938 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 57.15 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 58.42 22.225 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 55.88 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "74f56dac-aa0d-4c02-b12b-581cf6b08a37")
-		)
-		(pin "4"
-			(uuid "4b33bf17-7f0d-4c41-b312-c125536eb2cc")
-		)
-		(pin "2"
-			(uuid "ddb49119-0ac5-4aee-a732-c01e4836df75")
-		)
-		(pin "3"
-			(uuid "3da5689c-c4f3-47ba-9e2b-8ef31f2ebf7a")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -12076,242 +10580,6 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 104.14 45.72 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c0060c4-dc77-47a9-b903-4fae094a69be")
-		(property "Reference" "#PWR0131"
-			(at 104.14 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 104.14 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 104.14 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b079d6c8-debb-4470-8c1b-14ec7ece4ea6")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "#PWR0131")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 104.14 22.86 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fa9a548-a1fe-404f-b462-37c7c09f7920")
-		(property "Reference" "#PWR0130"
-			(at 104.14 16.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.14 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "28ac26a4-5f37-469b-8a7a-abfb03b76366")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "#PWR0130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 99.06 41.91 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "91553716-4c23-4110-a466-2d43f45be3f1")
-		(property "Reference" "C80"
-			(at 99.06 47.752 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 99.06 45.72 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 95.25 42.8752 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 99.06 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f0d03dce-dbd6-4824-ab25-67fe92fd501d")
-		)
-		(pin "2"
-			(uuid "c818bd9f-6c3b-4dd6-a77e-1a46a9bd1089")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "C80")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
 		(at 259.08 134.62 0)
 		(mirror y)
 		(unit 1)
@@ -12383,85 +10651,6 @@
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
 					(reference "#PWR0154")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 31.75 22.86 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "979d1334-185c-45d8-907f-9a6b301f1119")
-		(property "Reference" "#PWR0113"
-			(at 31.75 16.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 31.75 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a49f7861-2474-4f25-b50e-b79cb835bd74")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -12782,86 +10971,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 93.98 41.91 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a70b044c-2292-4290-8410-131be8894d09")
-		(property "Reference" "#PWR0129"
-			(at 87.63 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 90.17 41.9099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "85d9270d-da0f-4921-bb8a-1a4c7f66d990")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "#PWR0129")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 267.97 30.48 0)
 		(unit 1)
@@ -12941,86 +11050,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 21.59 41.91 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab15b2e6-79e0-453b-8148-26171edd415e")
-		(property "Reference" "#PWR0110"
-			(at 15.24 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 17.78 41.9099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 21.59 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 21.59 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cd8af2f3-1ba8-417e-afaf-adafbaa0896f")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 210.82 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -13091,84 +11120,6 @@
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
 					(reference "#PWR0149")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 31.75 45.72 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac1d3847-ab55-4ffa-a815-12076455c363")
-		(property "Reference" "#PWR0114"
-			(at 31.75 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 31.75 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 31.75 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5f4b16a3-bc81-4689-8345-6697b94a2d4a")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -13716,84 +11667,6 @@
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
 					(reference "#PWR0145")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 55.88 45.72 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba7b8b40-ae1b-457b-83e1-fb4168925fa6")
-		(property "Reference" "#PWR0122"
-			(at 55.88 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 55.88 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 55.88 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5ae850f8-35cf-453e-b93c-995e76531768")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -14409,86 +12282,6 @@
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
 					(reference "C85")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 45.72 41.91 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df048e50-4290-4ab4-b4d9-95f63f77c05a")
-		(property "Reference" "#PWR0119"
-			(at 39.37 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 41.91 41.9099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e28f9a1e-7357-4c1d-8484-5276b7e7d899")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "#PWR0119")
 					(unit 1)
 				)
 			)

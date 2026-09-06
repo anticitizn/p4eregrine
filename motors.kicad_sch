@@ -476,6 +476,22 @@
 		(color 0 0 0 0)
 		(uuid "eef60a02-6c03-4227-ae52-c74b65fdcf59")
 	)
+	(no_connect
+		(at 144.78 66.04)
+		(uuid "0ddc1a12-5192-4077-a7de-9d200e504250")
+	)
+	(no_connect
+		(at 68.58 66.04)
+		(uuid "47915c9a-ac30-4bd6-a0d9-d7d46051a30d")
+	)
+	(no_connect
+		(at 106.68 66.04)
+		(uuid "6a0d6212-6eef-4236-b5a5-4529fe905c0f")
+	)
+	(no_connect
+		(at 30.48 66.04)
+		(uuid "70ef6531-41a3-4666-8c44-d29011d62239")
+	)
 	(wire
 		(pts
 			(xy 144.78 62.23) (xy 147.32 62.23)
@@ -830,30 +846,6 @@
 			)
 		)
 	)
-	(global_label "TELEMETRY"
-		(shape input)
-		(at 68.58 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1a08e8c7-6b30-4349-9675-3283de5b7ace")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.3745 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "DSHOT_3"
 		(shape input)
 		(at 106.68 62.23 180)
@@ -878,30 +870,6 @@
 			)
 		)
 	)
-	(global_label "TELEMETRY"
-		(shape input)
-		(at 144.78 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9e14b338-ea6a-430c-a8be-cbb9d15b50d6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.5745 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "DSHOT_4"
 		(shape input)
 		(at 144.78 62.23 180)
@@ -915,54 +883,6 @@
 		(uuid "b2a2aecd-62e0-4030-aea8-ee6caa33fc3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 133.5096 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "TELEMETRY"
-		(shape input)
-		(at 106.68 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ca127bed-7ea3-424b-ac97-0f3c8908121f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.4745 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "TELEMETRY"
-		(shape input)
-		(at 30.48 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ddfa32e8-67b2-4e22-8c30-49cc34c1414f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.2745 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

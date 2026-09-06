@@ -691,6 +691,10 @@
       {
         "netclass": "PHASE",
         "pattern": "/Motors/ESC1/PHASE_(A|B|C)"
+      },
+      {
+        "netclass": "USB_90R",
+        "pattern": "*USB_*"
       }
     ]
   },

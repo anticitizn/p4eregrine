@@ -169,10 +169,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.25,
         "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -900,7 +900,7 @@
         "uuid": "b7952862-8d86-4464-ae6b-e7392f598094"
       }
     ],
-    "used_designators": "J1-13,USB1-3,#PWR1-356,Y1-2,SW1-2,#FLG1-8,BT1,R1-193,TP1-142,C1-209,Card1,JP1-6,FPC1,L1-7,Q1-56,D1-22,U1-30",
+    "used_designators": "FPC1,JP1-6,Card1,C1-209,Q1-56,U1-30,D1-22,L1-7,J1-13,USB1-3,R1-193,TP1-142,#PWR1-356,Y1-2,SW1-2,#FLG1-8,BT1",
     "variants": []
   },
   "sheets": [

@@ -410,9 +410,9 @@
 		)
 		(uuid "3007c1eb-5cbe-4c8e-af36-aef14d7a6dfc")
 	)
-	(text "BLDC Motor Control"
+	(text "Brushless Motor Electronic Speed Control"
 		(exclude_from_sim no)
-		(at 41.402 21.082 0)
+		(at 70.612 21.59 0)
 		(effects
 			(font
 				(size 3.2512 3.2512)

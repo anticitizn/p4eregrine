@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.1-8.0.1-1~ubuntu22.04.1"
+      "Version": "10.0.5"
     },
-    "CreationDate": "2024-03-26T17:18:09+01:00"
+    "CreationDate": "2026-09-07T04:17:53+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,30 +14,31 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 97.3034,
-      "Y": 97.3034
+      "X": 55.05,
+      "Y": 55.05
     },
-    "LayerNumber": 4,
-    "BoardThickness": 1.6,
-    "Finish": "None"
+    "LayerNumber": 6,
+    "BoardThickness": 1.166,
+    "Finish": "ENIG"
   },
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
-      "TrackToTrack": 0.2,
-      "MinLineWidth": 0.2,
-      "TrackToRegion": 0.5,
-      "RegionToRegion": 0.5
+      "PadToPad": 0.1,
+      "PadToTrack": 0.1,
+      "TrackToTrack": 0.1,
+      "MinLineWidth": 0.1,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
     },
     {
       "Layers": "Inner",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
-      "TrackToTrack": 0.2,
-      "TrackToRegion": 0.5,
-      "RegionToRegion": 0.5
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.1,
+      "MinLineWidth": 0.1,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
     }
   ],
   "FilesAttributes": [
@@ -47,18 +48,28 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "espdrone-GND.gbr",
+      "Path": "espdrone-F_GND.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "espdrone-PWR.gbr",
+      "Path": "espdrone-InF_Cu.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
+      "Path": "espdrone-InB_Cu.gbr",
+      "FileFunction": "Copper,L4,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "espdrone-B_GND.gbr",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "espdrone-B_Cu.gbr",
-      "FileFunction": "Copper,L4,Bot",
+      "FileFunction": "Copper,L6,Bot",
       "FilePolarity": "Positive"
     },
     {
@@ -118,34 +129,58 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.1,
+      "Thickness": 0.0994,
       "Material": "FR4",
-      "Name": "F.Cu/GND",
-      "Notes": "Type: dielectric layer 1 (from F.Cu to GND)"
+      "Name": "F.Cu/F.GND",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to F.GND)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
-      "Name": "GND"
+      "Thickness": 0.0152,
+      "Name": "F.GND"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 1.24,
+      "Thickness": 0.35,
       "Material": "FR4",
-      "Name": "GND/PWR",
-      "Notes": "Type: dielectric layer 2 (from GND to PWR)"
+      "Name": "F.GND/InF.Cu",
+      "Notes": "Type: dielectric layer 2 (from F.GND to InF.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
-      "Name": "PWR"
+      "Thickness": 0.0152,
+      "Name": "InF.Cu"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.1,
+      "Thickness": 0.1164,
       "Material": "FR4",
-      "Name": "PWR/B.Cu",
-      "Notes": "Type: dielectric layer 3 (from PWR to B.Cu)"
+      "Name": "InF.Cu/InB.Cu",
+      "Notes": "Type: dielectric layer 3 (from InF.Cu to InB.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "InB.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.35,
+      "Material": "FR4",
+      "Name": "InB.Cu/B.GND",
+      "Notes": "Type: dielectric layer 4 (from InB.Cu to B.GND)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "B.GND"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.0994,
+      "Material": "FR4",
+      "Name": "B.GND/B.Cu",
+      "Notes": "Type: dielectric layer 5 (from B.GND to B.Cu)"
     },
     {
       "Type": "Copper",

@@ -5713,6 +5713,10 @@
 		(uuid "69d85f8b-7ffc-464d-b6e6-aac657f1e6bb")
 	)
 	(no_connect
+		(at 73.66 149.86)
+		(uuid "8ba7e04b-e422-4cf5-b81d-d0942b488223")
+	)
+	(no_connect
 		(at 190.5 168.91)
 		(uuid "8d5d9099-bffc-4e53-8fe5-a2bc98cc1ab7")
 	)
@@ -5955,16 +5959,6 @@
 			(type default)
 		)
 		(uuid "0c2983b4-a22e-4656-a527-dd4e3211d229")
-	)
-	(wire
-		(pts
-			(xy 71.12 149.86) (xy 73.66 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0da63cda-6513-4e7f-a622-8bc8da3dc7c0")
 	)
 	(wire
 		(pts
@@ -10122,30 +10116,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "TELEMETRY"
-		(shape input)
-		(at 71.12 149.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "905ee05d-3d6f-42f6-b106-33c1fa87e255")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.9145 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)

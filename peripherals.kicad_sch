@@ -3282,12 +3282,6 @@
 		(uuid "97158380-4433-4564-a6a8-8e360d3b8c3c")
 	)
 	(junction
-		(at 199.39 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "980b92d5-4cdc-4cea-bfcf-6a32692e22bb")
-	)
-	(junction
 		(at 96.52 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3306,7 +3300,7 @@
 		(uuid "bd1100cc-0d8a-4042-bec6-e0d23c76be52")
 	)
 	(junction
-		(at 189.23 113.03)
+		(at 203.2 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd98056f-982e-4bf3-bfe6-b7b10b8b7fcd")
@@ -3346,12 +3340,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb770ff0-d3b6-4f2b-9dac-631938cdc819")
-	)
-	(junction
-		(at 189.23 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe0ea20f-8b8b-4984-ba0d-c56be14d03dc")
 	)
 	(no_connect
 		(at 128.27 54.61)
@@ -4031,7 +4019,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 113.03) (xy 214.63 113.03)
+			(xy 203.2 113.03) (xy 214.63 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4138,16 +4126,6 @@
 			(type default)
 		)
 		(uuid "7f4b7a0b-5f7f-45a2-afea-791505d9cd4b")
-	)
-	(wire
-		(pts
-			(xy 199.39 113.03) (xy 189.23 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89cc1fbf-28e5-4cee-bd7a-cfe35f26480c")
 	)
 	(wire
 		(pts
@@ -4301,7 +4279,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 109.22) (xy 189.23 113.03)
+			(xy 203.2 109.22) (xy 203.2 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4411,7 +4389,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 120.65) (xy 189.23 121.92)
+			(xy 203.2 120.65) (xy 203.2 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4701,16 +4679,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 120.65) (xy 199.39 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbfa738c-c32f-424f-8bc4-17f9c1597bf9")
-	)
-	(wire
-		(pts
 			(xy 113.03 76.2) (xy 113.03 74.93)
 		)
 		(stroke
@@ -4721,7 +4689,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 109.22) (xy 189.23 109.22)
+			(xy 201.93 109.22) (xy 203.2 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4809,7 +4777,7 @@
 	)
 	(global_label "VDDO_4"
 		(shape input)
-		(at 187.96 109.22 180)
+		(at 201.93 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4819,7 +4787,7 @@
 		)
 		(uuid "1cf04426-bba5-45ba-bfe7-f26b84434e7a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.8386 109.22 0)
+			(at 191.8086 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5660,87 +5628,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 199.39 116.84 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0b6660a2-4e86-444b-95dc-8ad2bb381406")
-		(property "Reference" "C90"
-			(at 202.438 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 202.438 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 198.4248 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 199.39 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2592089a-daa9-4197-b084-52c538cfdab5")
-		)
-		(pin "1"
-			(uuid "efa9f441-620c-41c9-9362-5ae5f93629a1")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "C90")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 137.16 119.38 180)
 		(unit 1)
 		(body_style 1)
@@ -6525,7 +6412,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 189.23 116.84 180)
+		(at 203.2 116.84 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6535,7 +6422,7 @@
 		(dnp no)
 		(uuid "3d167689-4681-48c9-aa0e-52f800778432")
 		(property "Reference" "C88"
-			(at 192.278 115.57 0)
+			(at 206.248 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6546,7 +6433,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 192.278 118.11 0)
+			(at 206.248 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6557,7 +6444,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 188.2648 113.03 0)
+			(at 202.2348 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6568,7 +6455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 116.84 0)
+			(at 203.2 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6579,7 +6466,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 189.23 116.84 0)
+			(at 203.2 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8971,7 +8858,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 121.92 0)
+		(at 203.2 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8981,7 +8868,7 @@
 		(dnp no)
 		(uuid "bfa4a953-bbb4-40d4-98e0-93dddeb45ee6")
 		(property "Reference" "#PWR0144"
-			(at 189.23 128.27 0)
+			(at 203.2 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8992,7 +8879,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 125.984 0)
+			(at 203.2 125.984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9002,7 +8889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 121.92 0)
+			(at 203.2 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9013,7 +8900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 121.92 0)
+			(at 203.2 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9024,7 +8911,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 121.92 0)
+			(at 203.2 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

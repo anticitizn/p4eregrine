@@ -12604,7 +12604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:USB-C-SMD_TYPE-C-16PIN-2MD-073"
+		(property "Footprint" "easyeda2kicad:USB-C-SMD_TYPE-C-16P-USB4110-GF-A"
 			(at 275.59 82.55 0)
 			(hide yes)
 			(show_name no)

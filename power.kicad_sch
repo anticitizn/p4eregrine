@@ -7247,7 +7247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL4020-XXX"
+		(property "Footprint" "easyeda2kicad:L0806"
 			(at 69.85 118.11 0)
 			(hide yes)
 			(show_name no)

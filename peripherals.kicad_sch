@@ -7900,107 +7900,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x08")
-		(at 184.15 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a69f9a0-ae9e-494a-b7c2-2073ec7174f3")
-		(property "Reference" "J1"
-			(at 186.69 54.6099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x08"
-			(at 186.69 57.1499 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:Connector_Pad_1.27mm_1x08"
-			(at 184.15 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 184.15 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "7a62ce10-2e5c-414e-8120-63b554757277")
-		)
-		(pin "8"
-			(uuid "d7509664-f145-4f11-a8cd-a0ee2a4ade7f")
-		)
-		(pin "2"
-			(uuid "8c8cb373-3878-4c48-98f5-9ad8543a6f63")
-		)
-		(pin "1"
-			(uuid "9fa23eff-8d4d-4b7e-ab46-f972bec00613")
-		)
-		(pin "5"
-			(uuid "28f5e84e-2039-4735-b7d1-a77e8acd18fd")
-		)
-		(pin "4"
-			(uuid "d0896fd6-7fa6-4266-ba23-de6c33f6768e")
-		)
-		(pin "6"
-			(uuid "2b99c30d-c05d-4f2d-8baf-6d5f344613b8")
-		)
-		(pin "7"
-			(uuid "d04a097d-6783-42ce-a5c3-61d83225148f")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 158.75 46.99 270)
 		(unit 1)
@@ -9006,6 +8905,107 @@
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
 					(reference "#PWR0286")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 184.15 57.15 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c59f9685-df46-4791-ba87-4360990b58f4")
+		(property "Reference" "J1"
+			(at 186.69 57.1501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x08"
+			(at 186.69 54.6101 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:Connector_Pad_1.27mm_1x08"
+			(at 184.15 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 184.15 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "f4ed4fe2-5685-43fc-978e-85f8543f1b4d")
+		)
+		(pin "8"
+			(uuid "5038bb66-1e0e-4538-a8c0-1fd2b76b58fc")
+		)
+		(pin "2"
+			(uuid "4cb6e7bc-b1d0-49cf-9a5f-696c886a7c3d")
+		)
+		(pin "1"
+			(uuid "9a853344-9421-4b33-aad0-a80285c91cd6")
+		)
+		(pin "5"
+			(uuid "40a1e88e-bebd-48ef-a4da-0951f9889d72")
+		)
+		(pin "4"
+			(uuid "08aad979-66d3-4ef5-a43b-e232a2a4b7df")
+		)
+		(pin "6"
+			(uuid "725ea905-ee9b-40e1-ae78-3b03612bf764")
+		)
+		(pin "7"
+			(uuid "cdf5a6f0-8f67-4039-a79e-d77d9482a54b")
+		)
+		(instances
+			(project "espdrone"
+				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
+					(reference "J1")
 					(unit 1)
 				)
 			)

@@ -16288,7 +16288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 209.55 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -16694,7 +16694,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 200.66 187.452 90)
 			(hide yes)
 			(show_name no)

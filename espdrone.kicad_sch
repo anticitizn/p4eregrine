@@ -5784,12 +5784,6 @@
 		(uuid "eea8d21d-df31-47c4-8c1a-3842b1f43595")
 	)
 	(junction
-		(at 53.34 223.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4c42d82-c433-47e5-9dfa-6d92aab449d5")
-	)
-	(junction
 		(at 38.1 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5878,6 +5872,10 @@
 	(no_connect
 		(at 157.48 213.36)
 		(uuid "486ba835-f3e0-40bd-bc81-9eb0964e674b")
+	)
+	(no_connect
+		(at 106.68 213.36)
+		(uuid "53a9b041-ae19-449b-9e73-35e8fff6aca3")
 	)
 	(no_connect
 		(at 190.5 171.45)
@@ -6092,16 +6090,6 @@
 			(type default)
 		)
 		(uuid "071ae474-7935-45c9-b687-bcdd249aa75a")
-	)
-	(wire
-		(pts
-			(xy 53.34 232.41) (xy 53.34 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08153836-f0d3-49f3-8e2c-552db20a2675")
 	)
 	(wire
 		(pts
@@ -7105,16 +7093,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 222.25) (xy 53.34 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52740a26-b6e4-49ca-9dab-8dd667b63da1")
-	)
-	(wire
-		(pts
 			(xy 76.2 218.44) (xy 101.6 218.44)
 		)
 		(stroke
@@ -7372,16 +7350,6 @@
 			(type default)
 		)
 		(uuid "65f652d3-3419-4178-847e-0c0860e4a7d0")
-	)
-	(wire
-		(pts
-			(xy 106.68 213.36) (xy 106.68 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "660661ba-6198-4304-a551-3d8f55532217")
 	)
 	(wire
 		(pts
@@ -8905,16 +8873,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 223.52) (xy 106.68 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e77e94d8-f688-40aa-81bf-7f13eed7d388")
-	)
-	(wire
-		(pts
 			(xy 260.35 195.58) (xy 260.35 196.85)
 		)
 		(stroke
@@ -9122,16 +9080,6 @@
 			(type default)
 		)
 		(uuid "f69374c8-e3e5-4f50-b9ca-5867d68115d7")
-	)
-	(wire
-		(pts
-			(xy 53.34 223.52) (xy 53.34 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f70e6c1c-ca28-4df3-8e33-ed7542563e30")
 	)
 	(wire
 		(pts
@@ -10681,83 +10629,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 53.34 234.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "078e30f9-db13-4908-ab19-717fff22fe04")
-		(property "Reference" "#PWR07"
-			(at 53.34 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 239.268 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2dae3cb4-cb66-4c74-bdee-a092904fe8cc")
-		)
-		(instances
-			(project "espdrone"
-				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 26.67 156.21 0)
 		(unit 1)
@@ -11960,83 +11831,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 53.34 222.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3594a7b1-433b-43ce-bc9a-87ace32e632b")
-		(property "Reference" "#PWR014"
-			(at 53.34 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 53.34 217.932 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 53.34 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "25e6e7e8-85a1-42b4-9c36-fe7dfd5bdb71")
-		)
-		(instances
-			(project "espdrone"
-				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 260.35 196.85 0)
@@ -12662,88 +12456,6 @@
 			(project "espdrone"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "R51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 53.34 228.6 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "681b4588-3b73-4d54-a6ac-82a42abd98e8")
-		(property "Reference" "C5"
-			(at 50.292 227.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 50.546 229.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 52.3748 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 53.34 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d48b09b4-549f-45a5-a91c-7aa7a56df1ba")
-		)
-		(pin "2"
-			(uuid "c3a7d3d1-e237-4b54-b0ed-162145271015")
-		)
-		(instances
-			(project "espdrone"
-				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
-					(reference "C5")
 					(unit 1)
 				)
 			)

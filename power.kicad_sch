@@ -6433,6 +6433,7 @@
 	(symbol
 		(lib_id "easyeda2kicad:BVN-Z-R0005-1.0")
 		(at 243.84 49.53 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6453,7 +6454,7 @@
 			)
 		)
 		(property "Value" "BVN-Z-R0005-1.0"
-			(at 247.65 48.2601 90)
+			(at 247.65 50.7999 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

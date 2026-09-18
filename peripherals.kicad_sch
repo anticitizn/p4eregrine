@@ -4707,25 +4707,29 @@
 		)
 		(uuid "fef31217-c737-436d-9cdf-45955ef7d49e")
 	)
-	(label "UART_RX"
-		(at 152.4 46.99 180)
+	(global_label "GPIO52"
+		(shape input)
+		(at 173.99 52.07 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "81b7c964-d151-4bdc-a2d0-b44d92f34f0e")
-	)
-	(label "UART_TX"
-		(at 152.4 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "02b5a35e-28bd-45ee-9911-46475feba1fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.1105 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
-			(justify right bottom)
 		)
-		(uuid "962a65b0-ff0d-48d9-9352-27fabf8f89b3")
 	)
 	(global_label "SPI_PMW3901_CS"
 		(shape input)
@@ -4871,30 +4875,6 @@
 			)
 		)
 	)
-	(global_label "UART_TX"
-		(shape input)
-		(at 173.99 54.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "435f9195-a92d-4a9f-93ec-1484c6bde4db")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.2034 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "CSI_DATA1N"
 		(shape input)
 		(at 49.53 132.08 180)
@@ -4957,6 +4937,30 @@
 		(uuid "491f242a-b152-449b-8cf9-83efff07d92a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 163.3848 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "UART_RX"
+		(shape input)
+		(at 152.4 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5147e7ae-aae4-4bbb-bb09-bda66e607c8d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.311 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5164,9 +5168,9 @@
 			)
 		)
 	)
-	(global_label "UART_RX"
+	(global_label "GPIO51"
 		(shape input)
-		(at 173.99 52.07 180)
+		(at 173.99 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5174,9 +5178,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b63dd5f2-f833-4905-9eb4-a155a24093a9")
+		(uuid "c0fcf352-5265-4594-af91-c92b462db740")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.901 52.07 0)
+			(at 164.1105 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5201,6 +5205,30 @@
 		(uuid "c7aea3a7-552a-4efd-8b64-9f4809ad7299")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 18.6048 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "UART_TX"
+		(shape input)
+		(at 152.4 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c83dd612-1183-4071-979c-4dbdc9511863")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.6134 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

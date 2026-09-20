@@ -5083,12 +5083,6 @@
 		(uuid "99d3ed2d-82bb-4355-be85-89151e77bf20")
 	)
 	(junction
-		(at 267.97 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b6b17b3-3322-4174-913f-9852ef76e01e")
-	)
-	(junction
 		(at 246.38 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5171,12 +5165,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3222045-bd9e-48aa-b5ae-7361d4761936")
-	)
-	(junction
-		(at 228.6 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3f05018-71bd-48fc-adfd-0e02ce3a99b5")
 	)
 	(junction
 		(at 118.11 49.53)
@@ -5709,16 +5697,6 @@
 			(type default)
 		)
 		(uuid "154e5b40-72be-486a-b5ce-f7a55b32e112")
-	)
-	(wire
-		(pts
-			(xy 228.6 203.2) (xy 228.6 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "175648cb-31e9-4593-986f-6f23d1acc83f")
 	)
 	(wire
 		(pts
@@ -7152,16 +7130,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 151.13) (xy 267.97 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b7fbd34-974c-4cea-bef1-57b34045beb7")
-	)
-	(wire
-		(pts
 			(xy 132.08 264.16) (xy 120.65 264.16)
 		)
 		(stroke
@@ -7359,16 +7327,6 @@
 			(type default)
 		)
 		(uuid "9ca23975-0f06-4b89-b89c-39a319d8dc64")
-	)
-	(wire
-		(pts
-			(xy 228.6 212.09) (xy 228.6 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d735bd5-5ef6-45eb-96dc-7ef776c128a0")
 	)
 	(wire
 		(pts
@@ -7809,16 +7767,6 @@
 			(type default)
 		)
 		(uuid "cb6de345-5295-494f-9b8f-f0aa7be794ef")
-	)
-	(wire
-		(pts
-			(xy 267.97 162.56) (xy 267.97 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb9f274e-7ed9-4e6d-96ea-190c7877a4ac")
 	)
 	(wire
 		(pts
@@ -11447,84 +11395,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 228.6 213.36 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3c81d3ee-1feb-42b2-bfc2-85a29b4f38dd")
-		(property "Reference" "#PWR030"
-			(at 228.6 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 228.6 217.678 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f4aad707-0ea4-456b-97e8-1e0647162856")
-		)
-		(instances
-			(project "espdrone"
-				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 196.85 57.15 0)
 		(unit 1)
@@ -11993,87 +11863,6 @@
 			(project "espdrone"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "R51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 228.6 208.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6d5fd5fa-c227-46be-afa8-44533988c550")
-		(property "Reference" "C24"
-			(at 231.648 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 231.394 209.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 229.5652 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 228.6 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a3f133d-c46a-4e1d-bdcf-2da4821c5213")
-		)
-		(pin "2"
-			(uuid "a65d653f-d2b2-4c1d-a256-d5ffe679f72a")
-		)
-		(instances
-			(project "espdrone"
-				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
-					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -12715,84 +12504,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 267.97 163.83 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "84586afb-5af4-40bc-8b2d-44ee05e2e253")
-		(property "Reference" "#PWR045"
-			(at 267.97 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 267.97 168.148 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a88fe805-ab85-4887-a33d-a86631926b88")
-		)
-		(instances
-			(project "espdrone"
-				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 234.95 168.91 0)
 		(unit 1)
@@ -13424,88 +13135,6 @@
 			(project "espdrone"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 267.97 158.75 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "93f751fa-043c-4d99-a111-f76fcab58aa2")
-		(property "Reference" "C31"
-			(at 264.922 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 265.176 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 267.0048 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 267.97 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b25eb122-0bf0-45bf-91c2-3898e5c3373b")
-		)
-		(pin "2"
-			(uuid "be2f4812-b54e-4d31-a41c-8827a349a0d1")
-		)
-		(instances
-			(project "espdrone"
-				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
-					(reference "C31")
 					(unit 1)
 				)
 			)

@@ -900,7 +900,7 @@
         "uuid": "b7952862-8d86-4464-ae6b-e7392f598094"
       }
     ],
-    "used_designators": "#PWR1-356,Y1-2,J1-14,USB1-3,BT1,#FLG1-9,SW1-2,Card1,C1-216,FPC1,JP1-6,R1-193,TP1-142,Q1-56,D1-22,U1-30,L1-7",
+    "used_designators": "J1-14,USB1-3,Y1-2,#PWR1-356,SW1-2,#FLG1-9,BT1,TP1-142,R1-193,C1-216,Card1,JP1-6,FPC1,L1-7,Q1-56,D1-22,U1-30",
     "variants": []
   },
   "sheets": [

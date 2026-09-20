@@ -3851,7 +3851,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 204.47) (xy 101.6 193.04)
+			(xy 101.6 191.77) (xy 101.6 189.23)
 		)
 		(stroke
 			(width 0)
@@ -5401,7 +5401,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 204.47) (xy 101.6 204.47)
+			(xy 99.06 191.77) (xy 101.6 191.77)
 		)
 		(stroke
 			(width 0)
@@ -5491,7 +5491,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 207.01) (xy 101.6 207.01)
+			(xy 99.06 204.47) (xy 101.6 204.47)
 		)
 		(stroke
 			(width 0)
@@ -5651,7 +5651,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 207.01) (xy 101.6 208.28)
+			(xy 101.6 204.47) (xy 101.6 205.74)
 		)
 		(stroke
 			(width 0)
@@ -10955,7 +10955,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 101.6 193.04 0)
+		(at 101.6 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10965,7 +10965,7 @@
 		(dnp no)
 		(uuid "9eff332e-dd3b-42aa-bcb7-bba4673783ef")
 		(property "Reference" "#PWR057"
-			(at 101.6 196.85 0)
+			(at 101.6 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10976,7 +10976,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 98.552 189.23 0)
+			(at 98.552 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10987,7 +10987,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 193.04 0)
+			(at 101.6 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10998,7 +10998,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 193.04 0)
+			(at 101.6 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11009,7 +11009,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 101.6 193.04 0)
+			(at 101.6 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11425,7 +11425,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 99.06 207.01 90)
+		(at 99.06 204.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11435,7 +11435,7 @@
 		(dnp no)
 		(uuid "aa29dc90-b132-4e8d-aae8-629dbfd85492")
 		(property "Reference" "TP38"
-			(at 91.948 207.01 90)
+			(at 91.948 204.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11445,7 +11445,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 95.758 204.47 90)
+			(at 95.758 201.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11456,7 +11456,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:TestPoint_Pad_D1.0mm_No_Courtyard"
-			(at 99.06 201.93 0)
+			(at 99.06 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11467,7 +11467,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 201.93 0)
+			(at 99.06 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11478,7 +11478,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 99.06 207.01 0)
+			(at 99.06 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12167,7 +12167,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 99.06 204.47 90)
+		(at 99.06 191.77 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12177,7 +12177,7 @@
 		(dnp no)
 		(uuid "c08bfc16-373e-4b87-b500-2b7a17037473")
 		(property "Reference" "TP37"
-			(at 91.948 204.47 90)
+			(at 91.948 191.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12187,7 +12187,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 95.758 201.93 90)
+			(at 95.758 189.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12198,7 +12198,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:TestPoint_Pad_D1.0mm_No_Courtyard"
-			(at 99.06 199.39 0)
+			(at 99.06 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12209,7 +12209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 199.39 0)
+			(at 99.06 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12220,7 +12220,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 99.06 204.47 0)
+			(at 99.06 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12967,7 +12967,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 208.28 0)
+		(at 101.6 205.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12977,7 +12977,7 @@
 		(dnp no)
 		(uuid "e2ebff7e-438b-460a-9fa1-cbf452a610fa")
 		(property "Reference" "#PWR058"
-			(at 101.6 214.63 0)
+			(at 101.6 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12988,7 +12988,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 212.09 0)
+			(at 101.6 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12998,7 +12998,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 208.28 0)
+			(at 101.6 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13009,7 +13009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 208.28 0)
+			(at 101.6 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13020,7 +13020,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 208.28 0)
+			(at 101.6 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

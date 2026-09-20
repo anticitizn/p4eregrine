@@ -152,9 +152,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x08"
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016)
+				(offset 0.762)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -162,8 +165,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 10.16 0)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -172,8 +175,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x08"
-				(at 0 -12.7 0)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -183,7 +186,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -194,6 +197,17 @@
 				)
 			)
 			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -204,7 +218,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "ki_keywords" "test point tp"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -215,7 +229,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "connector"
+			(property "ki_fp_filters" "Pin* Test*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -226,121 +240,24 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
-			(symbol "Conn_01x08_1_1"
-				(rectangle
-					(start -1.27 8.89)
-					(end 1.27 -11.43)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -10.033)
-					(end 0 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "TestPoint_1_1"
 				(pin passive line
-					(at -5.08 7.62 0)
-					(length 3.81)
-					(name "Pin_1"
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -348,132 +265,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3523,17 +3314,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 54.61) (xy 179.07 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a970b6b-8bb4-4cf6-a660-ca46bf651ca9")
-	)
-	(wire
-		(pts
-			(xy 173.99 57.15) (xy 179.07 57.15)
+			(xy 173.99 52.07) (xy 179.07 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4023,16 +3804,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 64.77) (xy 177.8 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a136232-c709-43d3-b949-3b9b932ec1d9")
-	)
-	(wire
-		(pts
 			(xy 29.21 58.42) (xy 33.02 58.42)
 		)
 		(stroke
@@ -4043,7 +3814,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 62.23) (xy 179.07 62.23)
+			(xy 176.53 44.45) (xy 179.07 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4103,7 +3874,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 62.23) (xy 176.53 43.18)
+			(xy 176.53 44.45) (xy 176.53 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4353,16 +4124,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 64.77) (xy 177.8 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4af440a-b63f-49b5-8555-581e528431ca")
-	)
-	(wire
-		(pts
 			(xy 247.65 133.35) (xy 251.46 133.35)
 		)
 		(stroke
@@ -4470,6 +4231,16 @@
 			(type default)
 		)
 		(uuid "b74bc6a2-8007-4838-a4a8-a6209de89764")
+	)
+	(wire
+		(pts
+			(xy 176.53 57.15) (xy 176.53 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a9cd9f-d101-4cc1-852c-1d05408f411c")
 	)
 	(wire
 		(pts
@@ -4633,7 +4404,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 59.69) (xy 179.07 59.69)
+			(xy 173.99 54.61) (xy 179.07 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4660,16 +4431,6 @@
 			(type default)
 		)
 		(uuid "dcce816e-4122-4f2c-85e7-d4ffa37a9389")
-	)
-	(wire
-		(pts
-			(xy 173.99 52.07) (xy 179.07 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dde3b236-8e14-455d-aac5-80238cbd98bb")
 	)
 	(wire
 		(pts
@@ -4750,6 +4511,16 @@
 			(type default)
 		)
 		(uuid "e8679b84-6bab-491c-9e76-068126814396")
+	)
+	(wire
+		(pts
+			(xy 179.07 57.15) (xy 176.53 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea229ac8-5127-491b-95e1-d0e5c15fde14")
 	)
 	(wire
 		(pts
@@ -4851,30 +4622,6 @@
 		)
 		(uuid "fef31217-c737-436d-9cdf-45955ef7d49e")
 	)
-	(global_label "GPIO52"
-		(shape input)
-		(at 173.99 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "02b5a35e-28bd-45ee-9911-46475feba1fe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.1105 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "SPI_PMW3901_CS"
 		(shape input)
 		(at 260.35 151.13 0)
@@ -4973,7 +4720,7 @@
 	)
 	(global_label "I2C_SCL"
 		(shape input)
-		(at 173.99 59.69 180)
+		(at 173.99 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4983,7 +4730,7 @@
 		)
 		(uuid "306594e7-8b57-460e-98fd-53d6a0e9c1b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.4453 59.69 0)
+			(at 163.4453 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5070,7 +4817,7 @@
 	)
 	(global_label "I2C_SDA"
 		(shape input)
-		(at 173.99 57.15 180)
+		(at 173.99 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5080,7 +4827,7 @@
 		)
 		(uuid "491f242a-b152-449b-8cf9-83efff07d92a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.3848 57.15 0)
+			(at 163.3848 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5301,30 +5048,6 @@
 		(uuid "ac74fce7-e9aa-4cbe-8825-fe724899f9fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 18.6653 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO51"
-		(shape input)
-		(at 173.99 54.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c0fcf352-5265-4594-af91-c92b462db740")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.1105 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6820,6 +6543,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 179.07 54.61 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4923a874-a82c-4193-8e02-b0c81156c068")
+		(property "Reference" "TP43"
+			(at 186.182 54.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 182.372 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:TestPoint_Pad_D1.0mm_No_Courtyard"
+			(at 179.07 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 179.07 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf15cd55-acec-468f-8830-a297673c861a")
+		)
+		(instances
+			(project "espdrone"
+				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
+					(reference "TP43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 29.21 45.72 0)
 		(mirror y)
@@ -7406,6 +7206,83 @@
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
 					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 179.07 49.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5c7d7df0-05af-41a1-a1d1-158ac8e27bc5")
+		(property "Reference" "TP40"
+			(at 186.182 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 182.372 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:TestPoint_Pad_D1.0mm_No_Courtyard"
+			(at 179.07 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 179.07 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7519e01-c590-4791-9c74-4f84ea7c555b")
+		)
+		(instances
+			(project "espdrone"
+				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
+					(reference "TP40")
 					(unit 1)
 				)
 			)
@@ -8464,6 +8341,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 179.07 44.45 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "98b7a01c-86b9-4ee0-b8c7-12266c88fc25")
+		(property "Reference" "TP47"
+			(at 186.182 44.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 182.372 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:TestPoint_Pad_D1.0mm_No_Courtyard"
+			(at 179.07 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 179.07 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "762a8697-3bd3-4ad6-aa7c-729d2fce385a")
+		)
+		(instances
+			(project "espdrone"
+				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
+					(reference "TP47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 48.26 33.02 0)
 		(unit 1)
@@ -8536,6 +8490,83 @@
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
 					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 179.07 57.15 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a892336d-4c2f-4caa-91f5-af7c4c82260b")
+		(property "Reference" "TP48"
+			(at 186.182 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 182.372 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:TestPoint_Pad_D1.0mm_No_Courtyard"
+			(at 179.07 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 179.07 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2893b9bb-3339-4ae4-ba58-9176474395ac")
+		)
+		(instances
+			(project "espdrone"
+				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
+					(reference "TP48")
 					(unit 1)
 				)
 			)
@@ -9009,7 +9040,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 176.53 43.18 0)
+		(at 176.53 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9019,7 +9050,7 @@
 		(dnp no)
 		(uuid "bb2f70b1-e068-45ec-9e19-452b3ab9b1b2")
 		(property "Reference" "#PWR0287"
-			(at 176.53 46.99 0)
+			(at 176.53 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9030,7 +9061,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 173.482 39.37 0)
+			(at 173.482 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9041,7 +9072,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 43.18 0)
+			(at 176.53 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9052,7 +9083,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 43.18 0)
+			(at 176.53 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9063,7 +9094,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 176.53 43.18 0)
+			(at 176.53 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9164,7 +9195,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 66.04 0)
+		(at 176.53 59.69 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9175,7 +9206,7 @@
 		(dnp no)
 		(uuid "c43ba3df-4422-4ccf-aaef-604072d8c7fb")
 		(property "Reference" "#PWR0286"
-			(at 177.8 72.39 0)
+			(at 176.53 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9186,7 +9217,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 70.358 0)
+			(at 176.53 64.008 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9196,7 +9227,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 66.04 0)
+			(at 176.53 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9207,7 +9238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 66.04 0)
+			(at 176.53 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9218,7 +9249,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 66.04 0)
+			(at 176.53 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9235,107 +9266,6 @@
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
 					(reference "#PWR0286")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x08")
-		(at 184.15 57.15 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c59f9685-df46-4791-ba87-4360990b58f4")
-		(property "Reference" "J1"
-			(at 186.69 57.1501 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x08"
-			(at 186.69 54.6101 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:Connector_Pad_1.27mm_1x08"
-			(at 184.15 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 184.15 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "f4ed4fe2-5685-43fc-978e-85f8543f1b4d")
-		)
-		(pin "8"
-			(uuid "5038bb66-1e0e-4538-a8c0-1fd2b76b58fc")
-		)
-		(pin "2"
-			(uuid "4cb6e7bc-b1d0-49cf-9a5f-696c886a7c3d")
-		)
-		(pin "1"
-			(uuid "9a853344-9421-4b33-aad0-a80285c91cd6")
-		)
-		(pin "5"
-			(uuid "40a1e88e-bebd-48ef-a4da-0951f9889d72")
-		)
-		(pin "4"
-			(uuid "08aad979-66d3-4ef5-a43b-e232a2a4b7df")
-		)
-		(pin "6"
-			(uuid "725ea905-ee9b-40e1-ae78-3b03612bf764")
-		)
-		(pin "7"
-			(uuid "cdf5a6f0-8f67-4039-a79e-d77d9482a54b")
-		)
-		(instances
-			(project "espdrone"
-				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -10034,6 +9964,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 179.07 52.07 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e7125d44-e3c2-443d-98a0-a03cef45c800")
+		(property "Reference" "TP42"
+			(at 186.182 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 182.372 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:TestPoint_Pad_D1.0mm_No_Courtyard"
+			(at 179.07 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 179.07 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c14392d-0223-4086-a84a-e29747a45482")
+		)
+		(instances
+			(project "espdrone"
+				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
+					(reference "TP42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 115.57 35.56 0)
 		(unit 1)
@@ -10183,6 +10190,83 @@
 			(project "espdrone"
 				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
 					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 179.07 46.99 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f5339973-5d6f-4ef3-9366-d02fdc362b1d")
+		(property "Reference" "TP39"
+			(at 186.182 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 182.372 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:TestPoint_Pad_D1.0mm_No_Courtyard"
+			(at 179.07 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 179.07 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "022666a0-92f4-44df-a5d5-bff5eb17b01b")
+		)
+		(instances
+			(project "espdrone"
+				(path "/5eab4813-5b33-42ec-a8b7-d0f172706e96"
+					(reference "TP39")
 					(unit 1)
 				)
 			)

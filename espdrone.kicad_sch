@@ -5329,6 +5329,10 @@
 		(uuid "a224697a-449b-4b20-a0c8-ea8e33f6ffe3")
 	)
 	(no_connect
+		(at 165.1 83.82)
+		(uuid "a9bf7a8f-2519-4284-bc6e-a6d0a8583000")
+	)
+	(no_connect
 		(at 129.54 213.36)
 		(uuid "ab7bda41-982a-4813-8a08-d4148a8e2725")
 	)
@@ -5351,6 +5355,10 @@
 	(no_connect
 		(at 73.66 195.58)
 		(uuid "cd8462c9-2783-45bf-ad90-7913a4784356")
+	)
+	(no_connect
+		(at 165.1 81.28)
+		(uuid "cde0beae-87bc-4a7a-9d3f-239966b1db27")
 	)
 	(no_connect
 		(at 165.1 116.84)
@@ -8728,30 +8736,6 @@
 		)
 		(uuid "f28b8f6c-1fcb-4e16-964f-7850e5156e97")
 	)
-	(global_label "GPIO51"
-		(shape input)
-		(at 165.1 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "00ee9120-f6b0-4841-b421-79344288c789")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.9795 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "VDD_HP"
 		(shape input)
 		(at 228.6 200.66 0)
@@ -9516,30 +9500,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO52"
-		(shape input)
-		(at 165.1 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "efa63208-d846-491c-b3ed-a5dbb558709d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.9795 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)

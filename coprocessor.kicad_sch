@@ -5943,7 +5943,7 @@
 		(cells
 			(table_cell "Boot mode"
 				(exclude_from_sim no)
-				(at 190.5 222.25 0)
+				(at 190.5 214.63 0)
 				(size 13.97 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5960,7 +5960,7 @@
 			)
 			(table_cell "SPI boot"
 				(exclude_from_sim no)
-				(at 204.47 222.25 0)
+				(at 204.47 214.63 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5977,7 +5977,7 @@
 			)
 			(table_cell "JTAG download"
 				(exclude_from_sim no)
-				(at 224.79 222.25 0)
+				(at 224.79 214.63 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5994,7 +5994,7 @@
 			)
 			(table_cell "SDIO download"
 				(exclude_from_sim no)
-				(at 245.11 222.25 0)
+				(at 245.11 214.63 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6011,7 +6011,7 @@
 			)
 			(table_cell "GPIO 26"
 				(exclude_from_sim no)
-				(at 190.5 224.79 0)
+				(at 190.5 217.17 0)
 				(size 13.97 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6028,7 +6028,7 @@
 			)
 			(table_cell "X"
 				(exclude_from_sim no)
-				(at 204.47 224.79 0)
+				(at 204.47 217.17 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6045,7 +6045,7 @@
 			)
 			(table_cell "X"
 				(exclude_from_sim no)
-				(at 224.79 224.79 0)
+				(at 224.79 217.17 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6062,7 +6062,7 @@
 			)
 			(table_cell "0"
 				(exclude_from_sim no)
-				(at 245.11 224.79 0)
+				(at 245.11 217.17 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6079,7 +6079,7 @@
 			)
 			(table_cell "GPIO 27"
 				(exclude_from_sim no)
-				(at 190.5 227.33 0)
+				(at 190.5 219.71 0)
 				(size 13.97 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6096,7 +6096,7 @@
 			)
 			(table_cell "X"
 				(exclude_from_sim no)
-				(at 204.47 227.33 0)
+				(at 204.47 219.71 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6113,7 +6113,7 @@
 			)
 			(table_cell "1"
 				(exclude_from_sim no)
-				(at 224.79 227.33 0)
+				(at 224.79 219.71 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6130,7 +6130,7 @@
 			)
 			(table_cell "0"
 				(exclude_from_sim no)
-				(at 245.11 227.33 0)
+				(at 245.11 219.71 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6147,7 +6147,7 @@
 			)
 			(table_cell "GPIO 28"
 				(exclude_from_sim no)
-				(at 190.5 229.87 0)
+				(at 190.5 222.25 0)
 				(size 13.97 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6164,7 +6164,7 @@
 			)
 			(table_cell "1"
 				(exclude_from_sim no)
-				(at 204.47 229.87 0)
+				(at 204.47 222.25 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6181,7 +6181,7 @@
 			)
 			(table_cell "0"
 				(exclude_from_sim no)
-				(at 224.79 229.87 0)
+				(at 224.79 222.25 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6198,7 +6198,7 @@
 			)
 			(table_cell "0"
 				(exclude_from_sim no)
-				(at 245.11 229.87 0)
+				(at 245.11 222.25 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6215,7 +6215,7 @@
 			)
 			(table_cell "27 & 28 have internal pullups"
 				(exclude_from_sim no)
-				(at 190.5 232.41 0)
+				(at 190.5 224.79 0)
 				(size 74.93 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 4 1)
@@ -6232,7 +6232,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 204.47 232.41 0)
+				(at 204.47 224.79 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 0 0)
@@ -6249,7 +6249,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 224.79 232.41 0)
+				(at 224.79 224.79 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 0 0)
@@ -6266,7 +6266,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 245.11 232.41 0)
+				(at 245.11 224.79 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 0 0)

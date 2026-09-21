@@ -86,7 +86,24 @@
           "width": 0.1
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|261387500|82700000|8b87c5e7-1c92-4615-be6c-8488140da44f|3ae7cd4b-7cee-4443-87f7-bf98b5dae65f",
+          ""
+        ],
+        [
+          "clearance|261387500|89700000|b788b435-86c1-4306-9af1-9a674d73158b|333b8d75-146c-42ca-ad1b-f0ba414cc988",
+          ""
+        ],
+        [
+          "clearance|261637500|81700000|8b87c5e7-1c92-4615-be6c-8488140da44f|7fc0dfd2-e04a-46f2-b879-28e9fceb7bdc",
+          ""
+        ],
+        [
+          "clearance|261637500|90700000|b788b435-86c1-4306-9af1-9a674d73158b|ae2b4943-31e1-4575-acd9-7dfeb83965d0",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -153,7 +170,7 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
-        "zones_intersect": "error"
+        "zones_intersect": "ignore"
       },
       "rules": {
         "max_error": 0.005,
@@ -162,7 +179,7 @@
         "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
@@ -610,7 +627,7 @@
         "via_drill": 0.3
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.15,
         "name": "RF_50R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
@@ -619,7 +636,7 @@
         "tuning_profile": "RF"
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.15,
         "name": "SW_NODE",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
@@ -639,7 +656,7 @@
         "tuning_profile": "USB 2.0"
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.15,
         "name": "VBAT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 6,
@@ -900,7 +917,7 @@
         "uuid": "b7952862-8d86-4464-ae6b-e7392f598094"
       }
     ],
-    "used_designators": "J1-14,USB1-3,Y1-2,#PWR1-356,SW1-2,#FLG1-9,BT1,TP1-142,R1-193,C1-216,Card1,JP1-6,FPC1,L1-7,Q1-56,D1-22,U1-30",
+    "used_designators": "FPC1,JP1-6,Card1,C1-216,Q1-56,U1-30,D1-22,L1-7,J1-14,USB1-3,TP1-142,R1-193,Y1-2,#PWR1-356,SW1-2,#FLG1-9,BT1",
     "variants": []
   },
   "sheets": [

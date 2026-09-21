@@ -9698,7 +9698,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "4.7k"
 			(at 285.75 58.674 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15142,7 +15142,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "4.7k"
 			(at 286.004 69.088 90)
 			(show_name no)
 			(do_not_autoplace no)

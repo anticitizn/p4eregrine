@@ -7503,7 +7503,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "10k"
 			(at 233.934 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8296,7 +8296,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "10k"
 			(at 211.074 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9806,7 +9806,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "10k"
 			(at 226.314 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10574,7 +10574,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "10k"
 			(at 218.694 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11130,7 +11130,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "10k"
 			(at 203.454 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)

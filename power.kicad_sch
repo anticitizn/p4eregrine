@@ -2794,6 +2794,16 @@
 		)
 		(uuid "403e0e24-b62e-4992-85bf-915617ec4b06")
 	)
+	(text "0.5 mOhm\n"
+		(exclude_from_sim no)
+		(at 247.65 61.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5ae08a77-7c3b-4800-a777-9787ba5c5945")
+	)
 	(text "Battery Connector"
 		(exclude_from_sim no)
 		(at 212.344 18.288 0)
@@ -3902,7 +3912,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 60.96) (xy 209.55 60.96)
+			(xy 205.74 60.96) (xy 208.28 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4242,7 +4252,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 60.96) (xy 218.44 60.96)
+			(xy 215.9 60.96) (xy 218.44 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4442,7 +4452,7 @@
 	)
 	(global_label "BAT_ISENSE"
 		(shape input)
-		(at 207.01 60.96 180)
+		(at 205.74 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4452,7 +4462,7 @@
 		)
 		(uuid "03e3f7f6-b410-4355-b3cf-b834fd568101")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.0787 60.96 0)
+			(at 191.8087 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5009,7 +5019,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 213.36 60.96 270)
+		(at 212.09 60.96 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5020,7 +5030,7 @@
 		(dnp no)
 		(uuid "10647e5e-c25e-41f6-956f-ab4eaee176f5")
 		(property "Reference" "R43"
-			(at 215.392 63.5 90)
+			(at 214.122 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5031,7 +5041,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 215.392 66.04 90)
+			(at 214.122 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5042,7 +5052,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 213.36 62.738 90)
+			(at 212.09 62.738 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5053,7 +5063,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 60.96 0)
+			(at 212.09 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5064,7 +5074,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 213.36 60.96 0)
+			(at 212.09 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6079,7 +6089,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.7k"
 			(at 129.032 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6170,7 +6180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 97.79 38.4048 0)
 			(hide yes)
 			(show_name no)
@@ -8099,7 +8109,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5uH"
+		(property "Value" "2.2uH"
 			(at 104.14 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8188,7 +8198,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:L0806"
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 63.5 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -9282,8 +9292,8 @@
 				)
 			)
 		)
-		(property "Value" "30k"
-			(at 169.672 142.24 0)
+		(property "Value" "31.3k"
+			(at 170.434 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

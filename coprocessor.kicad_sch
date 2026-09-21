@@ -6,9 +6,9 @@
 	(paper "A3")
 	(title_block
 		(title "Anticopter Duo")
-		(date "2026-08-28")
+		(date "2026-09-21")
 		(rev "1.0")
-		(company "All-in-one drone flight controller, camera and ESC")
+		(company "All-in-one drone flight controller, camera and 2S-3S ESC")
 		(comment 1 "ESP32 P4 + ESP32 C5, 4xAM32 ESCs")
 		(comment 2 "1S DC motors, 2S-3S BLDC motors")
 	)

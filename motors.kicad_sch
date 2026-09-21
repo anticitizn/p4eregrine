@@ -6,9 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "Anticopter Duo")
-		(date "2026-08-28")
+		(date "2026-09-21")
 		(rev "1.0")
-		(company "All-in-one drone flight controller, camera and ESC")
+		(company "All-in-one drone flight controller, camera and 2S-3S ESC")
 		(comment 1 "ESP32 P4 + ESP32 C5, 4xAM32 ESCs")
 		(comment 2 "1S DC motors, 2S-3S BLDC motors")
 	)
@@ -476,22 +476,6 @@
 		(color 0 0 0 0)
 		(uuid "eef60a02-6c03-4227-ae52-c74b65fdcf59")
 	)
-	(no_connect
-		(at 144.78 66.04)
-		(uuid "0ddc1a12-5192-4077-a7de-9d200e504250")
-	)
-	(no_connect
-		(at 68.58 66.04)
-		(uuid "47915c9a-ac30-4bd6-a0d9-d7d46051a30d")
-	)
-	(no_connect
-		(at 106.68 66.04)
-		(uuid "6a0d6212-6eef-4236-b5a5-4529fe905c0f")
-	)
-	(no_connect
-		(at 30.48 66.04)
-		(uuid "70ef6531-41a3-4666-8c44-d29011d62239")
-	)
 	(wire
 		(pts
 			(xy 144.78 62.23) (xy 147.32 62.23)
@@ -604,16 +588,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 66.04) (xy 71.12 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a36e6a6-3289-41d4-bb0e-fcde9d6b6f80")
-	)
-	(wire
-		(pts
 			(xy 83.82 50.8) (xy 83.82 39.37)
 		)
 		(stroke
@@ -641,16 +615,6 @@
 			(type default)
 		)
 		(uuid "74d6389d-676f-418f-adae-7b47b388e1a1")
-	)
-	(wire
-		(pts
-			(xy 30.48 66.04) (xy 33.02 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76e4ae92-ee9c-4580-9f72-eee2167d263b")
 	)
 	(wire
 		(pts
@@ -704,16 +668,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 66.04) (xy 147.32 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9a9a98d-c27d-46cc-97a0-3718f6abfd63")
-	)
-	(wire
-		(pts
 			(xy 68.58 62.23) (xy 71.12 62.23)
 		)
 		(stroke
@@ -721,16 +675,6 @@
 			(type default)
 		)
 		(uuid "bdfe332e-73bf-4be5-8b4a-a91bf3d7ea27")
-	)
-	(wire
-		(pts
-			(xy 106.68 66.04) (xy 109.22 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c10be0bd-6ff5-4ffe-80b2-1097b4db7c80")
 	)
 	(wire
 		(pts
@@ -1200,16 +1144,6 @@
 				(justify left)
 			)
 		)
-		(pin "TELEMETRY" input
-			(at 71.12 66.04 180)
-			(uuid "6c5a1cba-090a-481c-96d9-e639a9db235e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "+BATT" input
 			(at 83.82 50.8 90)
 			(uuid "0a136c1f-4a65-44d9-abe3-730ddcbe9173")
@@ -1289,16 +1223,6 @@
 		(pin "DSHOT" input
 			(at 147.32 62.23 180)
 			(uuid "4a243f8f-1b41-4df5-b0ae-d9cfc9a5d1b8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TELEMETRY" input
-			(at 147.32 66.04 180)
-			(uuid "bf1cb2ba-f60c-4888-a5a4-8de50c5b7ab7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1392,16 +1316,6 @@
 				(justify left)
 			)
 		)
-		(pin "TELEMETRY" input
-			(at 109.22 66.04 180)
-			(uuid "f9d254bf-aef1-42d6-ae33-9d3a6210bcd9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "+BATT" input
 			(at 121.92 50.8 90)
 			(uuid "fd9ad47f-ec6b-40e1-898b-ad56a66b5023")
@@ -1481,16 +1395,6 @@
 		(pin "DSHOT" input
 			(at 33.02 62.23 180)
 			(uuid "c15a93d2-aeb7-4195-9b3a-176f6b88d979")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TELEMETRY" input
-			(at 33.02 66.04 180)
-			(uuid "0ae1a75d-eb05-4c25-ba9d-e9be02e72c46")
 			(effects
 				(font
 					(size 1.27 1.27)

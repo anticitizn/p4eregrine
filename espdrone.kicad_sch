@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Anticopter Duo")
-		(date "2026-08-28")
+		(date "2026-09-21")
 		(rev "1.0")
 		(company "All-in-one drone flight controller, camera and 2S-3S ESC")
 		(comment 1 "ESP32 P4 + ESP32 C5, 4xAM32 ESCs")
@@ -4837,6 +4837,17 @@
 		)
 		(uuid "11146934-5bc1-41d4-acd9-26dfa5232224")
 	)
+	(text "There should be a 100n cap here\nbut it is right next to an existing\none already, and no space for a second"
+		(exclude_from_sim no)
+		(at 240.03 206.756 0)
+		(effects
+			(font
+				(size 0.8128 0.8128)
+			)
+			(justify left)
+		)
+		(uuid "131f9af1-17f8-47bc-b72b-2aa191d09023")
+	)
 	(text "GPIO38-UART_RX\nGPIO37-UART_TX"
 		(exclude_from_sim no)
 		(at 171.704 157.734 0)
@@ -5257,16 +5268,16 @@
 		(uuid "2f9c7eaa-39e5-4b53-b6bb-88fd8ab67c60")
 	)
 	(no_connect
+		(at 76.2 223.52)
+		(uuid "40a114df-37fb-4832-8de8-be3f09d1daca")
+	)
+	(no_connect
 		(at 157.48 213.36)
 		(uuid "486ba835-f3e0-40bd-bc81-9eb0964e674b")
 	)
 	(no_connect
 		(at 73.66 172.72)
 		(uuid "522a2506-f62e-4956-a957-a5bf08610eba")
-	)
-	(no_connect
-		(at 106.68 213.36)
-		(uuid "53a9b041-ae19-449b-9e73-35e8fff6aca3")
 	)
 	(no_connect
 		(at 124.46 213.36)
@@ -5327,6 +5338,10 @@
 	(no_connect
 		(at 262.89 62.23)
 		(uuid "a224697a-449b-4b20-a0c8-ea8e33f6ffe3")
+	)
+	(no_connect
+		(at 73.66 137.16)
+		(uuid "a7709909-1d2c-49af-b78a-00343f073e7c")
 	)
 	(no_connect
 		(at 165.1 83.82)
@@ -6028,7 +6043,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 196.85) (xy 207.01 203.2)
+			(xy 207.01 196.85) (xy 207.01 208.28)
 		)
 		(stroke
 			(width 0)
@@ -6798,7 +6813,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 203.2) (xy 228.6 203.2)
+			(xy 207.01 208.28) (xy 228.6 208.28)
 		)
 		(stroke
 			(width 0)
@@ -7178,6 +7193,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 223.52) (xy 106.68 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f00a349-b963-417f-9344-0aaa65d65307")
+	)
+	(wire
+		(pts
 			(xy 52.07 139.7) (xy 52.07 140.97)
 		)
 		(stroke
@@ -7388,7 +7413,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 40.64) (xy 369.57 44.45)
+			(xy 369.57 41.91) (xy 369.57 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7518,6 +7543,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 213.36) (xy 106.68 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeb74c5c-b089-4b31-803b-21dfa478c413")
+	)
+	(wire
+		(pts
 			(xy 154.94 124.46) (xy 154.94 114.3)
 		)
 		(stroke
@@ -7588,7 +7623,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 200.66) (xy 228.6 203.2)
+			(xy 228.6 205.74) (xy 228.6 208.28)
 		)
 		(stroke
 			(width 0)
@@ -8586,16 +8621,6 @@
 		)
 		(uuid "6d3a3d69-6352-4d05-835e-4aa091f82849")
 	)
-	(label "VDD_FLASH"
-		(at 369.57 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6e659b38-15e5-45eb-ad59-85f9db7f3693")
-	)
 	(label "FLASH_Q"
 		(at 76.2 218.44 0)
 		(effects
@@ -8738,7 +8763,7 @@
 	)
 	(global_label "VDD_HP"
 		(shape input)
-		(at 228.6 200.66 0)
+		(at 228.6 205.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8748,7 +8773,7 @@
 		)
 		(uuid "1ea9aa23-d250-4a60-8fa4-7a805d36da28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.7819 200.66 0)
+			(at 238.7819 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15482,6 +15507,84 @@
 			(project "espdrone"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 369.57 41.91 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d159796d-1c18-438e-9877-5dc135d26842")
+		(property "Reference" "#PWR035"
+			(at 369.57 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 369.57 37.592 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 369.57 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369.57 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 369.57 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd04f3fe-fec2-4032-836c-d43315677b68")
+		)
+		(instances
+			(project "espdrone"
+				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)

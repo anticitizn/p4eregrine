@@ -8188,7 +8188,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2 uH"
+		(property "Value" "2.2uH"
 			(at 63.5 114.808 90)
 			(show_name no)
 			(do_not_autoplace no)

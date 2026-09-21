@@ -6533,6 +6533,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C76909"
+			(at 137.16 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9bc50473-be41-437d-8fc2-d9c348c9dea8")
 		)
@@ -6605,6 +6616,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 215.9 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C237430"
 			(at 215.9 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10700,6 +10722,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C15195"
+			(at 228.6 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "792a0379-eb14-406d-a53c-950c5bf00984")
 		)
@@ -11567,6 +11600,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C326662"
+			(at 59.69 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f06d9efe-5bd7-4911-ba7c-fa395afaac9e")
 		)
@@ -11874,6 +11918,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 73.66 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C326662"
 			(at 73.66 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -13330,6 +13385,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C161450"
+			(at 124.46 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8130fa87-01b0-4042-b03c-8f8cb84dcd48")
 		)
@@ -13402,6 +13468,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 205.74 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2183966"
 			(at 205.74 85.09 0)
 			(hide yes)
 			(show_name no)

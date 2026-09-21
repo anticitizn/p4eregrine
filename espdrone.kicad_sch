@@ -10301,6 +10301,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C326662"
+			(at 118.11 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "16751d8d-d40b-45f2-acf6-7056a5465f45")
 		)
@@ -10773,6 +10784,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 104.14 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C326662"
 			(at 104.14 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -11646,6 +11668,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 232.41 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C15195"
 			(at 232.41 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -12679,6 +12712,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 132.08 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C15195"
 			(at 132.08 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -15879,6 +15923,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 255.27 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C19666"
 			(at 255.27 226.06 0)
 			(hide yes)
 			(show_name no)

@@ -5,11 +5,11 @@
 	(uuid "96cf0c73-b89e-4c0c-9a51-5a1ce9bcc735")
 	(paper "A4")
 	(title_block
-		(title "Anticopter Duo")
-		(date "2026-09-21")
-		(rev "1.0")
+		(title "P4eregrine")
+		(date "2026-09-22")
+		(rev "A")
 		(company "All-in-one drone flight controller, camera and 2S-3S ESC")
-		(comment 1 "ESP32 P4 + ESP32 C5, 4xAM32 ESCs")
+		(comment 1 "ESP32 P4 + ESP32 C5, 4xAM32 ESCs, 15-20 A per motor")
 		(comment 2 "1S DC motors, 2S-3S BLDC motors")
 	)
 	(lib_symbols
@@ -933,7 +933,7 @@
 			(uuid "0efee9d3-7036-4d99-8a74-3b88e616d837")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
 					(reference "#PWR0167")
 					(unit 1)
@@ -1010,7 +1010,7 @@
 			(uuid "b182e586-3615-421f-bed9-d11666d8ad93")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
 					(reference "#PWR0159")
 					(unit 1)
@@ -1088,7 +1088,7 @@
 			(uuid "a3c4907d-01fa-4ace-89ef-fd5a2f2ad8b1")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
 					(reference "#PWR0160")
 					(unit 1)
@@ -1175,7 +1175,7 @@
 			)
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
 					(page "7")
 				)
@@ -1261,7 +1261,7 @@
 			)
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
 					(page "9")
 				)
@@ -1347,7 +1347,7 @@
 			)
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
 					(page "8")
 				)
@@ -1433,7 +1433,7 @@
 			)
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/d7b09c1f-60ff-44c2-9b85-8e9b4c9b8de4"
 					(page "6")
 				)

@@ -5,11 +5,11 @@
 	(uuid "6e047eb1-70b3-49d8-916c-92a2df32e839")
 	(paper "A3")
 	(title_block
-		(title "Anticopter Duo")
-		(date "2026-09-21")
-		(rev "1.0")
+		(title "P4eregrine")
+		(date "2026-09-22")
+		(rev "A")
 		(company "All-in-one drone flight controller, camera and 2S-3S ESC")
-		(comment 1 "ESP32 P4 + ESP32 C5, 4xAM32 ESCs")
+		(comment 1 "ESP32 P4 + ESP32 C5, 4xAM32 ESCs, 15-20 A per motor")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -5100,7 +5100,7 @@
 		(uuid "9764bb04-5be1-4fa2-a67e-396c56e826be")
 	)
 	(junction
-		(at 228.6 176.53)
+		(at 229.87 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99d3ed2d-82bb-4355-be85-89151e77bf20")
@@ -5268,7 +5268,7 @@
 		(uuid "2f9c7eaa-39e5-4b53-b6bb-88fd8ab67c60")
 	)
 	(no_connect
-		(at 76.2 223.52)
+		(at 76.2 227.33)
 		(uuid "40a114df-37fb-4832-8de8-be3f09d1daca")
 	)
 	(no_connect
@@ -5423,7 +5423,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 175.26) (xy 228.6 176.53)
+			(xy 229.87 175.26) (xy 229.87 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5763,7 +5763,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 213.36) (xy 101.6 218.44)
+			(xy 101.6 213.36) (xy 101.6 222.25)
 		)
 		(stroke
 			(width 0)
@@ -5773,7 +5773,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 213.36) (xy 109.22 226.06)
+			(xy 109.22 213.36) (xy 109.22 229.87)
 		)
 		(stroke
 			(width 0)
@@ -5863,7 +5863,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 213.36) (xy 99.06 215.9)
+			(xy 99.06 213.36) (xy 99.06 219.71)
 		)
 		(stroke
 			(width 0)
@@ -6093,16 +6093,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 176.53) (xy 228.6 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37283cb7-35e7-46db-a687-f5c63cc47ac0")
-	)
-	(wire
-		(pts
 			(xy 308.61 41.91) (xy 308.61 43.18)
 		)
 		(stroke
@@ -6283,6 +6273,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 176.53) (xy 229.87 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "449e1669-da5d-4dd3-bb96-4b0e5dd7d270")
+	)
+	(wire
+		(pts
 			(xy 118.11 59.69) (xy 110.49 59.69)
 		)
 		(stroke
@@ -6353,7 +6353,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 228.6) (xy 111.76 228.6)
+			(xy 76.2 232.41) (xy 111.76 232.41)
 		)
 		(stroke
 			(width 0)
@@ -6453,7 +6453,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 218.44) (xy 101.6 218.44)
+			(xy 76.2 222.25) (xy 101.6 222.25)
 		)
 		(stroke
 			(width 0)
@@ -6623,7 +6623,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 226.06) (xy 109.22 226.06)
+			(xy 76.2 229.87) (xy 109.22 229.87)
 		)
 		(stroke
 			(width 0)
@@ -6793,7 +6793,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 213.36) (xy 111.76 228.6)
+			(xy 111.76 213.36) (xy 111.76 232.41)
 		)
 		(stroke
 			(width 0)
@@ -7053,7 +7053,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 220.98) (xy 104.14 220.98)
+			(xy 76.2 224.79) (xy 104.14 224.79)
 		)
 		(stroke
 			(width 0)
@@ -7073,7 +7073,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 176.53) (xy 228.6 177.8)
+			(xy 229.87 176.53) (xy 229.87 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7193,7 +7193,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 223.52) (xy 106.68 223.52)
+			(xy 76.2 227.33) (xy 106.68 227.33)
 		)
 		(stroke
 			(width 0)
@@ -7263,7 +7263,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 213.36) (xy 104.14 220.98)
+			(xy 104.14 213.36) (xy 104.14 224.79)
 		)
 		(stroke
 			(width 0)
@@ -7543,7 +7543,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 213.36) (xy 106.68 223.52)
+			(xy 106.68 213.36) (xy 106.68 227.33)
 		)
 		(stroke
 			(width 0)
@@ -7693,7 +7693,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 213.36) (xy 114.3 231.14)
+			(xy 114.3 213.36) (xy 114.3 234.95)
 		)
 		(stroke
 			(width 0)
@@ -7943,7 +7943,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 215.9) (xy 99.06 215.9)
+			(xy 76.2 219.71) (xy 99.06 219.71)
 		)
 		(stroke
 			(width 0)
@@ -7993,7 +7993,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 185.42) (xy 228.6 186.69)
+			(xy 229.87 185.42) (xy 229.87 186.69)
 		)
 		(stroke
 			(width 0)
@@ -8313,7 +8313,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 231.14) (xy 114.3 231.14)
+			(xy 76.2 234.95) (xy 114.3 234.95)
 		)
 		(stroke
 			(width 0)
@@ -8552,7 +8552,7 @@
 		(uuid "fef4c7ee-4341-4506-a0ea-c756cbeff628")
 	)
 	(label "FLASH_D"
-		(at 76.2 231.14 0)
+		(at 76.2 234.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8572,7 +8572,7 @@
 		(uuid "3d70542a-23df-4002-8172-b848ed46ec2a")
 	)
 	(label "FLASH_WP"
-		(at 76.2 220.98 0)
+		(at 76.2 224.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8612,7 +8612,7 @@
 		(uuid "6d3a3d69-6352-4d05-835e-4aa091f82849")
 	)
 	(label "FLASH_Q"
-		(at 76.2 218.44 0)
+		(at 76.2 222.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8672,7 +8672,7 @@
 		(uuid "7e47f2f8-fb10-43f1-90ac-7ca54dab51cf")
 	)
 	(label "FLASH_CS"
-		(at 76.2 215.9 0)
+		(at 76.2 219.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8692,7 +8692,7 @@
 		(uuid "cb0bbfd9-ebf6-4e5a-bcdf-954ab3198372")
 	)
 	(label "FLASH_CLK"
-		(at 76.2 228.6 0)
+		(at 76.2 232.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8722,7 +8722,7 @@
 		(uuid "eafdc85b-6b5f-4b52-b3f2-7060845eb016")
 	)
 	(label "FLASH_HD"
-		(at 76.2 226.06 0)
+		(at 76.2 229.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9639,7 +9639,7 @@
 			(uuid "e61bd85b-f599-4336-864d-a786fb956015")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR022")
 					(unit 1)
@@ -9762,7 +9762,7 @@
 			(uuid "0d0abbbe-b30e-4584-85b8-cf25d5bc5c78")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "R10")
 					(unit 1)
@@ -9887,7 +9887,7 @@
 			(uuid "cc7490c8-8111-4684-89c8-d80355e7aa22")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C16")
 					(unit 1)
@@ -9965,7 +9965,7 @@
 			(uuid "eeb20922-70f8-4582-9276-223912d4687b")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR048")
 					(unit 1)
@@ -10090,7 +10090,7 @@
 			(uuid "d26f8cc1-1d2b-460e-aab6-2e2520df2e74")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C29")
 					(unit 1)
@@ -10167,7 +10167,7 @@
 			(uuid "496a7333-4e05-4d0c-a71f-1dc0f0aabd07")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR01")
 					(unit 1)
@@ -10280,7 +10280,7 @@
 			(uuid "030d3372-2b26-4af5-84b5-3303f6f72e73")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "JP1")
 					(unit 1)
@@ -10406,7 +10406,7 @@
 			(uuid "f7982845-6b2c-41a2-aab4-07f63da864de")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C8")
 					(unit 1)
@@ -10531,7 +10531,7 @@
 			(uuid "a073450d-4975-4974-a997-2c4cb1a90a61")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C12")
 					(unit 1)
@@ -10608,7 +10608,7 @@
 			(uuid "a6f530e6-c15c-4571-b53a-86a6bf47ff02")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR02")
 					(unit 1)
@@ -10734,7 +10734,7 @@
 			(uuid "53d5e0d0-d398-4089-9b0e-d060e0d179ba")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C18")
 					(unit 1)
@@ -10860,7 +10860,7 @@
 			(uuid "f19db969-2974-4bd7-8b2b-6d9e520f81a3")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C33")
 					(unit 1)
@@ -10985,7 +10985,7 @@
 			(uuid "f3f9ceca-fcc8-4e99-8262-a70d4e8a5b58")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C34")
 					(unit 1)
@@ -10995,7 +10995,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 228.6 175.26 0)
+		(at 229.87 175.26 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11006,7 +11006,7 @@
 		(dnp no)
 		(uuid "24979048-e489-458c-a7e1-a9733e0c53dc")
 		(property "Reference" "#PWR028"
-			(at 228.6 179.07 0)
+			(at 229.87 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11017,7 +11017,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 228.6 170.942 0)
+			(at 229.87 170.942 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11027,7 +11027,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 175.26 0)
+			(at 229.87 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11038,7 +11038,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 175.26 0)
+			(at 229.87 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11049,7 +11049,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 228.6 175.26 0)
+			(at 229.87 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11063,7 +11063,7 @@
 			(uuid "6dd49ba2-9295-4adf-a01f-742b3f801591")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR028")
 					(unit 1)
@@ -11189,7 +11189,7 @@
 			(uuid "584f36e4-9bc3-4660-92c9-38aa163d9ca4")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C11")
 					(unit 1)
@@ -11315,7 +11315,7 @@
 			(uuid "8c5d2036-64c5-415c-b802-4e17fe7818d1")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C1")
 					(unit 1)
@@ -11392,7 +11392,7 @@
 			(uuid "1cde8a5a-9960-498c-84f3-4328373231df")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR012")
 					(unit 1)
@@ -11402,7 +11402,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 228.6 181.61 0)
+		(at 229.87 181.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11412,7 +11412,7 @@
 		(dnp no)
 		(uuid "2eec5ec0-b8aa-4e48-a646-e64f8dfaf7d0")
 		(property "Reference" "C23"
-			(at 231.648 180.34 0)
+			(at 232.918 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11423,7 +11423,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 231.394 182.88 0)
+			(at 232.664 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11434,7 +11434,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 229.5652 185.42 0)
+			(at 230.8352 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11445,7 +11445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 181.61 0)
+			(at 229.87 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11456,7 +11456,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 228.6 181.61 0)
+			(at 229.87 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11467,7 +11467,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 228.6 181.61 0)
+			(at 229.87 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11478,7 +11478,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 228.6 181.61 0)
+			(at 229.87 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11489,7 +11489,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 228.6 181.61 0)
+			(at 229.87 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11500,7 +11500,7 @@
 			)
 		)
 		(property "LCSC Part" "C76939"
-			(at 228.6 181.61 0)
+			(at 229.87 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11517,7 +11517,7 @@
 			(uuid "0c65aca7-b811-4bc1-9b29-c5c127471f28")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C23")
 					(unit 1)
@@ -11595,7 +11595,7 @@
 			(uuid "4ab0749f-8f5b-47ea-b01a-1d18ce654e48")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR049")
 					(unit 1)
@@ -11721,7 +11721,7 @@
 			(uuid "f65b9817-f2e6-4c40-8c2b-e63f12c0f02f")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C10")
 					(unit 1)
@@ -11800,7 +11800,7 @@
 			(uuid "a2608d80-be3a-4823-8cce-5c53beb1dd54")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR011")
 					(unit 1)
@@ -11878,7 +11878,7 @@
 			(uuid "067694b3-0bed-4f3c-9af3-7f50e486ed15")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR064")
 					(unit 1)
@@ -11955,7 +11955,7 @@
 			(uuid "25e38322-9ce4-417a-af92-65edd06d62f2")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR019")
 					(unit 1)
@@ -12080,7 +12080,7 @@
 			(uuid "8685da1c-f7e7-4d12-a4ba-ec0ca1dd2b01")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C7")
 					(unit 1)
@@ -12157,7 +12157,7 @@
 			(uuid "aaae9247-2830-46d1-9b15-751d47095e9b")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#FLG01")
 					(unit 1)
@@ -12282,7 +12282,7 @@
 			(uuid "dd63e1ad-b04b-4c26-a402-5e4fb7d7e33a")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C19")
 					(unit 1)
@@ -12360,7 +12360,7 @@
 			(uuid "83fee790-57ca-423f-ba84-d4cf4e2fc06f")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR027")
 					(unit 1)
@@ -12483,7 +12483,7 @@
 			(uuid "af61d422-feea-4b40-b7b3-ee45b8642767")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "R51")
 					(unit 1)
@@ -12611,7 +12611,7 @@
 			(uuid "540ac86b-33c1-4cd7-9451-fa3df3a31e3c")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "U15")
 					(unit 1)
@@ -12737,7 +12737,7 @@
 			(uuid "ed59be91-5f42-4b8f-b100-3c606c24fb04")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C14")
 					(unit 1)
@@ -12815,7 +12815,7 @@
 			(uuid "d54c3ff9-fec2-4f28-87f1-eef122f0f3f4")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR021")
 					(unit 1)
@@ -12892,7 +12892,7 @@
 			(uuid "e55b35b9-7328-4924-bf24-5d246bfad897")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR013")
 					(unit 1)
@@ -12970,7 +12970,7 @@
 			(uuid "988e87e3-1541-45f3-b897-375f243dac8a")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR08")
 					(unit 1)
@@ -13048,7 +13048,7 @@
 			(uuid "eb5e4cbe-6a39-4fc5-ac69-25f94b5fe91f")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR033")
 					(unit 1)
@@ -13125,7 +13125,7 @@
 			(uuid "b4a2e262-61e0-4dfd-83b7-d55b40ecce52")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR050")
 					(unit 1)
@@ -13250,7 +13250,7 @@
 			(uuid "493ac708-3213-4e44-94e2-91a69c3d38d9")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C20")
 					(unit 1)
@@ -13375,7 +13375,7 @@
 			(uuid "1beac523-5f6c-444d-bd15-f25114c5d360")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C26")
 					(unit 1)
@@ -13453,7 +13453,7 @@
 			(uuid "41008265-4dc9-45f2-bd7e-c879209eecf8")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR031")
 					(unit 1)
@@ -13579,7 +13579,7 @@
 			(uuid "8393f918-e0b8-4a12-8b08-c405e1271ba8")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C13")
 					(unit 1)
@@ -13704,7 +13704,7 @@
 			(uuid "5e5efcf6-7da2-4765-9be1-2accd4a7459a")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C22")
 					(unit 1)
@@ -13828,7 +13828,7 @@
 			(uuid "016a13a3-7cfc-4e99-8962-e81150bb60fc")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "R49")
 					(unit 1)
@@ -13905,7 +13905,7 @@
 			(uuid "2f37f4de-b4da-464f-a43a-41b40c3d4c32")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR018")
 					(unit 1)
@@ -14030,7 +14030,7 @@
 			(uuid "e51c3e77-30b6-4eea-9bdb-a92d9ed4d24b")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C15")
 					(unit 1)
@@ -14107,7 +14107,7 @@
 			(uuid "acf43743-38af-46b7-b850-9b8d6fc77751")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR051")
 					(unit 1)
@@ -14184,7 +14184,7 @@
 			(uuid "4c5a6e00-a363-4e26-9975-8dc6b383ee18")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR032")
 					(unit 1)
@@ -14194,7 +14194,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 228.6 186.69 0)
+		(at 229.87 186.69 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -14205,7 +14205,7 @@
 		(dnp no)
 		(uuid "9a715173-dc21-4532-bb29-d39797af845d")
 		(property "Reference" "#PWR029"
-			(at 228.6 193.04 0)
+			(at 229.87 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14216,7 +14216,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 191.008 0)
+			(at 229.87 191.008 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14226,7 +14226,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 186.69 0)
+			(at 229.87 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14237,7 +14237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 186.69 0)
+			(at 229.87 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14248,7 +14248,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 186.69 0)
+			(at 229.87 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14262,7 +14262,7 @@
 			(uuid "7960b9cb-348f-4d64-8db3-d57821669307")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR029")
 					(unit 1)
@@ -14340,7 +14340,7 @@
 			(uuid "ba904f42-532b-43cb-9aef-51d07fb54df5")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR037")
 					(unit 1)
@@ -14358,7 +14358,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9b35db32-288b-4a5a-8cec-74aefb933ba3")
 		(property "Reference" "U1"
 			(at 190.5 132.0098 0)
@@ -14371,7 +14370,7 @@
 			)
 		)
 		(property "Value" "ESP32-P4NRW32X"
-			(at 76.2 210.82 0)
+			(at 84.836 212.598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14773,7 +14772,7 @@
 			(uuid "4b3a2305-36fa-4980-a0e0-3a18ec8b5756")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "U1")
 					(unit 1)
@@ -14898,7 +14897,7 @@
 			(uuid "053bfc8f-875a-495f-a658-df5cf0cc460a")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C27")
 					(unit 1)
@@ -15073,7 +15072,7 @@
 			(uuid "e07967c0-c619-474c-a5fd-11255b28d4f8")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "U7")
 					(unit 1)
@@ -15199,7 +15198,7 @@
 			(uuid "69735ad2-37ca-4086-b8b4-6009c29e55ee")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C32")
 					(unit 1)
@@ -15329,7 +15328,7 @@
 			(uuid "ee540b58-c98c-420b-99f4-38bf92d94e86")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "Y1")
 					(unit 1)
@@ -15475,7 +15474,7 @@
 			(uuid "76d4b7e7-d94d-4207-bc51-54c4c0dc4b60")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "U3")
 					(unit 1)
@@ -15552,7 +15551,7 @@
 			(uuid "e2c46558-332d-430d-9a2d-d6899cf97374")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR017")
 					(unit 1)
@@ -15677,7 +15676,7 @@
 			(uuid "ce13b0e6-c6a7-4c63-ba99-6a7e8920599d")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C17")
 					(unit 1)
@@ -15755,7 +15754,7 @@
 			(uuid "cb6d22c2-a6a4-4c84-a9b1-c72013b62d4a")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR06")
 					(unit 1)
@@ -15880,7 +15879,7 @@
 			(uuid "b55f26e0-b533-4b1d-af76-072d756740b8")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C3")
 					(unit 1)
@@ -15957,7 +15956,7 @@
 			(uuid "dcbbb2dc-2e84-4aa7-bb02-5615dd5891d2")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR016")
 					(unit 1)
@@ -16082,7 +16081,7 @@
 			(uuid "e6c41405-eb47-4623-90f0-8ae53859ef01")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C2")
 					(unit 1)
@@ -16217,7 +16216,7 @@
 			(uuid "f07910f9-8ab6-4cfa-875f-b81e76b54c86")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "D1")
 					(unit 1)
@@ -16343,7 +16342,7 @@
 			(uuid "c7f71f05-d297-4c0f-8f50-239408dec999")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C4")
 					(unit 1)
@@ -16421,7 +16420,7 @@
 			(uuid "700a667a-bf52-46b0-bb90-7a673c7735ff")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR010")
 					(unit 1)
@@ -16545,7 +16544,7 @@
 			(uuid "fc7a14f0-5ef4-4553-9de4-ef59f429f738")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "R2")
 					(unit 1)
@@ -16622,7 +16621,7 @@
 			(uuid "e65114b0-c851-4fc6-9a96-8fb6f1d33bc7")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR03")
 					(unit 1)
@@ -16746,7 +16745,7 @@
 			(uuid "5469be4a-83ac-4f7f-b0da-9f1ecbcb5e72")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "R11")
 					(unit 1)
@@ -16824,7 +16823,7 @@
 			(uuid "c587155d-0508-487b-b8a1-d5a2e0eaca0e")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR024")
 					(unit 1)
@@ -16902,7 +16901,7 @@
 			(uuid "4b446cd1-cc97-4e26-8248-347c90c65050")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR020")
 					(unit 1)
@@ -16980,7 +16979,7 @@
 			(uuid "1387ebbc-d077-4a66-9e6e-7949dc2b1c70")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR023")
 					(unit 1)
@@ -17058,7 +17057,7 @@
 			(uuid "fcff30a7-9f99-4e4e-9250-7e8e77ea68aa")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR026")
 					(unit 1)
@@ -17136,7 +17135,7 @@
 			(uuid "fd04f3fe-fec2-4032-836c-d43315677b68")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR035")
 					(unit 1)
@@ -17213,7 +17212,7 @@
 			(uuid "9624b18b-39e7-4671-88fa-427bd8311c9e")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR047")
 					(unit 1)
@@ -17291,7 +17290,7 @@
 			(uuid "ecd50af2-537a-4569-8f9d-6a66210b2cd2")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR034")
 					(unit 1)
@@ -17369,7 +17368,7 @@
 			(uuid "a493cdbf-0f07-410f-85a4-086d643bd898")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR05")
 					(unit 1)
@@ -17494,7 +17493,7 @@
 			(uuid "1d5a75e5-f2bd-4252-90e2-0bf09d8656aa")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C25")
 					(unit 1)
@@ -17619,7 +17618,7 @@
 			(uuid "b67546d0-d3ab-45cb-9d5c-12e435270c7d")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C21")
 					(unit 1)
@@ -17743,7 +17742,7 @@
 			(uuid "8b4b7180-fac7-4bd1-b215-7bc0be0eb267")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "R7")
 					(unit 1)
@@ -17821,7 +17820,7 @@
 			(uuid "74f24eca-c622-408e-9f1d-ef82a5b4eed7")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR025")
 					(unit 1)
@@ -17945,7 +17944,7 @@
 			(uuid "c873af27-dfe2-4686-a35e-c6284bc9b126")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "R1")
 					(unit 1)
@@ -18068,7 +18067,7 @@
 			(uuid "fe2cd2c5-0e93-448d-91af-a15a61a7de6e")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "R12")
 					(unit 1)
@@ -18191,7 +18190,7 @@
 			(uuid "1be371cc-573d-480b-a40f-564cf498ac54")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "R5")
 					(unit 1)
@@ -18269,7 +18268,7 @@
 			(uuid "374c161a-f52a-45b2-aa36-86da6bdf0418")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR046")
 					(unit 1)
@@ -18392,7 +18391,7 @@
 			(uuid "cd7ec4c9-136d-4661-8ed1-1b2e1d1e5009")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "R6")
 					(unit 1)
@@ -18470,7 +18469,7 @@
 			(uuid "33567468-8ff6-4f8a-9a69-895d4fd8e317")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR043")
 					(unit 1)
@@ -18547,7 +18546,7 @@
 			(uuid "56edf388-6d0d-4766-945a-05c0a2a05290")
 		)
 		(instances
-			(project "espdrone"
+			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR04")
 					(unit 1)

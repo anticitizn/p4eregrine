@@ -3,22 +3,22 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "10.0.5"
+      "Version": "10.0.6-10.0.6~ubuntu24.04.1"
     },
-    "CreationDate": "2026-09-07T04:17:53+02:00"
+    "CreationDate": "2026-09-22T00:24:45+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "espdrone",
-      "GUID": "65737064-726f-46e6-952e-6b696361645f",
+      "Name": "p4eregrine",
+      "GUID": "70346572-6567-4726-996e-652e6b696361",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 55.05,
-      "Y": 55.05
+      "X": 39.55,
+      "Y": 39.55
     },
     "LayerNumber": 6,
-    "BoardThickness": 1.166,
+    "BoardThickness": 1.6074,
     "Finish": "ENIG"
   },
   "DesignRules": [
@@ -43,67 +43,67 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "espdrone-F_Cu.gbr",
+      "Path": "p4eregrine-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "espdrone-F_GND.gbr",
+      "Path": "p4eregrine-F_GND.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "espdrone-InF_Cu.gbr",
+      "Path": "p4eregrine-InF_Cu.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "espdrone-InB_Cu.gbr",
+      "Path": "p4eregrine-InB_Cu.gbr",
       "FileFunction": "Copper,L4,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "espdrone-B_GND.gbr",
+      "Path": "p4eregrine-B_GND.gbr",
       "FileFunction": "Copper,L5,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "espdrone-B_Cu.gbr",
+      "Path": "p4eregrine-B_Cu.gbr",
       "FileFunction": "Copper,L6,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "espdrone-F_Paste.gbr",
+      "Path": "p4eregrine-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "espdrone-B_Paste.gbr",
+      "Path": "p4eregrine-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "espdrone-F_Silkscreen.gbr",
+      "Path": "p4eregrine-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "espdrone-B_Silkscreen.gbr",
+      "Path": "p4eregrine-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "espdrone-F_Mask.gbr",
+      "Path": "p4eregrine-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "espdrone-B_Mask.gbr",
+      "Path": "p4eregrine-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "espdrone-Edge_Cuts.gbr",
+      "Path": "p4eregrine-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
@@ -129,7 +129,7 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.0994,
+      "Thickness": 0.1,
       "Material": "FR4",
       "Name": "F.Cu/F.GND",
       "Notes": "Type: dielectric layer 1 (from F.Cu to F.GND)"
@@ -141,7 +141,7 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.35,
+      "Thickness": 0.5783,
       "Material": "FR4",
       "Name": "F.GND/InF.Cu",
       "Notes": "Type: dielectric layer 2 (from F.GND to InF.Cu)"
@@ -153,7 +153,7 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.1164,
+      "Thickness": 0.1,
       "Material": "FR4",
       "Name": "InF.Cu/InB.Cu",
       "Notes": "Type: dielectric layer 3 (from InF.Cu to InB.Cu)"
@@ -165,7 +165,7 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.35,
+      "Thickness": 0.5783,
       "Material": "FR4",
       "Name": "InB.Cu/B.GND",
       "Notes": "Type: dielectric layer 4 (from InB.Cu to B.GND)"
@@ -177,7 +177,7 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.0994,
+      "Thickness": 0.1,
       "Material": "FR4",
       "Name": "B.GND/B.Cu",
       "Notes": "Type: dielectric layer 5 (from B.GND to B.Cu)"

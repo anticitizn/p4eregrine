@@ -2794,13 +2794,25 @@
 		)
 		(uuid "403e0e24-b62e-4992-85bf-915617ec4b06")
 	)
-	(text "0.5 mOhm\n"
+	(text "Maximum expected continuous current draw: 1.5 A\nMaximum 3V3 supply capability: 2.3 A (inductor limit)\n"
 		(exclude_from_sim no)
-		(at 247.65 61.468 0)
+		(at 16.256 24.384 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
+		)
+		(uuid "563f530b-21b2-4136-9e30-e27d75809245")
+	)
+	(text "0.5 mOhm, 5W\n"
+		(exclude_from_sim no)
+		(at 242.824 61.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
 		(uuid "5ae08a77-7c3b-4800-a777-9787ba5c5945")
 	)
@@ -5548,7 +5560,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "10u"
 			(at 100.584 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)

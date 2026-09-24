@@ -4848,6 +4848,17 @@
 		)
 		(uuid "131f9af1-17f8-47bc-b72b-2aa191d09023")
 	)
+	(text "Using 4.7k resistors to minimize BOM\nwhich is still within USB-C specs"
+		(exclude_from_sim no)
+		(at 261.112 84.074 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d228278-8142-49b4-9f62-37ad554c622c")
+	)
 	(text "PMW3901B 2.1V supply"
 		(exclude_from_sim no)
 		(at 308.356 138.684 0)

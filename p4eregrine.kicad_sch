@@ -4848,6 +4848,16 @@
 		)
 		(uuid "131f9af1-17f8-47bc-b72b-2aa191d09023")
 	)
+	(text "PMW3901B 2.1V supply"
+		(exclude_from_sim no)
+		(at 308.356 138.684 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4bb5f719-0d72-4fba-ade3-2aa4429c0c9c")
+	)
 	(text "GPIO38-UART_RX\nGPIO37-UART_TX"
 		(exclude_from_sim no)
 		(at 171.704 157.734 0)
@@ -4857,6 +4867,16 @@
 			)
 		)
 		(uuid "5aaa3f68-3e0e-4fdd-9027-af8136aef437")
+	)
+	(text "MIPI PHY supply"
+		(exclude_from_sim no)
+		(at 282.702 138.176 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "715b7077-0943-4722-9800-e3a750ea754e")
 	)
 	(text "ESP32 P4 Flight Controller"
 		(exclude_from_sim no)

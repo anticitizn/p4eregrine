@@ -4840,7 +4840,7 @@
 		(uuid "58e55b37-89df-45dc-87d2-f750e412dc49")
 	)
 	(rectangle
-		(start 240.03 19.05)
+		(start 231.14 19.05)
 		(end 334.01 88.9)
 		(stroke
 			(width 0)
@@ -4873,9 +4873,9 @@
 		)
 		(uuid "131f9af1-17f8-47bc-b72b-2aa191d09023")
 	)
-	(text "Using 4.7k resistors to minimize BOM\nwhich is still within USB-C specs"
+	(text "Using 4.7kCC  resistors to minimize BOM\nwhich is still within USB-C specs"
 		(exclude_from_sim no)
-		(at 261.112 84.074 0)
+		(at 274.066 83.058 0)
 		(effects
 			(font
 				(size 1.27 1.27)

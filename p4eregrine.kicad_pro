@@ -601,7 +601,7 @@
       {
         "clearance": 0.15,
         "name": "PHASE",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(219, 80, 50)",
         "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
@@ -612,7 +612,7 @@
       {
         "clearance": 0.15,
         "name": "RF_50R",
-        "pcb_color": "rgb(34, 211, 238)",
+        "pcb_color": "rgb(244, 114, 182)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
@@ -632,7 +632,7 @@
         "diff_pair_gap": 0.1,
         "diff_pair_width": 0.1,
         "name": "USB_90R",
-        "pcb_color": "rgb(186, 230, 253)",
+        "pcb_color": "rgb(244, 114, 182)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
@@ -653,7 +653,23 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3V3": "rgb(200, 163, 17)",
+      "+BATT": "rgb(244, 63, 94)",
+      "/Coprocessor/ANT_2G": "rgb(244, 114, 182)",
+      "/Coprocessor/ANT_5G": "rgb(244, 114, 182)",
+      "GND": "rgb(71, 85, 105)",
+      "Net-(J5-In)": "rgb(244, 114, 182)",
+      "Net-(U1-VDDO_PSRAM)": "rgb(200, 163, 17)",
+      "Net-(U14-VDD)": "rgb(200, 163, 17)",
+      "Net-(U14-VREG)": "rgb(200, 163, 17)",
+      "Net-(U4-VDDA1)": "rgb(200, 163, 17)",
+      "Net-(U5-P1)": "rgb(244, 114, 182)",
+      "Net-(U5-P2)": "rgb(244, 114, 182)",
+      "Net-(U5-P3)": "rgb(244, 114, 182)",
+      "VDDO_4": "rgb(200, 163, 17)",
+      "VDD_HP": "rgb(200, 163, 17)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {
@@ -690,7 +706,7 @@
       },
       {
         "netclass": "PHASE",
-        "pattern": "/Motors/ESC1/PHASE_(A|B|C)"
+        "pattern": "*/PHASE_*"
       },
       {
         "netclass": "USB_90R",
@@ -918,7 +934,7 @@
         "uuid": "b7952862-8d86-4464-ae6b-e7392f598094"
       }
     ],
-    "used_designators": "#PWR1-356,Y1-2,J1-14,USB1-3,BT1,#FLG1-9,SW1-2,Card1,C1-216,FPC1,JP1-6,R1-193,TP1-142,Q1-56,D1-22,U1-30,L1-7",
+    "used_designators": "FPC1,JP1-6,C1-216,Card1,L1-7,Q1-56,U1-30,D1-22,#PWR1-356,Y1-2,J1-14,USB1-3,R1-193,TP1-142,BT1,#FLG1-9,SW1-2",
     "variants": []
   },
   "sheets": [

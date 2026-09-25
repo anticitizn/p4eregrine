@@ -86879,17 +86879,6 @@
 		(layer "Dwgs.User")
 		(uuid "28602798-e4f7-47d6-b588-7635f1e88ecb")
 	)
-	(gr_rect
-		(start 129.5 67)
-		(end 177 110.25)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "0beeb257-b27a-4759-869c-92242adebadf")
-	)
 	(gr_arc
 		(start 130.296255 74.596391)
 		(mid 131.614273 71.414409)
@@ -87017,45 +87006,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "72e10bdf-6700-4052-8f6a-111504e3695e")
-	)
-	(gr_text "L1.Cu"
-		(at 130 69.75 0)
-		(layer "F.Cu")
-		(uuid "f470234c-d7d5-4c1e-8812-d85cc9bbbcaa")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "L6.Cu"
-		(at 130 69.75 0)
-		(layer "B.Cu")
-		(uuid "c4104784-a62b-41cc-bfaa-69608b3614db")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "L2.Cu"
-		(at 130 69.75 0)
-		(layer "In1.Cu")
-		(uuid "d7caf4d7-5112-4588-aded-cfbb70fd3a4f")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
 	)
 	(gr_text "-"
 		(at 138.996253 105.796387 0)
@@ -87407,19 +87357,6 @@
 					(xy 153.758472 78.127973) (xy 153.985847 78.127973)
 				)
 			)
-		)
-	)
-	(gr_text "L3.Cu"
-		(at 130 69.75 0)
-		(layer "In2.Cu")
-		(uuid "62f0d708-8033-49e3-8d7f-fd10b22fd31a")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "-"
@@ -88412,32 +88349,6 @@
 					(xy 168.464096 101.23)
 				)
 			)
-		)
-	)
-	(gr_text "L4.Cu"
-		(at 130 69.75 0)
-		(layer "In3.Cu")
-		(uuid "7d2fcd3d-d112-4537-8db1-32ae1d242ce4")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "L5.Cu"
-		(at 130 69.75 0)
-		(layer "In4.Cu")
-		(uuid "3553688c-7428-448e-951f-984e1b4fc00c")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
 		)
 	)
 	(segment

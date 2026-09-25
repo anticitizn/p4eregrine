@@ -4971,7 +4971,7 @@
 	)
 	(text "USB"
 		(exclude_from_sim no)
-		(at 249.936 24.13 0)
+		(at 238.506 23.876 0)
 		(effects
 			(font
 				(size 3.2512 3.2512)

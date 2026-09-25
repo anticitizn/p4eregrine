@@ -10288,7 +10288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:TestPoint_Pad_D1.0mm_No_Courtyard"
+		(property "Footprint" "easyeda2kicad:TestPoint_Pad_L1.0mm"
 			(at 243.84 62.23 0)
 			(hide yes)
 			(show_name no)

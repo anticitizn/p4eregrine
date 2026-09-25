@@ -2661,13 +2661,14 @@
 		)
 		(uuid "fb721d53-f694-4d8e-b50c-8beddc184dbc")
 	)
-	(text "1210 10uF caps from Samsung retain ~8 uF even at 3S LiHV\nWhich results in ~32 uF per ESC in the worst case scenario"
+	(text "1210 10uF CL32B106KAJNNNE caps retain ~7 uF even at 3S HV, \nwhich results in ~28 uF per ESC in the worst case scenario.\n\nAlternatively, CL32Y226KAVVPN 22 uF caps retain ~15 uF when derated, \nbut they cost way more."
 		(exclude_from_sim no)
-		(at 205.486 152.908 0)
+		(at 184.658 155.956 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "15b46b72-9c95-4e3c-8ae8-7c4c90edb675")
 	)
@@ -5792,6 +5793,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C39232"
+			(at 186.69 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fb64f9f9-bf7c-40b8-a4e1-b4283f1dab08")
 		)
@@ -7378,6 +7390,17 @@
 			)
 		)
 		(property "KLC_S5.1" ""
+			(at 198.12 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C39232"
 			(at 198.12 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9486,6 +9509,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C39232"
+			(at 220.98 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2eea5781-5534-43c5-ba2e-3c165d91d8b2")
 		)
@@ -10855,6 +10889,17 @@
 			)
 		)
 		(property "KLC_S5.1" ""
+			(at 209.55 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C39232"
 			(at 209.55 137.16 0)
 			(hide yes)
 			(show_name no)

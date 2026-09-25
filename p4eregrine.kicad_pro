@@ -719,7 +719,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "manufacturing/",
+      "plot": "export/",
       "pos_files": "manufacturing/",
       "specctra_dsn": "",
       "step": "",

@@ -26,4 +26,4 @@ An all-in-one drone ESC, flight controller and video processor, powered by an ES
 
 Filled and capped vias are a must, as the board makes extensive use of via-in-pad. All vias are 0.45/0.25 mm or bigger to avoid incurring extra fees from JLCPCB.
 
-Schematics, layer images and BOM are available in `docs/`
+Schematics, layer images and BOM are available in `docs/`, Gerber files in `export/`.

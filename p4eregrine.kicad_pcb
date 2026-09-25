@@ -165,7 +165,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "manufacturing/")
+			(outputdirectory "export/")
 		)
 	)
 	(footprint "Capacitor_SMD:C_1210_3225Metric"

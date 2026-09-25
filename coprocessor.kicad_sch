@@ -10,7 +10,6 @@
 		(rev "A")
 		(company "All-in-one drone flight controller, camera and 2S-3S ESC")
 		(comment 1 "ESP32 P4 + ESP32 C5, 4xAM32 ESCs, 15-20 A per motor")
-		(comment 2 "1S DC motors, 2S-3S BLDC motors")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"

@@ -1,0 +1,11 @@
+Default	False	2.0	3
+Dense	False	2.0	3
+GATE_DRIVE	False	2.0	3
+LV_POWER	False	2.0	3
+MIPI_100R	False	2.0	3
+PHASE	False	2.0	3
+RF_50R	True	2.0	3
+SW_NODE	False	2.0	3
+USB_90R	False	2.0	3
+VBAT	False	2.0	3
+False	True	False

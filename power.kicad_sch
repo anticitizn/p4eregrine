@@ -3049,18 +3049,6 @@
 		(uuid "483dbd50-f8d8-4677-bd3a-ccf5910e4f97")
 	)
 	(rectangle
-		(start 187.96 124.46)
-		(end 281.94 163.83)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "53bddd65-0cf9-4cab-a8ba-65daa928f248")
-	)
-	(rectangle
 		(start 13.97 13.97)
 		(end 186.69 82.55)
 		(stroke
@@ -3118,18 +3106,6 @@
 		)
 		(uuid "403e0e24-b62e-4992-85bf-915617ec4b06")
 	)
-	(text "Power Testpoints"
-		(exclude_from_sim no)
-		(at 211.328 128.778 0)
-		(effects
-			(font
-				(size 3.2512 3.2512)
-				(thickness 0.6502)
-				(bold yes)
-			)
-		)
-		(uuid "43d4b361-0b12-4895-8981-cfb0f42e24d5")
-	)
 	(text "Maximum expected continuous current draw: 1.5 A\nMaximum 3V3 supply capability at 3S: 2.3 A (inductor limit)\n"
 		(exclude_from_sim no)
 		(at 16.256 24.384 0)
@@ -3152,9 +3128,9 @@
 		)
 		(uuid "5ae08a77-7c3b-4800-a777-9787ba5c5945")
 	)
-	(text "Battery Connector"
+	(text "Battery Measurement"
 		(exclude_from_sim no)
-		(at 212.344 18.288 0)
+		(at 216.154 18.542 0)
 		(effects
 			(font
 				(size 3.2512 3.2512)

@@ -3951,14 +3951,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:GT-USB-7079C"
+		(symbol "easyeda2kicad:GT-USB-7039A"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -2.286 24.384 0)
+			(property "Reference" "USB"
+				(at 5.842 20.828 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3967,8 +3967,8 @@
 					)
 				)
 			)
-			(property "Value" "GT-USB-7079C"
-				(at 3.048 21.59 0)
+			(property "Value" "GT-USB-7039A"
+				(at 7.62 18.542 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3977,8 +3977,8 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:TYPE-C-SMD_GT-USB-7079C"
-				(at 0 -19.05 0)
+			(property "Footprint" "easyeda2kicad:USB-C-SMD_GT-USB-7039A"
+				(at 0 -26.67 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3988,8 +3988,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C5368937.pdf"
-				(at 0 -21.59 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C48996277.pdf"
+				(at 0 -29.21 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4011,7 +4011,7 @@
 				)
 			)
 			(property "Manufacturer" "G-Switch(品赞)"
-				(at 0 -24.13 0)
+				(at 0 -31.75 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4021,8 +4021,8 @@
 					)
 				)
 			)
-			(property "MPN" "GT-USB-7079C"
-				(at 0 -26.67 0)
+			(property "MPN" "GT-USB-7039A"
+				(at 0 -34.29 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4032,8 +4032,8 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C5368937"
-				(at 0 -29.21 0)
+			(property "LCSC Part" "C48996277"
+				(at 0 -36.83 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4043,21 +4043,10 @@
 					)
 				)
 			)
-			(property "ki_keywords" "USB Connectors"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GT-USB-7079C_0_1"
+			(symbol "GT-USB-7039A_0_1"
 				(rectangle
-					(start -5.08 20.32)
-					(end 11.43 -8.89)
+					(start -1.27 16.51)
+					(end 17.78 -16.51)
 					(stroke
 						(width 0)
 						(type default)
@@ -4067,7 +4056,7 @@
 					)
 				)
 				(circle
-					(center -3.43 18.16)
+					(center 0 15.24)
 					(radius 0.38)
 					(stroke
 						(width 0)
@@ -4078,7 +4067,79 @@
 					)
 				)
 				(pin unspecified line
-					(at 13.97 -3.81 180)
+					(at 20.32 11.43 180)
+					(length 2.54)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -11.43 180)
+					(length 2.54)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 -19.05 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -11.43 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -8.89 0)
 					(length 2.54)
 					(name "CC1"
 						(effects
@@ -4096,9 +4157,9 @@
 					)
 				)
 				(pin unspecified line
-					(at 13.97 1.27 180)
+					(at -3.81 -3.81 0)
 					(length 2.54)
-					(name "DP1"
+					(name "D+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4114,9 +4175,9 @@
 					)
 				)
 				(pin unspecified line
-					(at 13.97 3.81 180)
+					(at -3.81 3.81 0)
 					(length 2.54)
-					(name "DN1"
+					(name "D-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4132,7 +4193,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 13.97 -1.27 180)
+					(at -3.81 6.35 0)
 					(length 2.54)
 					(name "SBU1"
 						(effects
@@ -4150,25 +4211,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 13.97 16.51 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -11.43 90)
+					(at 10.16 -19.05 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -4177,7 +4220,7 @@
 							)
 						)
 					)
-					(number "A12B1"
+					(number "B1A12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4186,7 +4229,25 @@
 					)
 				)
 				(pin unspecified line
-					(at 13.97 13.97 180)
+					(at -3.81 11.43 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 8.89 0)
 					(length 2.54)
 					(name "CC2"
 						(effects
@@ -4204,9 +4265,9 @@
 					)
 				)
 				(pin unspecified line
-					(at 13.97 6.35 180)
+					(at -3.81 1.27 0)
 					(length 2.54)
-					(name "DP2"
+					(name "D+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4222,9 +4283,9 @@
 					)
 				)
 				(pin unspecified line
-					(at 13.97 8.89 180)
+					(at -3.81 -1.27 0)
 					(length 2.54)
-					(name "DN2"
+					(name "D-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4240,7 +4301,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 13.97 11.43 180)
+					(at -3.81 -6.35 0)
 					(length 2.54)
 					(name "SBU2"
 						(effects
@@ -4250,42 +4311,6 @@
 						)
 					)
 					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 13.97 -6.35 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B9A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 3.81 -11.43 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B12A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5131,7 +5156,7 @@
 		(uuid "853127cc-b652-40e0-a379-226f0c4ec6da")
 	)
 	(junction
-		(at 252.73 74.93)
+		(at 252.73 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9687fbdf-add2-41bd-9a03-ac1253f93595")
@@ -5319,6 +5344,10 @@
 		(uuid "486ba835-f3e0-40bd-bc81-9eb0964e674b")
 	)
 	(no_connect
+		(at 238.76 44.45)
+		(uuid "4ae257f9-63a1-45f8-a260-43100923eb97")
+	)
+	(no_connect
 		(at 73.66 172.72)
 		(uuid "522a2506-f62e-4956-a957-a5bf08610eba")
 	)
@@ -5341,6 +5370,10 @@
 	(no_connect
 		(at 73.66 165.1)
 		(uuid "675c4097-14db-48ad-b78d-055e3d689908")
+	)
+	(no_connect
+		(at 262.89 62.23)
+		(uuid "675fac8f-2b40-4303-9874-5aee037fdc77")
 	)
 	(no_connect
 		(at 73.66 198.12)
@@ -5375,12 +5408,12 @@
 		(uuid "99554d60-35a6-4ae1-a1b6-e6a7e7b633b1")
 	)
 	(no_connect
-		(at 99.06 124.46)
-		(uuid "9ec3481e-5d26-41e2-b6e3-462293e06ee4")
+		(at 262.89 49.53)
+		(uuid "9969170d-d11d-48ea-85eb-bea0a40f5129")
 	)
 	(no_connect
-		(at 262.89 62.23)
-		(uuid "a224697a-449b-4b20-a0c8-ea8e33f6ffe3")
+		(at 99.06 124.46)
+		(uuid "9ec3481e-5d26-41e2-b6e3-462293e06ee4")
 	)
 	(no_connect
 		(at 73.66 137.16)
@@ -5435,10 +5468,6 @@
 		(uuid "d61479a2-d8aa-4b88-bb6a-3725effec87e")
 	)
 	(no_connect
-		(at 262.89 49.53)
-		(uuid "dc80702b-3666-491a-8f61-33195886b1e4")
-	)
-	(no_connect
 		(at 73.66 144.78)
 		(uuid "de0dfca4-ec2f-4d45-8c2a-1341461e8545")
 	)
@@ -5449,6 +5478,10 @@
 	(no_connect
 		(at 165.1 93.98)
 		(uuid "ec2ab6ff-6d5a-44b9-82dc-d6127e174658")
+	)
+	(no_connect
+		(at 238.76 67.31)
+		(uuid "fbc5015c-e46b-4427-ad67-f48e9e865444")
 	)
 	(no_connect
 		(at 73.66 193.04)
@@ -5636,6 +5669,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 74.93) (xy 248.92 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d4aada4-828d-4d70-bdb5-64e3b9db1a68")
+	)
+	(wire
+		(pts
 			(xy 109.22 69.85) (xy 109.22 124.46)
 		)
 		(stroke
@@ -5673,16 +5716,6 @@
 			(type default)
 		)
 		(uuid "0e716f58-1cd3-45f5-af8c-8e00a578f848")
-	)
-	(wire
-		(pts
-			(xy 248.92 72.39) (xy 248.92 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f3e68b1-ed96-4243-82a3-269f891343d5")
 	)
 	(wire
 		(pts
@@ -6006,6 +6039,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 74.93) (xy 252.73 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f057cf-89a4-40e3-83a2-8019bb16c79e")
+	)
+	(wire
+		(pts
 			(xy 118.11 58.42) (xy 118.11 59.69)
 		)
 		(stroke
@@ -6126,7 +6169,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 74.93) (xy 252.73 74.93)
+			(xy 248.92 78.74) (xy 252.73 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6743,16 +6786,6 @@
 			(type default)
 		)
 		(uuid "620159c2-ad22-48aa-8386-6a3d0e6b1daa")
-	)
-	(wire
-		(pts
-			(xy 252.73 74.93) (xy 252.73 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "622a100f-f129-422d-ba4e-08e087328535")
 	)
 	(wire
 		(pts
@@ -7886,7 +7919,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 74.93) (xy 252.73 76.2)
+			(xy 252.73 78.74) (xy 252.73 80.01)
 		)
 		(stroke
 			(width 0)
@@ -11970,6 +12003,158 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:GT-USB-7039A")
+		(at 259.08 55.88 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4191ccf6-1f36-4afc-b990-f3e0e579c89d")
+		(property "Reference" "USB1"
+			(at 248.92 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GT-USB-7039A"
+			(at 248.92 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:USB-C-SMD_GT-USB-7039A"
+			(at 259.08 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C48996277.pdf"
+			(at 259.08 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "G-Switch(品赞)"
+			(at 259.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GT-USB-7039A"
+			(at 259.08 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C48996277"
+			(at 259.08 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "B8"
+			(uuid "9afbb11e-ff8b-4f9d-96cf-b119a2381359")
+		)
+		(pin "A7"
+			(uuid "dd95541f-1f16-4ec1-b872-dd8ad0cad583")
+		)
+		(pin "A6"
+			(uuid "00e84472-1ce3-4393-8698-e875a4570ab9")
+		)
+		(pin "A5"
+			(uuid "5dbe2028-a14d-46b3-bf6b-401bebf8ac7a")
+		)
+		(pin "B5"
+			(uuid "dd01ee39-0062-4184-9ccd-853340e3299f")
+		)
+		(pin "B6"
+			(uuid "3b84a15c-aaab-495c-a49e-9a310e30fee0")
+		)
+		(pin "A8"
+			(uuid "76234456-a80d-4203-84d7-658d845f1a71")
+		)
+		(pin "B1A12"
+			(uuid "afabd8cf-1944-4281-bd83-857f35db0c31")
+		)
+		(pin "B7"
+			(uuid "991d02af-fcfb-40cd-ab94-6f1c6e524d78")
+		)
+		(pin "B4A9"
+			(uuid "4fc8d7e0-254b-4442-8c20-7894e5d4f1da")
+		)
+		(pin "A4B9"
+			(uuid "203305f1-1f96-42c0-afdd-842357985586")
+		)
+		(pin "A1B12"
+			(uuid "ac5c11dd-fe77-48ca-8641-c5d1311fa90b")
+		)
+		(pin "14"
+			(uuid "37234ad4-ee45-4b06-a165-864424d38fb7")
+		)
+		(pin "13"
+			(uuid "37495201-3eb1-4f27-a4e5-b86d6612d4c0")
+		)
+		(instances
+			(project "p4eregrine"
+				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
+					(reference "USB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 196.85 57.15 0)
 		(unit 1)
@@ -14983,181 +15168,6 @@
 			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:GT-USB-7079C")
-		(at 248.92 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9e69f689-edf8-41da-9e2e-04f9d9dca39b")
-		(property "Reference" "U7"
-			(at 251.714 36.576 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GT-USB-7079C"
-			(at 251.714 39.116 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:TYPE-C-SMD_GT-USB-7079C"
-			(at 248.92 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5368937.pdf"
-			(at 248.92 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 248.92 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "G-Switch(品赞)"
-			(at 248.92 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GT-USB-7079C"
-			(at 248.92 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C5368937"
-			(at 248.92 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 248.92 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 248.92 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 248.92 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "B7"
-			(uuid "5daa5c65-80c9-4147-9365-ad5740ec98d9")
-		)
-		(pin "B6"
-			(uuid "8f36ea60-eea1-4e38-be1d-1d59f5acf3ff")
-		)
-		(pin "B12A1"
-			(uuid "0b28e896-612d-49c4-b0a0-b0221dbba8c0")
-		)
-		(pin "A12B1"
-			(uuid "639fce12-d145-493c-9e2a-9673c807e4b1")
-		)
-		(pin "A8"
-			(uuid "d7611f33-41ec-496f-b9d8-d014cdb68072")
-		)
-		(pin "B8"
-			(uuid "03305ab6-8624-4151-a678-c3e2ce75f6cc")
-		)
-		(pin "B5"
-			(uuid "3353a3e2-0e28-4cec-9473-205f1d9898a0")
-		)
-		(pin "B9A4"
-			(uuid "837b9eec-04a2-4a3d-a731-489656b01831")
-		)
-		(pin "A5"
-			(uuid "b1204659-0d65-485a-a6c5-6b889c17c3d8")
-		)
-		(pin "A9B4"
-			(uuid "3d1e865f-8aee-4d06-be8a-bc1a1491ce94")
-		)
-		(pin "A6"
-			(uuid "d51960df-c7c7-4102-a5ba-cce79831c8d6")
-		)
-		(pin "A7"
-			(uuid "e07967c0-c619-474c-a5fd-11255b28d4f8")
-		)
-		(instances
-			(project "p4eregrine"
-				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
-					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -18687,7 +18697,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 252.73 76.2 0)
+		(at 252.73 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18697,7 +18707,7 @@
 		(dnp no)
 		(uuid "fb689851-1f4e-4d74-8c23-7a4e6337cd19")
 		(property "Reference" "#PWR043"
-			(at 252.73 82.55 0)
+			(at 252.73 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18708,7 +18718,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 255.016 80.264 0)
+			(at 255.016 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18719,7 +18729,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 76.2 0)
+			(at 252.73 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18730,7 +18740,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 76.2 0)
+			(at 252.73 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18741,7 +18751,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 76.2 0)
+			(at 252.73 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -4457,145 +4457,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -4826,6 +4687,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VBUS"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 337.82 19.05)
@@ -4864,7 +4864,7 @@
 	)
 	(text "There should be a 100n cap here\nbut it is right next to an existing\none already, and no space for a second"
 		(exclude_from_sim no)
-		(at 240.03 206.756 0)
+		(at 231.648 206.248 0)
 		(effects
 			(font
 				(size 0.8128 0.8128)
@@ -4994,12 +4994,6 @@
 		(uuid "03547d6a-82d5-41d6-b2dd-c239da750df4")
 	)
 	(junction
-		(at 196.85 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a1837ee-bbc0-425f-a6c5-97362ba6941f")
-	)
-	(junction
 		(at 297.18 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5012,28 +5006,10 @@
 		(uuid "11e945ae-6a8c-4f91-a628-bb5e2cf74b3b")
 	)
 	(junction
-		(at 73.66 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12234ba8-9c8c-47f0-88e1-2c51942694e5")
-	)
-	(junction
 		(at 48.26 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d32a3f9-8bab-4352-9e5c-5e87f0b55fdf")
-	)
-	(junction
-		(at 217.17 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "22ab6b7a-7241-4736-bf0c-3e9e140f4f5b")
-	)
-	(junction
-		(at 26.67 209.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24f9ed6e-63c2-4812-ae2b-01fc5585c222")
 	)
 	(junction
 		(at 52.07 152.4)
@@ -5228,10 +5204,22 @@
 		(uuid "c7f00f55-2516-4649-a6fa-bcb492e87329")
 	)
 	(junction
+		(at 196.85 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce8472f0-3c0b-49c0-9723-69b91b114c04")
+	)
+	(junction
 		(at 294.64 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d30d6122-79c2-4e4b-a634-7a5ce12caa41")
+	)
+	(junction
+		(at 26.67 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6842208-959f-4b15-aaa9-4a9737356786")
 	)
 	(junction
 		(at 48.26 154.94)
@@ -5246,7 +5234,7 @@
 		(uuid "d768e138-fba5-410e-a1a9-e20faac78d86")
 	)
 	(junction
-		(at 196.85 58.42)
+		(at 196.85 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9272d7a-e64a-416e-90d8-f4de6aeb5ea5")
@@ -5298,6 +5286,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fab5ecc5-5608-4309-ab88-224d83c37487")
+	)
+	(junction
+		(at 217.17 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbc2047c-820f-4cf2-bc99-b78add46ae66")
 	)
 	(junction
 		(at 236.22 111.76)
@@ -5989,16 +5983,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 187.96) (xy 73.66 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "243a7016-af87-493a-906a-4377abaee71a")
-	)
-	(wire
-		(pts
 			(xy 262.89 67.31) (xy 274.32 67.31)
 		)
 		(stroke
@@ -6139,7 +6123,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 209.55) (xy 26.67 209.55)
+			(xy 69.85 214.63) (xy 26.67 214.63)
 		)
 		(stroke
 			(width 0)
@@ -6339,7 +6323,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 67.31) (xy 196.85 68.58)
+			(xy 196.85 63.5) (xy 196.85 64.77)
 		)
 		(stroke
 			(width 0)
@@ -6429,7 +6413,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 57.15) (xy 196.85 58.42)
+			(xy 196.85 53.34) (xy 196.85 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6529,7 +6513,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 58.42) (xy 196.85 58.42)
+			(xy 182.88 54.61) (xy 196.85 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6819,7 +6803,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 209.55) (xy 26.67 210.82)
+			(xy 26.67 214.63) (xy 26.67 215.9)
 		)
 		(stroke
 			(width 0)
@@ -7159,7 +7143,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 218.44) (xy 26.67 219.71)
+			(xy 26.67 223.52) (xy 26.67 224.79)
 		)
 		(stroke
 			(width 0)
@@ -7259,7 +7243,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 58.42) (xy 196.85 59.69)
+			(xy 196.85 54.61) (xy 196.85 55.88)
 		)
 		(stroke
 			(width 0)
@@ -7319,7 +7303,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 200.66) (xy 69.85 209.55)
+			(xy 69.85 200.66) (xy 69.85 214.63)
 		)
 		(stroke
 			(width 0)
@@ -7929,7 +7913,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 78.74) (xy 182.88 58.42)
+			(xy 182.88 78.74) (xy 182.88 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7949,7 +7933,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 124.46) (xy 217.17 127)
+			(xy 217.17 125.73) (xy 217.17 127)
 		)
 		(stroke
 			(width 0)
@@ -8339,7 +8323,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 207.01) (xy 26.67 209.55)
+			(xy 26.67 213.36) (xy 26.67 214.63)
 		)
 		(stroke
 			(width 0)
@@ -8847,30 +8831,6 @@
 		)
 		(uuid "f28b8f6c-1fcb-4e16-964f-7850e5156e97")
 	)
-	(global_label "VDD_HP"
-		(shape input)
-		(at 228.6 205.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1ea9aa23-d250-4a60-8fa4-7a805d36da28")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.7819 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "EN_DCDC"
 		(shape input)
 		(at 165.1 121.92 0)
@@ -8884,30 +8844,6 @@
 		(uuid "1f84cb8c-4e66-407c-b942-8742686a49a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 176.6123 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VDD_HP"
-		(shape input)
-		(at 26.67 207.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "20fba9d0-ca24-4d6c-9725-990815df5ffb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.8519 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9255,30 +9191,6 @@
 			)
 		)
 	)
-	(global_label "VDD_HP"
-		(shape input)
-		(at 196.85 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "64d384c1-ad3c-4966-8488-55408d5205c8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.0319 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "CSI_CLKP"
 		(shape input)
 		(at 152.4 248.92 0)
@@ -9435,30 +9347,6 @@
 		(uuid "b45b2af2-e64c-4319-b4c9-b089d48280f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 207.3947 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VDD_HP"
-		(shape input)
-		(at 217.17 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c5f5f76e-d07a-4b64-b36b-0808e4eba701")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.3519 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10650,6 +10538,84 @@
 			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 294.64 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17e3e3a6-30da-456e-9945-ffe08f118a19")
+		(property "Reference" "#PWR093"
+			(at 294.64 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 294.64 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 294.64 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "008aaf27-fff0-4e3d-a9cf-ce8f2a5aa30e")
+		)
+		(instances
+			(project "p4eregrine"
+				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -12156,7 +12122,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 196.85 57.15 0)
+		(at 196.85 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12166,7 +12132,7 @@
 		(dnp no)
 		(uuid "42c5695e-02c9-46ca-b7d2-174c794e4665")
 		(property "Reference" "#PWR019"
-			(at 196.85 60.96 0)
+			(at 196.85 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12177,7 +12143,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 196.85 52.832 0)
+			(at 196.85 49.022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12187,7 +12153,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 57.15 0)
+			(at 196.85 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12198,7 +12164,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 57.15 0)
+			(at 196.85 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12209,7 +12175,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 196.85 57.15 0)
+			(at 196.85 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12631,6 +12597,83 @@
 			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 26.67 213.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6005286f-db48-48ec-b0cb-3b7b5e7c156b")
+		(property "Reference" "#PWR0107"
+			(at 26.67 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD_HP"
+			(at 26.67 209.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 26.67 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c887e34b-5b06-4be6-b2af-2d8ec4325538")
+		)
+		(instances
+			(project "p4eregrine"
+				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -14183,7 +14226,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 196.85 63.5 0)
+		(at 196.85 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14193,7 +14236,7 @@
 		(dnp no)
 		(uuid "8f770ead-0e08-4e1d-a135-67e7c6b97055")
 		(property "Reference" "C15"
-			(at 199.898 62.23 0)
+			(at 199.898 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14204,7 +14247,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 199.644 64.77 0)
+			(at 199.644 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14215,7 +14258,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 197.8152 67.31 0)
+			(at 197.8152 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14226,7 +14269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 63.5 0)
+			(at 196.85 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14237,7 +14280,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 196.85 63.5 0)
+			(at 196.85 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14248,7 +14291,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 196.85 63.5 0)
+			(at 196.85 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14259,7 +14302,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 196.85 63.5 0)
+			(at 196.85 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14270,7 +14313,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 196.85 63.5 0)
+			(at 196.85 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14281,7 +14324,7 @@
 			)
 		)
 		(property "LCSC Part" "C76939"
-			(at 196.85 63.5 0)
+			(at 196.85 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15935,7 +15978,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 26.67 214.63 0)
+		(at 26.67 219.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15945,7 +15988,7 @@
 		(dnp no)
 		(uuid "a98683a0-6866-4eb1-a29d-201c6ce6b03e")
 		(property "Reference" "C3"
-			(at 29.718 213.36 0)
+			(at 29.718 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15956,7 +15999,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 29.464 215.9 0)
+			(at 29.464 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15967,7 +16010,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 27.6352 218.44 0)
+			(at 27.6352 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15978,7 +16021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 214.63 0)
+			(at 26.67 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15989,7 +16032,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 26.67 214.63 0)
+			(at 26.67 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16000,7 +16043,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 26.67 214.63 0)
+			(at 26.67 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16011,7 +16054,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 26.67 214.63 0)
+			(at 26.67 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16022,7 +16065,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 26.67 214.63 0)
+			(at 26.67 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16033,7 +16076,7 @@
 			)
 		)
 		(property "LCSC Part" "C76939"
-			(at 26.67 214.63 0)
+			(at 26.67 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17003,9 +17046,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 196.85 68.58 0)
-		(mirror y)
+		(lib_id "power:VBUS")
+		(at 217.17 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17013,9 +17055,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ccdd2ca1-645a-4b43-993f-d09929e2ccac")
-		(property "Reference" "#PWR020"
-			(at 196.85 74.93 0)
+		(uuid "c9790a17-de5f-4358-9977-0bc95db0b8c0")
+		(property "Reference" "#PWR0126"
+			(at 217.17 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17025,8 +17067,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 196.85 72.898 0)
+		(property "Value" "VDD_HP"
+			(at 217.17 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17036,7 +17078,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 68.58 0)
+			(at 217.17 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17047,7 +17089,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 68.58 0)
+			(at 217.17 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 217.17 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54e32875-4558-4a94-9a1a-89ecb14aaac4")
+		)
+		(instances
+			(project "p4eregrine"
+				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 64.77 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ccdd2ca1-645a-4b43-993f-d09929e2ccac")
+		(property "Reference" "#PWR020"
+			(at 196.85 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 69.088 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17058,7 +17178,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 68.58 0)
+			(at 196.85 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17315,8 +17435,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 294.64 40.64 0)
+		(lib_id "power:VBUS")
+		(at 228.6 205.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17324,9 +17444,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d20cdc82-1ec7-4a1e-9545-60d860278b9a")
-		(property "Reference" "#PWR047"
-			(at 294.64 44.45 0)
+		(uuid "d3772d14-67b1-44ef-9fe0-8d0c7fffec5b")
+		(property "Reference" "#PWR0128"
+			(at 228.6 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17336,8 +17456,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 294.386 36.83 0)
+		(property "Value" "VDD_HP"
+			(at 228.6 201.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17347,7 +17467,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 294.64 40.64 0)
+			(at 228.6 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17358,7 +17478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 294.64 40.64 0)
+			(at 228.6 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17368,8 +17488,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 294.64 40.64 0)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 228.6 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17380,12 +17500,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9624b18b-39e7-4671-88fa-427bd8311c9e")
+			(uuid "9570f6ec-fd42-4bdf-ab71-2a3fcd6a05b0")
 		)
 		(instances
 			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
-					(reference "#PWR047")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -17471,7 +17591,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 26.67 219.71 0)
+		(at 26.67 224.79 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -17482,7 +17602,7 @@
 		(dnp no)
 		(uuid "dacd0c8b-01de-43a7-8880-32e9bf574da2")
 		(property "Reference" "#PWR05"
-			(at 26.67 226.06 0)
+			(at 26.67 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17493,7 +17613,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 26.67 224.028 0)
+			(at 26.67 229.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17503,7 +17623,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 219.71 0)
+			(at 26.67 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17514,7 +17634,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 219.71 0)
+			(at 26.67 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17525,7 +17645,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 219.71 0)
+			(at 26.67 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17667,6 +17787,83 @@
 			(project "p4eregrine"
 				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 196.85 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e09cc4a9-122e-4a77-9d86-5ff4d67077c4")
+		(property "Reference" "#PWR0127"
+			(at 196.85 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD_HP"
+			(at 196.85 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 196.85 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2918ebc7-d990-43a2-a650-bfbfbad740c5")
+		)
+		(instances
+			(project "p4eregrine"
+				(path "/6e047eb1-70b3-49d8-916c-92a2df32e839"
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)

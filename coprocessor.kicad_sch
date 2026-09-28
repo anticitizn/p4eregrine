@@ -7526,7 +7526,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "177d9c21-31de-43c4-b730-cf335d3f2932")
 		(property "Reference" "R26"
 			(at 284.48 82.55 90)
@@ -8316,7 +8316,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2e0702f9-fa8e-4a95-b5e9-455e1bd26bad")
 		(property "Reference" "R27"
 			(at 284.48 86.36 90)
@@ -8555,7 +8555,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3543763d-dc46-4102-bd88-cbde9bcf51f2")
 		(property "Reference" "R28"
 			(at 335.28 81.28 90)
@@ -9548,7 +9548,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C182375"
+		(property "LCSC Part" "C3039698"
 			(at 222.25 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -13874,7 +13874,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C182375"
+		(property "LCSC Part" "C3039698"
 			(at 92.71 83.82 0)
 			(hide yes)
 			(show_name no)

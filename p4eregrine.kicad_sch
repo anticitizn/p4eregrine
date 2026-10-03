@@ -6193,7 +6193,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 186.69) (xy 193.04 186.69)
+			(xy 190.5 186.69) (xy 194.31 186.69)
 		)
 		(stroke
 			(width 0)
@@ -9130,8 +9130,8 @@
 		)
 	)
 	(global_label "CP_SDIO_CLK"
-		(shape bidirectional)
-		(at 193.04 186.69 0)
+		(shape output)
+		(at 194.31 186.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9141,7 +9141,7 @@
 		)
 		(uuid "594d128e-20e3-42ec-9825-ebd1ba314f9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.4833 186.69 0)
+			(at 209.7533 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

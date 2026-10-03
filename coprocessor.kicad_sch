@@ -6371,7 +6371,7 @@
 		)
 	)
 	(global_label "CP_SDIO_CLK"
-		(shape bidirectional)
+		(shape input)
 		(at 218.44 130.81 0)
 		(fields_autoplaced yes)
 		(effects

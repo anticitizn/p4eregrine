@@ -3207,7 +3207,7 @@
 		(uuid "07ee1ff9-c8e9-4f84-ae14-b644857c22e7")
 	)
 	(junction
-		(at 210.82 163.83)
+		(at 201.93 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08f81f4a-a4c9-4b3d-8ab0-9ae395ee4c26")
@@ -3249,7 +3249,7 @@
 		(uuid "288d4662-6fc4-4b6f-885c-4a8589790137")
 	)
 	(junction
-		(at 210.82 172.72)
+		(at 201.93 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28f0989f-acde-453a-a336-fb2e21b21eb0")
@@ -3363,7 +3363,7 @@
 		(uuid "8a0e3891-3673-475d-ad34-60a5b4669a30")
 	)
 	(junction
-		(at 210.82 181.61)
+		(at 201.93 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c4c5bba-7767-46f4-89e8-25a90cb9cb44")
@@ -3600,7 +3600,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 151.13) (xy 210.82 151.13)
+			(xy 199.39 151.13) (xy 201.93 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3610,7 +3610,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 166.37) (xy 182.88 166.37)
+			(xy 170.18 166.37) (xy 176.53 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3720,7 +3720,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 172.72) (xy 182.88 168.91)
+			(xy 176.53 172.72) (xy 176.53 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3770,7 +3770,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 163.83) (xy 210.82 172.72)
+			(xy 201.93 163.83) (xy 201.93 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3910,7 +3910,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 163.83) (xy 180.34 163.83)
+			(xy 170.18 163.83) (xy 173.99 163.83)
 		)
 		(stroke
 			(width 0)
@@ -3950,7 +3950,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 172.72) (xy 210.82 181.61)
+			(xy 201.93 172.72) (xy 201.93 181.61)
 		)
 		(stroke
 			(width 0)
@@ -4100,7 +4100,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 168.91) (xy 182.88 168.91)
+			(xy 170.18 168.91) (xy 176.53 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4140,7 +4140,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 171.45) (xy 170.18 171.45)
+			(xy 173.99 171.45) (xy 170.18 171.45)
 		)
 		(stroke
 			(width 0)
@@ -4160,7 +4160,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 156.21) (xy 201.93 156.21)
+			(xy 186.69 156.21) (xy 194.31 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4170,7 +4170,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 151.13) (xy 210.82 163.83)
+			(xy 201.93 151.13) (xy 201.93 163.83)
 		)
 		(stroke
 			(width 0)
@@ -4240,7 +4240,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 166.37) (xy 182.88 163.83)
+			(xy 176.53 166.37) (xy 176.53 163.83)
 		)
 		(stroke
 			(width 0)
@@ -4260,7 +4260,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 163.83) (xy 185.42 163.83)
+			(xy 176.53 163.83) (xy 179.07 163.83)
 		)
 		(stroke
 			(width 0)
@@ -4340,7 +4340,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 156.21) (xy 185.42 156.21)
+			(xy 173.99 156.21) (xy 179.07 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4510,7 +4510,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 151.13) (xy 196.85 151.13)
+			(xy 187.96 151.13) (xy 189.23 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4660,7 +4660,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 163.83) (xy 196.85 163.83)
+			(xy 186.69 163.83) (xy 189.23 163.83)
 		)
 		(stroke
 			(width 0)
@@ -4860,7 +4860,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 172.72) (xy 185.42 172.72)
+			(xy 176.53 172.72) (xy 179.07 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4950,7 +4950,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 163.83) (xy 210.82 163.83)
+			(xy 199.39 163.83) (xy 201.93 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5020,7 +5020,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 181.61) (xy 210.82 182.88)
+			(xy 201.93 181.61) (xy 201.93 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5280,7 +5280,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 172.72) (xy 210.82 172.72)
+			(xy 199.39 172.72) (xy 201.93 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5320,7 +5320,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 154.94) (xy 201.93 156.21)
+			(xy 194.31 154.94) (xy 194.31 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5450,7 +5450,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 181.61) (xy 210.82 181.61)
+			(xy 199.39 181.61) (xy 201.93 181.61)
 		)
 		(stroke
 			(width 0)
@@ -5530,7 +5530,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 151.13) (xy 195.58 149.86)
+			(xy 187.96 151.13) (xy 187.96 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5730,7 +5730,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 172.72) (xy 196.85 172.72)
+			(xy 186.69 172.72) (xy 189.23 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5810,7 +5810,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 181.61) (xy 196.85 181.61)
+			(xy 186.69 181.61) (xy 189.23 181.61)
 		)
 		(stroke
 			(width 0)
@@ -5830,7 +5830,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 181.61) (xy 185.42 181.61)
+			(xy 173.99 181.61) (xy 179.07 181.61)
 		)
 		(stroke
 			(width 0)
@@ -5880,7 +5880,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 156.21) (xy 180.34 163.83)
+			(xy 173.99 156.21) (xy 173.99 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5910,7 +5910,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 171.45) (xy 171.45 181.61)
+			(xy 173.99 171.45) (xy 173.99 181.61)
 		)
 		(stroke
 			(width 0)
@@ -7314,7 +7314,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.82 182.88 0)
+		(at 201.93 182.88 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7325,7 +7325,7 @@
 		(dnp no)
 		(uuid "15cd22df-1736-4158-9a26-b1570464ef99")
 		(property "Reference" "#PWR076"
-			(at 210.82 189.23 0)
+			(at 201.93 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7336,7 +7336,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 187.198 0)
+			(at 201.93 187.198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7346,7 +7346,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 182.88 0)
+			(at 201.93 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7357,7 +7357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 182.88 0)
+			(at 201.93 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7368,7 +7368,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 182.88 0)
+			(at 201.93 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7882,7 +7882,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 201.93 181.61 0)
+		(at 194.31 181.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7892,7 +7892,7 @@
 		(dnp no)
 		(uuid "1e6b28f0-c71a-4195-8037-9bb1c6c53c2c")
 		(property "Reference" "JP5"
-			(at 201.93 183.896 0)
+			(at 194.31 183.896 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7902,7 +7902,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 201.93 177.8 0)
+			(at 194.31 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7913,7 +7913,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:SolderJumper-2-0.6x0.5mm"
-			(at 201.93 181.61 0)
+			(at 194.31 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7924,7 +7924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 189.23 0)
+			(at 194.31 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7935,7 +7935,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 201.93 186.69 0)
+			(at 194.31 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7946,7 +7946,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 201.93 181.61 0)
+			(at 194.31 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7957,7 +7957,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 201.93 181.61 0)
+			(at 194.31 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7968,7 +7968,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 201.93 181.61 0)
+			(at 194.31 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9576,7 +9576,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 189.23 156.21 270)
+		(at 182.88 156.21 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9586,7 +9586,7 @@
 		(dnp no)
 		(uuid "554c9fac-6676-4c29-aa2f-275fc6da7bb1")
 		(property "Reference" "R18"
-			(at 189.23 161.29 90)
+			(at 182.88 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9596,7 +9596,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 189.23 158.75 90)
+			(at 182.88 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9606,7 +9606,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 189.23 154.432 90)
+			(at 182.88 154.432 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9617,7 +9617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 156.21 0)
+			(at 182.88 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9628,7 +9628,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 189.23 156.21 0)
+			(at 182.88 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9639,7 +9639,7 @@
 			)
 		)
 		(property "LCSC Part" "C473048"
-			(at 189.23 156.21 90)
+			(at 182.88 156.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9650,7 +9650,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 189.23 156.21 90)
+			(at 182.88 156.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9661,7 +9661,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 189.23 156.21 90)
+			(at 182.88 156.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9672,7 +9672,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 189.23 156.21 90)
+			(at 182.88 156.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11323,7 +11323,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 195.58 149.86 0)
+		(at 187.96 149.86 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11334,7 +11334,7 @@
 		(dnp no)
 		(uuid "847c2aaa-a023-4cb6-8a3f-09d1821c3256")
 		(property "Reference" "#PWR074"
-			(at 195.58 153.67 0)
+			(at 187.96 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11345,7 +11345,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 198.882 145.796 0)
+			(at 190.246 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11356,7 +11356,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 149.86 0)
+			(at 187.96 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11367,7 +11367,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 149.86 0)
+			(at 187.96 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11378,7 +11378,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 195.58 149.86 0)
+			(at 187.96 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11402,7 +11402,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 201.93 163.83 0)
+		(at 194.31 163.83 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11413,7 +11413,7 @@
 		(dnp no)
 		(uuid "87b4f0f2-3994-420c-9676-116af2645489")
 		(property "Reference" "JP3"
-			(at 201.93 166.116 0)
+			(at 194.31 166.116 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11423,7 +11423,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 201.93 160.02 0)
+			(at 194.31 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11434,7 +11434,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:SolderJumper-2-0.6x0.5mm"
-			(at 201.93 163.83 0)
+			(at 194.31 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11445,7 +11445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 171.45 0)
+			(at 194.31 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11456,7 +11456,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 201.93 168.91 0)
+			(at 194.31 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11467,7 +11467,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 201.93 163.83 0)
+			(at 194.31 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11478,7 +11478,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 201.93 163.83 0)
+			(at 194.31 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11489,7 +11489,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 201.93 163.83 0)
+			(at 194.31 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13422,7 +13422,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Open")
-		(at 201.93 151.13 0)
+		(at 194.31 151.13 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -13433,7 +13433,7 @@
 		(dnp no)
 		(uuid "bed13a50-3b89-4339-a73f-6104f2fb1471")
 		(property "Reference" "JP6"
-			(at 203.708 148.336 0)
+			(at 196.088 148.336 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13444,7 +13444,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Open"
-			(at 200.6601 148.59 90)
+			(at 193.0401 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13456,7 +13456,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:SolderJumper-3-0.6x0.5mm_1"
-			(at 201.93 151.13 0)
+			(at 194.31 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13467,7 +13467,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 166.37 0)
+			(at 194.31 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13478,7 +13478,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 201.93 163.83 0)
+			(at 194.31 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13489,7 +13489,7 @@
 			)
 		)
 		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
-			(at 201.93 168.91 0)
+			(at 194.31 168.91 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13500,7 +13500,7 @@
 			)
 		)
 		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
-			(at 201.93 171.45 0)
+			(at 194.31 171.45 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13511,7 +13511,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 201.93 151.13 0)
+			(at 194.31 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14016,7 +14016,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 189.23 181.61 90)
+		(at 182.88 181.61 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -14027,7 +14027,7 @@
 		(dnp no)
 		(uuid "c4f21f39-ea31-45d1-a49f-18962f9dba93")
 		(property "Reference" "R22"
-			(at 189.23 186.69 90)
+			(at 182.88 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14037,7 +14037,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 189.23 184.15 90)
+			(at 182.88 184.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14047,7 +14047,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 189.23 179.832 90)
+			(at 182.88 179.832 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14058,7 +14058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 181.61 0)
+			(at 182.88 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14069,7 +14069,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 189.23 181.61 0)
+			(at 182.88 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14080,7 +14080,7 @@
 			)
 		)
 		(property "LCSC Part" "C473048"
-			(at 189.23 181.61 90)
+			(at 182.88 181.61 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14091,7 +14091,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 189.23 181.61 90)
+			(at 182.88 181.61 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14102,7 +14102,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 189.23 181.61 90)
+			(at 182.88 181.61 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14113,7 +14113,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 189.23 181.61 90)
+			(at 182.88 181.61 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14140,7 +14140,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 189.23 163.83 90)
+		(at 182.88 163.83 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -14151,7 +14151,7 @@
 		(dnp no)
 		(uuid "c70cc6d0-c751-4ae9-a6ad-1ecc0eed2694")
 		(property "Reference" "R20"
-			(at 189.23 168.91 90)
+			(at 182.88 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14161,7 +14161,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 189.23 166.37 90)
+			(at 182.88 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14171,7 +14171,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 189.23 162.052 90)
+			(at 182.88 162.052 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14182,7 +14182,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 163.83 0)
+			(at 182.88 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14193,7 +14193,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 189.23 163.83 0)
+			(at 182.88 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14204,7 +14204,7 @@
 			)
 		)
 		(property "LCSC Part" "C473048"
-			(at 189.23 163.83 90)
+			(at 182.88 163.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14215,7 +14215,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 189.23 163.83 90)
+			(at 182.88 163.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14226,7 +14226,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 189.23 163.83 90)
+			(at 182.88 163.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14237,7 +14237,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 189.23 163.83 90)
+			(at 182.88 163.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15424,7 +15424,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 201.93 172.72 0)
+		(at 194.31 172.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15434,7 +15434,7 @@
 		(dnp no)
 		(uuid "f16fef62-a6b6-45cf-80ee-c655a1123d42")
 		(property "Reference" "JP4"
-			(at 201.93 175.006 0)
+			(at 194.31 175.006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15444,7 +15444,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 201.93 168.91 0)
+			(at 194.31 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15455,7 +15455,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:SolderJumper-2-0.6x0.5mm"
-			(at 201.93 172.72 0)
+			(at 194.31 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15466,7 +15466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 180.34 0)
+			(at 194.31 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15477,7 +15477,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 201.93 177.8 0)
+			(at 194.31 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15488,7 +15488,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 201.93 172.72 0)
+			(at 194.31 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15499,7 +15499,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 201.93 172.72 0)
+			(at 194.31 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15510,7 +15510,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 201.93 172.72 0)
+			(at 194.31 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15660,7 +15660,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 189.23 172.72 90)
+		(at 182.88 172.72 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -15671,7 +15671,7 @@
 		(dnp no)
 		(uuid "ff6ade59-46e8-4f2f-ba39-404ce1216884")
 		(property "Reference" "R21"
-			(at 189.23 177.038 90)
+			(at 182.88 177.038 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15681,7 +15681,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 189.23 175.26 90)
+			(at 182.88 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15691,7 +15691,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 189.23 170.942 90)
+			(at 182.88 170.942 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15702,7 +15702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 172.72 0)
+			(at 182.88 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15713,7 +15713,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 189.23 172.72 0)
+			(at 182.88 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15724,7 +15724,7 @@
 			)
 		)
 		(property "LCSC Part" "C473048"
-			(at 189.23 172.72 90)
+			(at 182.88 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15735,7 +15735,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 189.23 172.72 90)
+			(at 182.88 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15746,7 +15746,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 189.23 172.72 90)
+			(at 182.88 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15757,7 +15757,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 189.23 172.72 90)
+			(at 182.88 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

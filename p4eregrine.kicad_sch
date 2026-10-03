@@ -5553,16 +5553,6 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 142.24) (xy 297.18 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06f40e3e-bfeb-4560-9df3-33ead46e55a1")
-	)
-	(wire
-		(pts
 			(xy 142.24 213.36) (xy 142.24 248.92)
 		)
 		(stroke
@@ -5903,7 +5893,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 114.3) (xy 165.1 114.3)
+			(xy 154.94 114.3) (xy 166.37 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6013,7 +6003,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 121.92) (xy 165.1 121.92)
+			(xy 162.56 121.92) (xy 166.37 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6253,7 +6243,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 111.76) (xy 165.1 111.76)
+			(xy 152.4 111.76) (xy 166.37 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6673,7 +6663,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 177.8) (xy 73.66 177.8)
+			(xy 68.58 177.8) (xy 73.66 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6773,7 +6763,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 135.89) (xy 191.77 135.89)
+			(xy 190.5 135.89) (xy 193.04 135.89)
 		)
 		(stroke
 			(width 0)
@@ -7183,7 +7173,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 182.88) (xy 73.66 182.88)
+			(xy 68.58 182.88) (xy 73.66 182.88)
 		)
 		(stroke
 			(width 0)
@@ -7513,6 +7503,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 142.24) (xy 297.18 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7245728-47b5-4851-bfb3-794e62cceb49")
+	)
+	(wire
+		(pts
 			(xy 190.5 148.59) (xy 283.21 148.59)
 		)
 		(stroke
@@ -7533,7 +7533,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 142.24) (xy 73.66 142.24)
+			(xy 69.85 142.24) (xy 73.66 142.24)
 		)
 		(stroke
 			(width 0)
@@ -7673,7 +7673,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 185.42) (xy 73.66 185.42)
+			(xy 68.58 185.42) (xy 73.66 185.42)
 		)
 		(stroke
 			(width 0)
@@ -7693,7 +7693,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 139.7) (xy 73.66 139.7)
+			(xy 69.85 139.7) (xy 73.66 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7723,7 +7723,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 180.34) (xy 73.66 180.34)
+			(xy 69.85 180.34) (xy 73.66 180.34)
 		)
 		(stroke
 			(width 0)
@@ -7793,7 +7793,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 158.75) (xy 193.04 158.75)
+			(xy 190.5 158.75) (xy 194.31 158.75)
 		)
 		(stroke
 			(width 0)
@@ -8303,7 +8303,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 195.58) (xy 260.35 196.85)
+			(xy 260.35 195.58) (xy 260.35 198.12)
 		)
 		(stroke
 			(width 0)
@@ -8320,6 +8320,16 @@
 			(type default)
 		)
 		(uuid "e9cd343a-0cd0-4f5c-bf1b-1c2ef5e56cc6")
+	)
+	(wire
+		(pts
+			(xy 297.18 142.24) (xy 298.45 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ead2a9db-0b22-4db2-8c1a-2f025cd1b4ea")
 	)
 	(wire
 		(pts
@@ -8832,8 +8842,8 @@
 		(uuid "f28b8f6c-1fcb-4e16-964f-7850e5156e97")
 	)
 	(global_label "EN_DCDC"
-		(shape input)
-		(at 165.1 121.92 0)
+		(shape output)
+		(at 166.37 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8843,7 +8853,7 @@
 		)
 		(uuid "1f84cb8c-4e66-407c-b942-8742686a49a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.6123 121.92 0)
+			(at 177.8823 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8856,7 +8866,7 @@
 		)
 	)
 	(global_label "CP_SDIO_CMD"
-		(shape input)
+		(shape bidirectional)
 		(at 193.04 181.61 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8880,8 +8890,8 @@
 		)
 	)
 	(global_label "SPI_CLK"
-		(shape input)
-		(at 71.12 182.88 180)
+		(shape output)
+		(at 68.58 182.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8891,7 +8901,7 @@
 		)
 		(uuid "3432f3ed-9920-4d57-ac01-a6bdd81ffdad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.5148 182.88 0)
+			(at 57.9748 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8928,8 +8938,8 @@
 		)
 	)
 	(global_label "DSHOT_2"
-		(shape input)
-		(at 71.12 142.24 180)
+		(shape output)
+		(at 69.85 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8939,7 +8949,7 @@
 		)
 		(uuid "3ff2e938-29d8-4416-8d49-298fe9e9aecf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.8496 142.24 0)
+			(at 58.5796 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8976,8 +8986,8 @@
 		)
 	)
 	(global_label "VDDO_4"
-		(shape input)
-		(at 297.18 142.24 0)
+		(shape passive)
+		(at 298.45 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8987,7 +8997,7 @@
 		)
 		(uuid "43080443-ddb6-49fc-b0fd-61e91f6a1cd5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 307.3014 142.24 0)
+			(at 308.5714 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9000,8 +9010,8 @@
 		)
 	)
 	(global_label "DSHOT_4"
-		(shape input)
-		(at 165.1 111.76 0)
+		(shape output)
+		(at 166.37 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9011,7 +9021,7 @@
 		)
 		(uuid "45a8941d-9dda-44df-b5e9-7a9ecae73d3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.3704 111.76 0)
+			(at 177.6404 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9048,8 +9058,8 @@
 		)
 	)
 	(global_label "FB_DCDC"
-		(shape input)
-		(at 191.77 135.89 0)
+		(shape bidirectional)
+		(at 193.04 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9059,7 +9069,7 @@
 		)
 		(uuid "4ffabfe0-0b84-458c-9f77-1a9d00796dfe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.1614 135.89 0)
+			(at 204.4314 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9120,7 +9130,7 @@
 		)
 	)
 	(global_label "CP_SDIO_CLK"
-		(shape input)
+		(shape bidirectional)
 		(at 193.04 186.69 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9144,8 +9154,8 @@
 		)
 	)
 	(global_label "DSHOT_1"
-		(shape input)
-		(at 71.12 139.7 180)
+		(shape output)
+		(at 69.85 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9155,7 +9165,7 @@
 		)
 		(uuid "5a4b7215-41a9-4b61-a058-d4f971d7f6de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.8496 139.7 0)
+			(at 58.5796 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9168,7 +9178,7 @@
 		)
 	)
 	(global_label "CP_SDIO_D2"
-		(shape input)
+		(shape bidirectional)
 		(at 193.04 173.99 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9240,8 +9250,8 @@
 		)
 	)
 	(global_label "UART_TX"
-		(shape input)
-		(at 193.04 158.75 0)
+		(shape output)
+		(at 194.31 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9251,7 +9261,7 @@
 		)
 		(uuid "a31a9eb6-c2da-48e5-817b-bc36a5b52695")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.8266 158.75 0)
+			(at 205.0966 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9265,7 +9275,7 @@
 	)
 	(global_label "SPI_MISO"
 		(shape input)
-		(at 71.12 180.34 180)
+		(at 69.85 180.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9275,7 +9285,7 @@
 		)
 		(uuid "abe9fa5b-d624-41fd-9787-c37baec8354a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.4867 180.34 0)
+			(at 58.2167 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9288,8 +9298,8 @@
 		)
 	)
 	(global_label "DSHOT_3"
-		(shape input)
-		(at 165.1 114.3 0)
+		(shape output)
+		(at 166.37 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9299,7 +9309,7 @@
 		)
 		(uuid "ac666326-8be2-44b6-ae3f-6acd7a174601")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.3704 114.3 0)
+			(at 177.6404 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9336,7 +9346,7 @@
 		)
 	)
 	(global_label "CP_SDIO_D3"
-		(shape input)
+		(shape bidirectional)
 		(at 193.04 179.07 0)
 		(effects
 			(font
@@ -9359,7 +9369,7 @@
 		)
 	)
 	(global_label "I2C_SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 44.45 152.4 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9383,8 +9393,8 @@
 		)
 	)
 	(global_label "SPI_PMW3901_CS"
-		(shape input)
-		(at 71.12 177.8 180)
+		(shape output)
+		(at 68.58 177.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9394,7 +9404,7 @@
 		)
 		(uuid "cadbac53-fce7-4001-bd4e-37c3c6c8cd12")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.625 177.8 0)
+			(at 49.085 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9407,7 +9417,7 @@
 		)
 	)
 	(global_label "I2C_SCL"
-		(shape input)
+		(shape bidirectional)
 		(at 44.45 154.94 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9431,7 +9441,7 @@
 		)
 	)
 	(global_label "CP_SDIO_D1"
-		(shape input)
+		(shape bidirectional)
 		(at 193.04 194.31 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9479,8 +9489,8 @@
 		)
 	)
 	(global_label "SPI_MOSI"
-		(shape input)
-		(at 71.12 185.42 180)
+		(shape output)
+		(at 68.58 185.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9490,7 +9500,7 @@
 		)
 		(uuid "e95baef7-f070-4945-b4ca-96b63e2bfc73")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.4867 185.42 0)
+			(at 56.9467 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9503,7 +9513,7 @@
 		)
 	)
 	(global_label "CP_SDIO_D0"
-		(shape input)
+		(shape bidirectional)
 		(at 193.04 191.77 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11814,7 +11824,7 @@
 	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 260.35 196.85 0)
+		(at 260.35 198.12 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11825,7 +11835,7 @@
 		(dnp no)
 		(uuid "365d6a8c-0283-4b11-86a9-f35d53e39c47")
 		(property "Reference" "#PWR011"
-			(at 260.35 203.2 0)
+			(at 260.35 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11836,7 +11846,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 260.35 200.66 0)
+			(at 260.35 201.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11846,7 +11856,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 196.85 0)
+			(at 260.35 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11857,7 +11867,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 196.85 0)
+			(at 260.35 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11868,7 +11878,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 196.85 0)
+			(at 260.35 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

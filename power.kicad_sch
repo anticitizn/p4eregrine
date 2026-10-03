@@ -4362,7 +4362,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 60.96) (xy 208.28 60.96)
+			(xy 204.47 60.96) (xy 208.28 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4572,7 +4572,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 100.33) (xy 210.82 100.33)
+			(xy 205.74 100.33) (xy 210.82 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4971,8 +4971,8 @@
 		(uuid "fedd00ec-e9fc-466a-b4fd-4c0ccb50389c")
 	)
 	(global_label "BAT_ISENSE"
-		(shape input)
-		(at 205.74 60.96 180)
+		(shape output)
+		(at 204.47 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4982,7 +4982,7 @@
 		)
 		(uuid "03e3f7f6-b410-4355-b3cf-b834fd568101")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.8087 60.96 0)
+			(at 190.5387 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5019,8 +5019,8 @@
 		)
 	)
 	(global_label "BAT_VSENSE"
-		(shape input)
-		(at 207.01 100.33 180)
+		(shape output)
+		(at 205.74 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5030,7 +5030,7 @@
 		)
 		(uuid "6268e546-95e4-4a73-98aa-594a7269ebf9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.5949 100.33 0)
+			(at 191.3249 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

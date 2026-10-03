@@ -6323,7 +6323,7 @@
 		(uuid "b13bff1c-006c-4f48-8b5f-6ff8846a3ef6")
 	)
 	(global_label "CP_SDIO_D1"
-		(shape input)
+		(shape bidirectional)
 		(at 218.44 125.73 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6347,7 +6347,7 @@
 		)
 	)
 	(global_label "CP_SDIO_CMD"
-		(shape input)
+		(shape bidirectional)
 		(at 218.44 133.35 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6371,7 +6371,7 @@
 		)
 	)
 	(global_label "CP_SDIO_CLK"
-		(shape input)
+		(shape bidirectional)
 		(at 218.44 130.81 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6395,7 +6395,7 @@
 		)
 	)
 	(global_label "CP_SDIO_D3"
-		(shape input)
+		(shape bidirectional)
 		(at 218.44 140.97 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6419,7 +6419,7 @@
 		)
 	)
 	(global_label "CP_SDIO_D0"
-		(shape input)
+		(shape bidirectional)
 		(at 218.44 128.27 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6443,7 +6443,7 @@
 		)
 	)
 	(global_label "CP_SDIO_D2"
-		(shape input)
+		(shape bidirectional)
 		(at 218.44 143.51 0)
 		(fields_autoplaced yes)
 		(effects

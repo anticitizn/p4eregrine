@@ -18590,7 +18590,7 @@
 		(dnp no)
 		(uuid "f066b17d-d5d1-4453-a7af-5c736f9ca0c8")
 		(property "Reference" "R5"
-			(at 176.53 228.6 0)
+			(at 176.784 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18600,7 +18600,7 @@
 			)
 		)
 		(property "Value" "4.02k"
-			(at 176.53 231.14 0)
+			(at 176.784 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

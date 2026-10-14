@@ -8440,7 +8440,7 @@
 				)
 			)
 		)
-		(property "Value" "STM32G071GBU6"
+		(property "Value" "STM32G071K8U6"
 			(at 106.934 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8494,7 +8494,7 @@
 				)
 			)
 		)
-		(property "MPN" "STM32G071GBU6"
+		(property "MPN" "STM32G071K8U6"
 			(at 93.98 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8505,7 +8505,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C529347"
+		(property "LCSC Part" "C724237"
 			(at 93.98 119.38 0)
 			(hide yes)
 			(show_name no)

@@ -4873,7 +4873,7 @@
 		)
 		(uuid "131f9af1-17f8-47bc-b72b-2aa191d09023")
 	)
-	(text "Using 4.7kCC  resistors to minimize BOM\nwhich is still within USB-C specs"
+	(text "Using 4.7k CC  resistors to minimize BOM\nwhich is still within USB-C specs"
 		(exclude_from_sim no)
 		(at 274.066 83.058 0)
 		(effects
@@ -18128,7 +18128,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C19666"
+		(property "LCSC Part" "C3039698"
 			(at 218.44 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -18162,6 +18162,17 @@
 			)
 		)
 		(property "KLC_S5.1" ""
+			(at 218.44 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10B106MQ8NRNC"
 			(at 218.44 226.06 0)
 			(hide yes)
 			(show_name no)

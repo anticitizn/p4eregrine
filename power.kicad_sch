@@ -3150,7 +3150,7 @@
 		)
 		(uuid "563f530b-21b2-4136-9e30-e27d75809245")
 	)
-	(text "This inductor (APH252012C2R2MP01) is somewhat suboptimal;\nif the 3V3 rail is shorted it will burn out before the buck's\nprotections kick in. But it's the best available 1008 part,\nand because it's so compact we can also use it for VDD_HP"
+	(text "This inductor (APH252012C2R2MP01) is somewhat suboptimal;\nif the 3V3 rail is shorted it will burn out before the buck's\nprotections kick in. But it's the best available 1008 part,\nand because it's so compact it can also be used for VDD_HP"
 		(exclude_from_sim no)
 		(at 98.552 26.416 0)
 		(effects

@@ -5403,6 +5403,17 @@
 				)
 			)
 		)
+		(property "MPN" "0201WMF1002TEE"
+			(at 257.81 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "73e7c6fe-85f0-478d-91f9-eb92bd2dfc33")
 		)
@@ -5663,6 +5674,17 @@
 				)
 			)
 		)
+		(property "MPN" "JMSL0302AU"
+			(at 171.45 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "45787376-31a3-4774-aa96-a8fac788f529")
 		)
@@ -5794,6 +5816,17 @@
 			)
 		)
 		(property "LCSC Part" "C39232"
+			(at 186.69 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL32B106KAJNNNE"
 			(at 186.69 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5988,7 +6021,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C576436"
+		(property "LCSC Part" "C437527"
 			(at 63.5 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -6022,6 +6055,17 @@
 			)
 		)
 		(property "KLC_S5.1" ""
+			(at 63.5 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R61H474KE11D"
 			(at 63.5 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -6167,6 +6211,17 @@
 				)
 			)
 		)
+		(property "MPN" "0201WMF1001TEE"
+			(at 219.71 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1a321cf6-062d-4603-8e68-a91efe30cfa8")
 		)
@@ -6292,6 +6347,17 @@
 			)
 		)
 		(property "KLC_S5.1" ""
+			(at 219.71 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0201WMF1002TEE"
 			(at 219.71 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6472,6 +6538,17 @@
 				)
 			)
 		)
+		(property "MPN" "JMSL0302AU"
+			(at 171.45 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "090cebc3-6178-454c-81ba-f0058363fe4d")
 		)
@@ -6600,6 +6677,17 @@
 			)
 		)
 		(property "KLC_S5.1" ""
+			(at 186.69 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0201WMF1001TEE"
 			(at 186.69 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6868,6 +6956,17 @@
 				)
 			)
 		)
+		(property "MPN" "0201WMF100JTEE"
+			(at 207.01 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cc772f03-218f-4ea5-a3f5-5d976c227511")
 		)
@@ -7083,6 +7182,17 @@
 			)
 		)
 		(property "KLC_S5.1" ""
+			(at 49.53 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0201WMF1001TEE"
 			(at 49.53 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -7411,6 +7521,17 @@
 				)
 			)
 		)
+		(property "MPN" "CL32B106KAJNNNE"
+			(at 198.12 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a07c4af3-68ea-4350-b19b-a5b828eb12c0")
 		)
@@ -7668,6 +7789,17 @@
 				)
 			)
 		)
+		(property "MPN" "0201WMF100JTEE"
+			(at 207.01 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e3b5d6ba-df96-44a8-9810-c929c7e0f774")
 		)
@@ -7806,6 +7938,17 @@
 				)
 			)
 		)
+		(property "MPN" "CL05A105KA5NQNC"
+			(at 83.82 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "495d3c45-cacc-45ce-9f58-f9d012620d3a")
 		)
@@ -7933,6 +8076,17 @@
 			)
 		)
 		(property "LCSC Part" "C52923"
+			(at 102.87 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 102.87 144.78 90)
 			(hide yes)
 			(show_name no)
@@ -8081,6 +8235,17 @@
 				)
 			)
 		)
+		(property "MPN" "CL05B104KB54PNC"
+			(at 31.75 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c9c780d2-a50d-4685-aa96-25a59e86f76f")
 		)
@@ -8206,6 +8371,17 @@
 			)
 		)
 		(property "KLC_S5.1" ""
+			(at 252.73 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0201WMF1002TEE"
 			(at 252.73 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8586,6 +8762,17 @@
 				)
 			)
 		)
+		(property "MPN" "0201WMF1002TEE"
+			(at 186.69 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "575c1a19-0b3d-44a6-8256-e2fbfe7b875d")
 		)
@@ -8721,6 +8908,17 @@
 				)
 			)
 		)
+		(property "MPN" "0201WMF1002TEE"
+			(at 95.25 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7a68fdd2-30c7-4138-932e-baf9f3fb3e8b")
 		)
@@ -8846,6 +9044,17 @@
 			)
 		)
 		(property "KLC_S5.1" ""
+			(at 129.54 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0201WMF1002TEE"
 			(at 129.54 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9106,6 +9315,17 @@
 			)
 		)
 		(property "KLC_S5.1" ""
+			(at 262.89 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "JMSL0302AU"
 			(at 262.89 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9379,6 +9599,17 @@
 				)
 			)
 		)
+		(property "MPN" "JMSL0302AU"
+			(at 262.89 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "010b6463-a089-4251-8a2f-89975dd740fd")
 		)
@@ -9510,6 +9741,17 @@
 			)
 		)
 		(property "LCSC Part" "C39232"
+			(at 220.98 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL32B106KAJNNNE"
 			(at 220.98 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9835,6 +10077,17 @@
 				)
 			)
 		)
+		(property "MPN" "0201WMF100JTEE"
+			(at 161.29 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d1c6a65a-75b9-46ba-8cbc-9a551a2f3e37")
 		)
@@ -9960,6 +10213,17 @@
 			)
 		)
 		(property "KLC_S5.1" ""
+			(at 191.77 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0201WMF1002TEE"
 			(at 191.77 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -10105,6 +10369,17 @@
 				)
 			)
 		)
+		(property "MPN" "0201WMF100JTEE"
+			(at 252.73 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fdc78e6c-5ff2-4dba-99fc-ecb9afa91b12")
 		)
@@ -10232,6 +10507,17 @@
 			)
 		)
 		(property "LCSC Part" "C52923"
+			(at 102.87 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 102.87 137.16 90)
 			(hide yes)
 			(show_name no)
@@ -10772,6 +11058,17 @@
 				)
 			)
 		)
+		(property "MPN" "GRM033R61E104KE14D"
+			(at 71.12 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e0d5813d-2a5e-4eb5-b1aa-ff5f4faea397")
 		)
@@ -10910,6 +11207,17 @@
 				)
 			)
 		)
+		(property "MPN" "CL32B106KAJNNNE"
+			(at 209.55 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9d763e43-53da-4f74-9ac5-1dc9276b8d80")
 		)
@@ -10960,7 +11268,7 @@
 				)
 			)
 		)
-		(property "Value" "DRV8328ARUYR"
+		(property "Value" "DRV8328BRUYR"
 			(at 78.74 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11285,6 +11593,17 @@
 				)
 			)
 		)
+		(property "MPN" "0201WMF1002TEE"
+			(at 224.79 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0470d537-e0a3-4b98-9e2b-f9cfaf89fbb4")
 		)
@@ -11410,6 +11729,17 @@
 			)
 		)
 		(property "KLC_S5.1" ""
+			(at 44.45 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0201WMF4701TEE"
 			(at 44.45 154.94 90)
 			(hide yes)
 			(show_name no)
@@ -11547,6 +11877,17 @@
 			)
 		)
 		(property "LCSC Part" "C52923"
+			(at 102.87 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 102.87 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -11917,6 +12258,17 @@
 				)
 			)
 		)
+		(property "MPN" "XL-0201UYC"
+			(at 40.64 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b6f2f7e6-6ca1-47c8-80f7-d6223094803b")
 		)
@@ -12077,6 +12429,17 @@
 			)
 		)
 		(property "KLC_S5.1" ""
+			(at 217.17 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "JMSL0302AU"
 			(at 217.17 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -12315,6 +12678,17 @@
 				)
 			)
 		)
+		(property "MPN" "0201WMF2203TEE"
+			(at 129.54 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "811c99fb-3f4e-4b7a-bd89-cb168bb1de21")
 		)
@@ -12450,6 +12824,17 @@
 				)
 			)
 		)
+		(property "MPN" "0201WMF100JTEE"
+			(at 252.73 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f774db00-a803-4c39-adc6-fff20f641960")
 		)
@@ -12575,6 +12960,17 @@
 			)
 		)
 		(property "KLC_S5.1" ""
+			(at 252.73 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0201WMF1001TEE"
 			(at 252.73 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -12813,6 +13209,17 @@
 				)
 			)
 		)
+		(property "MPN" "GRM21BZ71E106KE15L"
+			(at 48.26 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "427876b4-5c36-45ca-923f-572121fadda4")
 		)
@@ -12939,6 +13346,17 @@
 			)
 		)
 		(property "KLC_S5.1" ""
+			(at 49.53 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0201WMF4701TEE"
 			(at 49.53 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -13419,6 +13837,17 @@
 				)
 			)
 		)
+		(property "MPN" "0201WMF100JTEE"
+			(at 161.29 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "685c77a8-8431-4202-a55c-95ab46ba12fb")
 		)
@@ -13579,6 +14008,17 @@
 			)
 		)
 		(property "KLC_S5.1" ""
+			(at 217.17 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "JMSL0302AU"
 			(at 217.17 55.88 0)
 			(hide yes)
 			(show_name no)

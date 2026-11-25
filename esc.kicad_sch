@@ -6912,7 +6912,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C270817"
+		(property "LCSC Part" "C106226"
 			(at 207.01 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -6956,7 +6956,7 @@
 				)
 			)
 		)
-		(property "MPN" "0201WMF100JTEE"
+		(property "MPN" "RC0201FR-0710RL"
 			(at 207.01 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -7745,7 +7745,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C270817"
+		(property "LCSC Part" "C106226"
 			(at 207.01 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -7789,7 +7789,7 @@
 				)
 			)
 		)
-		(property "MPN" "0201WMF100JTEE"
+		(property "MPN" "RC0201FR-0710RL"
 			(at 207.01 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -8494,7 +8494,7 @@
 				)
 			)
 		)
-		(property "MPN" "STM32G071K8U6"
+		(property "MPN" "STM32G071GBU6"
 			(at 93.98 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8505,7 +8505,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C724237"
+		(property "LCSC Part" "C529347"
 			(at 93.98 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10033,7 +10033,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C270817"
+		(property "LCSC Part" "C106226"
 			(at 161.29 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -10077,7 +10077,7 @@
 				)
 			)
 		)
-		(property "MPN" "0201WMF100JTEE"
+		(property "MPN" "RC0201FR-0710RL"
 			(at 161.29 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -10325,7 +10325,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C270817"
+		(property "LCSC Part" "C106226"
 			(at 252.73 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -10369,7 +10369,7 @@
 				)
 			)
 		)
-		(property "MPN" "0201WMF100JTEE"
+		(property "MPN" "RC0201FR-0710RL"
 			(at 252.73 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -11268,7 +11268,7 @@
 				)
 			)
 		)
-		(property "Value" "DRV8328BRUYR"
+		(property "Value" "DRV8328ARUYR"
 			(at 78.74 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11289,7 +11289,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5218864.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3681415.pdf"
 			(at 78.232 204.724 0)
 			(hide yes)
 			(show_name no)
@@ -11322,7 +11322,7 @@
 				)
 			)
 		)
-		(property "MPN" "DRV8328BRUYR"
+		(property "MPN" "DRV8328ARUYR"
 			(at 78.232 209.804 0)
 			(hide yes)
 			(show_name no)
@@ -11333,7 +11333,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5218864"
+		(property "LCSC Part" "C3681415"
 			(at 78.232 212.344 0)
 			(hide yes)
 			(show_name no)
@@ -12780,7 +12780,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C270817"
+		(property "LCSC Part" "C106226"
 			(at 252.73 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -12824,7 +12824,7 @@
 				)
 			)
 		)
-		(property "MPN" "0201WMF100JTEE"
+		(property "MPN" "RC0201FR-0710RL"
 			(at 252.73 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -13793,7 +13793,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C270817"
+		(property "LCSC Part" "C106226"
 			(at 161.29 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -13837,7 +13837,7 @@
 				)
 			)
 		)
-		(property "MPN" "0201WMF100JTEE"
+		(property "MPN" "RC0201FR-0710RL"
 			(at 161.29 55.88 90)
 			(hide yes)
 			(show_name no)

@@ -8440,7 +8440,7 @@
 				)
 			)
 		)
-		(property "Value" "STM32G071K8U6"
+		(property "Value" "STM32G071GBU6"
 			(at 106.934 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -19,6 +19,9 @@ An all-in-one drone ESC, flight controller and video processor, powered by an ES
 - TPS62933 buck converter for 3.3V power, capable of continuously supplying ~2.3 A
 - Single high-side current measurement shunt for the entire board
 
+### Why?
+There's very few 
+
 ### Stackup
 6 layers, 1oz outer copper, 0.5 oz inner copper, 1.2 mm thick (JLC06121H-3313)
 - L1: Mixed

@@ -5162,12 +5162,6 @@
 		(uuid "99d3ed2d-82bb-4355-be85-89151e77bf20")
 	)
 	(junction
-		(at 241.3 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c48cc82-5bc3-4235-90eb-6bca356d7493")
-	)
-	(junction
 		(at 82.55 93.98)
 		(diameter 0)
 		(color 0 0 0 0)

@@ -10220,7 +10220,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "0d863afb-a171-4b7d-b2f1-644da5de1ae4")
 		(property "Reference" "JP1"
